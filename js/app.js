@@ -963,6 +963,7 @@ class PBook {
       // ── Chapter 1: What Are Recommendations? ──
       'ch1-noticed': ['Tvůj feed je unikátní — nikdo jiný nevidí to samé', 'Algoritmy rozhodují, co vidíš, na základě všeho, co děláš', 'Každá appka personalizuje jinak pomocí matematiky a dat'],
       'ch1-everywhere': ['Doporučení se skrývají v 8+ appkách: YouTube, TikTok, Spotify, Netflix, App Store, Amazon...', 'Denně vidíš stovky doporučení, aniž si to uvědomuješ', 'Jakmile se je naučíš rozpoznat, uvidíš je všude'],
+      'ch1-czech-recsys': ['Seznam.cz personalizuje zprávy i nepřihlášeným — jen podle toho, co si prohlížíš', 'Rohlík, Mall.cz, Alza — české e-shopy používají stejné triky jako Amazon', 'Recombee vznikl na FIT ČVUT a dnes ho používají tisíce firem po celém světě'],
       'ch1-not-magic': ['Je to detektivní práce: sleduj → najdi vzory → předpověz', 'Víc dat = chytřejší systém (víc vodítek pro práci)', 'Porovnává tě s miliony lidí, aby zjistil, co se ti bude líbit'],
       'ch1-wrong-sidebar': ['Jedno video může zaplavit tvůj feed — systém přehnaně reaguje', 'Doporučení pomáhají TOBĚ najít věci; reklamy pomáhají FIRMÁM prodávat', 'Obojí používá data, ale jejich cíle jsou úplně jiné'],
       'ch1-patterns-d-think': ['Hledání vzorců je všude: příroda, věda, hry — a algoritmy', 'Stroje odhalí vzorce napříč miliony lidí, které žádný člověk neodhalí', 'Pozor: některé vzorce vypadají reálně, ale jsou jen náhody'],
