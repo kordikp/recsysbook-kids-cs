@@ -9,7 +9,7 @@ teaser: "YouTube nějak ví, že miluje videa o Minecraftu. Ale jak to dělá?"
 voice: universal
 parent: null
 diagram: null
-recallQ: "Jak aplikace jako YouTube „vědí", co chceš?"
+recallQ: "Jak aplikace jako YouTube vědí, co chceš?"
 recallA: "Sledují tvoje klikání, sledování a přeskakování, aby si sestavily obrázek o tvém vkusu – a pak pomocí algoritmů hledají podobný obsah."
 status: accepted
 ---

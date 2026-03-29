@@ -9,7 +9,7 @@ teaser: "Nový účet, nula indicií – co teď?"
 voice: universal
 parent: null
 diagram: kids-cold-start
-recallQ: "Co je problém „studeného startu"?"
+recallQ: "Co je problém studeného startu?"
 recallA: "Když si vytvoříš nový účet, systém nemá žádné informace – ukazuje populární obsah, dokud nezjistí, kdo jsi."
 status: accepted
 ---

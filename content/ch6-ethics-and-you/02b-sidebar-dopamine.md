@@ -9,7 +9,7 @@ teaser: "Tvůj mozek má chemický systém odměn. Doporučovací algoritmy se n
 voice: universal
 parent: null
 diagram: null
-recallQ: "Proč je tak těžké odolat „ještě jednomu videu"?"
+recallQ: "Proč je tak těžké odolat ještě jednomu videu?"
 recallA: "Dopamin! Mozek ho uvolňuje při anticipaci a nejistotě -- stejný mechanismus jako u hracích automatů."
 status: accepted
 ---

@@ -9,7 +9,7 @@ voice: universal
 parent: null
 diagram: null
 recallQ: "Dá se algoritmus záměrně natrénovat?"
-recallA: "Ano! Vyhledávej témata, která chceš, záměrně dávej lajky obsahu a používej „Nezajímá mě" na to, co nechceš."
+recallA: "Ano! Vyhledávej témata, která chceš, záměrně dávej lajky obsahu a používej tlačítko Nezajímá mě na to, co nechceš."
 status: accepted
 ---
 

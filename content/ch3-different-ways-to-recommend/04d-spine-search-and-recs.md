@@ -5,7 +5,7 @@ title: "Vyhledávání a doporučování: dvě strany téže mince"
 readingTime: 3
 standalone: true
 core: true
-teaser: "Když vyhledáváš „běžecké boty", výsledky nejsou náhodné — jsou to doporučení v přestrojení."
+teaser: "Když vyhledáváš běžecké boty, výsledky nejsou náhodné — jsou to doporučení v přestrojení."
 voice: universal
 parent: null
 diagram: null

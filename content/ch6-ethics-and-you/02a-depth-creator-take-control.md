@@ -8,8 +8,8 @@ teaser: "Praktické věci, které můžeš udělat HNED TEĎ, abys byl/a pánem 
 voice: creator
 parent: null
 diagram: null
-recallQ: "Co je „test miniatury"?"
-recallA: "Zastav se před kliknutím a zeptej se: „Chci to OPRAVDU sledovat?" Přeruší to autopilota a vrátí tě zpět za volant."
+recallQ: "Co je test miniatury?"
+recallA: "Zastav se před kliknutím a zeptej se: Chci to OPRAVDU sledovat? Přeruší to autopilota a vrátí tě zpět za volant."
 status: accepted
 ---
 

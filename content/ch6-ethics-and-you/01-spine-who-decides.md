@@ -10,7 +10,7 @@ voice: universal
 parent: null
 diagram: null
 recallQ: "Kdo rozhoduje o tom, co vidíš, když otevřeš TikTok?"
-recallA: "Algoritmus — ne ty, ne tvoji rodiče, ne zaměstnanci TikToku. Optimalizuje pro „co tě udrží u sledování nejdéle"."
+recallA: "Algoritmus — ne ty, ne tvoji rodiče, ne zaměstnanci TikToku. Optimalizuje pro co tě udrží u sledování nejdéle."
 status: accepted
 ---
 

@@ -9,7 +9,7 @@ teaser: "Přeskočme vágní varování a pojďme na to konkrétně. Tady je to,
 voice: universal
 parent: null
 diagram: null
-recallQ: "Co je „digitální dvojče"?"
+recallQ: "Co je digitální dvojče?"
 recallA: "Matematický model vzorců tvého chování -- aplikace si ho vytvoří z tvých dat, aniž by potřebovaly tvé jméno."
 status: accepted
 ---

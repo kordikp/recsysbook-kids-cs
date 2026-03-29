@@ -9,7 +9,7 @@ teaser: "Od diamantů v Minecraftu po předpověď počasí – vzory vládnou s
 voice: thinker
 parent: null
 diagram: null
-recallQ: "Proč je hledání vzorů pro algoritmy „superschopností"?"
+recallQ: "Proč je hledání vzorů pro algoritmy superschopností?"
 recallA: "Počítače dokážou hledat vzory u milionů lidí najednou – nacházejí spojitosti, které by žádný člověk ručně nikdy nenašel."
 status: accepted
 ---

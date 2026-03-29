@@ -9,7 +9,7 @@ teaser: "Když populární věci jsou populárnější jen proto, že jsou popul
 voice: universal
 parent: null
 diagram: null
-recallQ: "Co je problém „bohatí bohatnou"?"
+recallQ: "Co je problém bohatí bohatnou?"
 recallA: "Populární obsah získá více viditelnosti → více zhlédnutí → zůstane populární. Noví tvůrci jsou navždy pohřbeni."
 status: accepted
 ---

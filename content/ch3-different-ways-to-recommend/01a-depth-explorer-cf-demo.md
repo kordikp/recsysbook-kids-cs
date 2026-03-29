@@ -8,7 +8,7 @@ teaser: "Vizuální tabulka, která přesně ukazuje, jak systém najde tvoje vk
 voice: explorer
 parent: null
 diagram: diagram-cf-matrix
-recallQ: "Co jsou „vkusové dvojníky" v kolaborativním filtrování?"
+recallQ: "Co jsou vkusové dvojníky v kolaborativním filtrování?"
 recallA: "Lidé, kteří měli rádi stejné věci jako ty. Pokud se jim líbí i něco nového, pravděpodobně se to bude líbit i tobě!"
 status: accepted
 ---

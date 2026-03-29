@@ -5,11 +5,11 @@ title: "Jak počítače chápou podobnost"
 readingTime: 3
 standalone: true
 core: true
-teaser: "Rocková a jazzová písnička mohou „znít podobně" — teplé, uklidňující, akustické. Jak se to počítač naučí „cítit"?"
+teaser: "Rocková a jazzová písnička mohou znít podobně — teplé, uklidňující, akustické. Jak se to počítač naučí cítit?"
 voice: universal
 parent: null
 diagram: diagram-embedding-space
-recallQ: "Co jsou „embeddingy" v doporučovacích systémech?"
+recallQ: "Co jsou embeddingy v doporučovacích systémech?"
 recallA: "Položky převedené na seznamy čísel (vektory). Blízké vektory = podobné položky. Neuronové sítě se tyto vzory naučí."
 status: accepted
 ---

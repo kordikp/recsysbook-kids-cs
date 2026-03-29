@@ -9,7 +9,7 @@ teaser: "Kdo má stejný vkus? Najdi své filmové dvojníky."
 voice: universal
 parent: null
 diagram: null
-recallQ: "Jak najdeš \"sousedy vkusu\"?"
+recallQ: "Jak najdeš \sousedy vkusu\?"
 recallA: "Porovnej hodnocení u společných položek – nižší průměrný rozdíl = podobnější vkus."
 status: accepted
 ---

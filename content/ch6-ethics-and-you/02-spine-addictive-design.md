@@ -5,7 +5,7 @@ title: "Navrženo tak, aby tě udrželo u sledování"
 readingTime: 4
 standalone: true
 core: true
-teaser: "Nekonečné scrollování. Automatické přehrávání. „Ještě jedno." To nejsou náhody -- jsou to záměrná rozhodnutí."
+teaser: "Nekonečné scrollování. Automatické přehrávání. Ještě jedno. To nejsou náhody -- jsou to záměrná rozhodnutí."
 voice: universal
 parent: null
 diagram: null

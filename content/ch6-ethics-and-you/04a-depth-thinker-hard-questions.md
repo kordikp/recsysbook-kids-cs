@@ -9,7 +9,7 @@ voice: thinker
 parent: null
 diagram: null
 recallQ: "Jmenuj těžkou otázku o algoritmech, na kterou ještě nikdo neodpověděl."
-recallA: "Mají mít děti jiné algoritmy? Kdo definuje „škodlivé"? Mají algoritmy ukazovat nesouhlas? Správné odpovědi zatím neexistují."
+recallA: "Mají mít děti jiné algoritmy? Kdo definuje škodlivé? Mají algoritmy ukazovat nesouhlas? Správné odpovědi zatím neexistují."
 status: accepted
 ---
 

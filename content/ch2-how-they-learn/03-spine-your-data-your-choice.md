@@ -10,7 +10,7 @@ voice: universal
 parent: null
 diagram: null
 recallQ: "Jmenuj 3 nástroje, které máš k ovládání svých dat."
-recallA: "Tlačítko „Nezajímá mě", smazání historie, oddělené profily, anonymní režim a nastavení aplikace."
+recallA: "Tlačítko Nezajímá mě, smazání historie, oddělené profily, anonymní režim a nastavení aplikace."
 status: accepted
 ---
 

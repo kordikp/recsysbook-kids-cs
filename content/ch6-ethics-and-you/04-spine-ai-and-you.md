@@ -10,7 +10,7 @@ voice: universal
 parent: null
 diagram: null
 recallQ: "Proč TVOJE generace algoritmům rozumí lépe než většina dospělých?"
-recallA: "Vyrůstali jste S nimi -- všimnete si podivných doporučení, víte, jak algoritmus „ošálit", a cítíte tah nekonečného scrollování."
+recallA: "Vyrůstali jste S nimi -- všimnete si podivných doporučení, víte, jak algoritmus ošálit, a cítíte tah nekonečného scrollování."
 status: accepted
 ---
 

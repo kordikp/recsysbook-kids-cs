@@ -8,7 +8,7 @@ teaser: "Experiment s hudební aplikací: která strategie doporučení zvítěz
 voice: explorer
 parent: null
 diagram: kids-ab-test
-recallQ: "Fungují personalizovaná doporučení skutečně lépe než „ukáž jen populární"?"
+recallQ: "Fungují personalizovaná doporučení skutečně lépe než ukáž jen populární?"
 recallA: "Ano! Testy ukazují o 37 % více přehraných písniček, 4× více objevených umělců a vyšší zapojení díky personalizaci."
 status: accepted
 ---

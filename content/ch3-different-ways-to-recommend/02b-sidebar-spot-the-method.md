@@ -8,8 +8,8 @@ teaser: "Kolaborativní filtrování, filtrování podle obsahu, nebo popularita
 voice: explorer
 parent: null
 diagram: null
-recallQ: "„Protože jsi sledoval/a X" využívá jakou metodu?"
-recallA: "„Fanoušci také poslouchají" je kolaborativní filtrování. „Protože jsi sledoval/a" je filtrování podle obsahu!"
+recallQ: "Protože jsi sledoval/a X využívá jakou metodu?"
+recallA: "Fanoušci také poslouchají je kolaborativní filtrování. Protože jsi sledoval/a je filtrování podle obsahu!"
 status: accepted
 ---
 

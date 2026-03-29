@@ -9,7 +9,7 @@ teaser: "Hledal/a jsi triky s kartami. O dvacet minut později sleduješ videa o
 voice: universal
 parent: null
 diagram: null
-recallQ: "Co je efekt „králičí nory"?"
+recallQ: "Co je efekt králičí nory?"
 recallA: "Každý doporučený krok se zdá malý, ale celková cesta vede někam nečekaným. Algoritmus optimalizuje pro DALŠÍ video, ne pro celou cestu."
 status: accepted
 ---

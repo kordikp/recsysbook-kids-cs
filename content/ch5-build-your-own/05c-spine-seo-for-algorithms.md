@@ -9,7 +9,7 @@ teaser: "Vyhledávače a doporučovací systémy se slévají. Tady je návod, j
 voice: universal
 parent: null
 diagram: null
-recallQ: "Proč dnes \"být na 1. místě Googlu\" neexistuje?"
+recallQ: "Proč dnes \být na 1. místě Googlu\ neexistuje?"
 recallA: "Výsledky jsou personalizované – tvůj obsah může být č. 1 pro tvoje publikum a neviditelný pro všechny ostatní."
 status: accepted
 ---
