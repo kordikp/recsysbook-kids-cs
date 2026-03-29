@@ -2946,12 +2946,21 @@ class PBook {
       h += `</div>`;
     }
 
-    // Achievements
+    // Achievements — translate stored English names to Czech
+    const badgeNames = {
+      'First Steps': 'První kroky', 'Bookworm': 'Knihomol', 'Speed Reader': 'Rychločtenář',
+      'Knowledge Machine': 'Znalostní stroj', 'Thumbs Up': 'Palec nahoru', 'Super Fan': 'Superfanoušek',
+      'Note Taker': 'Zapisovatel', 'Triple Threat': 'Trojhrozba', 'Curious Cat': 'Zvědavá kočka',
+      'Quiz Master': 'Mistr kvízů', 'Level 5!': 'Úroveň 5!', 'Collector': 'Sběratel',
+      'XP Hunter': 'Lovec XP', 'Deep Diver': 'Hloubkový potápěč', 'Memory Pro': 'Paměťový profík',
+      'Certified!': 'Certifikován!', 'Level 10!': 'Úroveň 10!', 'Level 20!': 'Úroveň 20!',
+    };
     h += '<div class="profile-section"><h3>&#127942; Úspěchy</h3>';
     if (u.achievements.length) {
       h += '<div class="gami-badges">';
       u.achievements.forEach(a => {
-        h += `<div class="gami-badge earned" title="${a.desc}"><span class="badge-icon">${a.icon}</span><span class="badge-name">${a.name}</span></div>`;
+        const name = badgeNames[a.name] || a.name;
+        h += `<div class="gami-badge earned" title="${a.desc}"><span class="badge-icon">${a.icon}</span><span class="badge-name">${name}</span></div>`;
       });
       h += '</div>';
     }
