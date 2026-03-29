@@ -1,46 +1,49 @@
-# p-book: Personalized Interactive Books
+# p-book: Jak funguje doporučování online?
 
-**p-book** is an open-source standard for creating personalized, interactive digital books powered by recommendation engines. This repository contains the first p-book: **"How Recommendations Work"** — an interactive book about recommendation systems for ages 8-15.
+**p-book** je otevřený standard pro tvorbu personalizovaných interaktivních digitálních knih poháněných doporučovacími enginy. Tento repozitář obsahuje českou verzi první p-book: **„Jak funguje doporučování online?"** — interaktivní knihu o doporučovacích systémech pro děti 8–15 let.
 
-> **Version 1.0** — This is the first public release. The project will continue to evolve based on user feedback and research studying the effects of individual features on learning quality and reader well-being.
+> **Verze 1.0** — První veřejné vydání. Projekt se bude dále vyvíjet na základě zpětné vazby uživatelů a výzkumu studujícího vliv jednotlivých funkcí na kvalitu učení a pohodu čtenáře.
 
-## Live Demo
+## Živá ukázka
 
-**[recsysbook-kids.vercel.app](https://recsysbook-kids.vercel.app)**
+**[recsysbook-kids-cs.vercel.app](https://recsysbook-kids-cs.vercel.app)**
+
+Anglická verze: **[recsysbook-kids.vercel.app](https://recsysbook-kids.vercel.app)** ([GitHub](https://github.com/kordikp/recsysbook-kids))
 
 ![p-book screenshot](images/pbook-recsys4kids.jpeg)
 
-## What is a p-book?
+## Co je p-book?
 
-A p-book is a book that adapts to the reader. Instead of a fixed linear text, content is organized as independent blocks that can be served through multiple reading modes, personalized by a recommendation engine, and enriched with interactive elements.
+p-book je kniha, která se přizpůsobuje čtenáři. Místo pevného lineárního textu je obsah organizován jako nezávislé bloky, které mohou být servírovány v několika režimech čtení, personalizovány doporučovacím enginem a obohaceny o interaktivní prvky.
 
-### Reading Modes
+### Režimy čtení
 
-| Mode | Description |
-|------|-------------|
-| **Missions** | Story-driven quests with guided steps and a final boss quiz |
-| **Browse** | Netflix-style shelves — pick what interests you |
-| **Read** | Chapter-by-chapter with infinite scroll |
-| **Map** | Visual overview — see everything, pick your path |
-| **Tutor** | AI assistant that answers questions about the content |
+| Režim | Popis |
+|-------|-------|
+| **Mise** | Příběhové questy s průvodcem a závěrečným boss kvízem |
+| **Procházet** | Netflix-style police — vyber, co tě zaujme |
+| **Číst** | Kapitola po kapitole s nekonečným scrollem |
+| **Mapa** | Vizuální přehled — vidíš všechno, vyber si cestu |
+| **Kvíz** | Kartičky s rozloženým opakováním (spaced repetition) |
+| **Tutor** | AI asistent, který odpovídá na otázky o obsahu |
 
-### Features (all optional, can be toggled on/off)
+### Funkce (všechny volitelné, lze zapnout/vypnout)
 
-- **Gamification** — XP, levels, badges, completion certificate
-- **Spaced repetition** — Anki-style recall quizzes for long-term retention
-- **Personalization** — Recombee-powered recommendations, voice-based content paths
-- **Mini-games** — 8 interactive click-based games with auto-hide timer
-- **Missions** — 6 story-driven learning paths with branching and boss quizzes
-- **Knowledge cloud** — Visual word cloud of concepts you've learned
-- **Analytics** — Per-interaction mode tracking for research
+- **Gamifikace** — XP, úrovně, odznaky, certifikát o absolvování
+- **Rozložené opakování** — kvízy ve stylu Anki pro dlouhodobé zapamatování
+- **Personalizace** — doporučení poháněná Recombee, hlasové cesty obsahu (Průzkumník/Tvůrce/Myslitel)
+- **Minihry** — 8 interaktivních klikacích her s časovačem
+- **Mise** — 7 příběhových vzdělávacích cest s větvením a boss kvízy
+- **Oblak znalostí** — vizuální mrak konceptů, které jsi se naučil
+- **Účty** — přihlášení, synchronizace profilu mezi zařízeními
+- **Offline** — Service Worker pre-cachuje celou knihu (~1,5 MB)
+- **Analytika** — sledování interakcí po módech pro výzkum
 
-## Content Structure
-
-Content is organized as markdown files with YAML frontmatter:
+## Struktura obsahu
 
 ```
 content/
-  book.json              # Chapter index
+  book.json              # Index kapitol
   ch1-what-are-recommendations/
     01-spine-have-you-noticed.md
     02-spine-recommendations-everywhere.md
@@ -48,182 +51,186 @@ content/
     05-question-what-type.md
     ...
 games/
-  signal-sort.json       # Game data definitions
+  signal-sort.json       # Definice herních dat
   taste-match.json
   ...
 images/
-  kids-footprints.svg    # SVG diagrams
+  kids-footprints.svg    # SVG diagramy a ilustrace
+  comic-cf.svg           # Komiksy
+  diagram-attention.svg  # Technické diagramy
   ...
 ```
 
-### Content File Format
+### Formát obsahového souboru
 
 ```yaml
 ---
 id: ch1-noticed
 type: spine              # spine | question | game
-title: "Have You Ever Noticed?"
+title: "Všiml sis někdy?"
 readingTime: 2
-teaser: "YouTube somehow knows you love Minecraft videos. But how?"
+teaser: "YouTube nějak ví, že máš rád Minecraft videa. Ale jak?"
 voice: universal         # universal | explorer | creator | thinker
-core: true               # Required for certificate
+core: true               # Nutné pro certifikát
+recallQ: "Jak appky jako YouTube vědí, co chceš?"
+recallA: "Sledují tvoje kliky, zhlédnutí a přeskočení..."
 status: accepted         # draft | review | accepted
 ---
 
-Your markdown content here...
+Tvůj markdown obsah zde...
 ```
 
-### Content Types
+### Typy obsahu
 
-| Type | Description |
-|------|-------------|
-| `spine` | Regular content section (reading material) |
-| `question` | Interactive quiz with multiple choice options |
-| `game` | Mini-game with data from `games/*.json` |
+| Typ | Popis |
+|-----|-------|
+| `spine` | Běžná obsahová sekce (čtecí materiál) |
+| `question` | Interaktivní kvíz s výběrem z odpovědí |
+| `game` | Minihra s daty z `games/*.json` |
 
-### Game Format
+## Pro LLM a boty
 
-Small JSON files in `games/` directory:
+p-book je navržen pro snadné indexování a spoluautorství AI:
 
-```json
-{
-  "type": "sort",
-  "title": "Signal Sort",
-  "instruction": "Is this a strong or weak signal?",
-  "buckets": ["Strong signal", "Weak signal"],
-  "items": [
-    { "text": "Watched a video to the end", "answer": 0 },
-    { "text": "Skipped after 2 seconds", "answer": 1 }
-  ]
-}
+- **`/.well-known/pbook.json`** — Discovery manifest pro boty
+- **`/pbook.json`** — Kompletní manifest projektu se schématem
+- **`/content/book.json`** — Strukturovaný index kapitol/souborů
+- **`/llms.txt`** — Textový souhrn pro LLM discovery
+- **Obsahové soubory** — Čistý markdown se strojově čitelným YAML frontmatter
+
+## Nasazení
+
+### Požadavky
+
+- **Recombee** (volitelné) — pro personalizovaná doporučení
+- **Supabase** (volitelné) — pro uživatelské účty a analytiku
+
+### Supabase konfigurace
+
+1. Vytvoř projekt na [supabase.com](https://supabase.com)
+2. V SQL Editoru spusť:
+
+```sql
+-- Tabulka interakcí (analytika)
+CREATE TABLE IF NOT EXISTS interactions (
+  id bigserial PRIMARY KEY,
+  user_id text,
+  type text NOT NULL,
+  item_id text,
+  mode text,
+  event text,
+  duration integer,
+  rating real,
+  data jsonb,
+  server_ts bigint,
+  created_at timestamptz DEFAULT now()
+);
+
+-- Tabulka uživatelských profilů (účty + sync)
+CREATE TABLE IF NOT EXISTS user_profiles (
+  id uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  email text UNIQUE NOT NULL,
+  password_hash text NOT NULL,
+  display_name text,
+  session_token text,
+  profile_data jsonb DEFAULT '{}',
+  created_at timestamptz DEFAULT now(),
+  updated_at timestamptz DEFAULT now()
+);
+
+-- RLS politika (povolit vše přes anon key)
+ALTER TABLE interactions ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow all" ON interactions FOR ALL USING (true) WITH CHECK (true);
+ALTER TABLE user_profiles ENABLE ROW LEVEL SECURITY;
+CREATE POLICY "Allow all" ON user_profiles FOR ALL USING (true) WITH CHECK (true);
 ```
 
-Game types: `sort` (classify), `match` (find twin), `pop` (click to collect), `order` (sequence).
+3. Zapiš si `SUPABASE_URL` a `SUPABASE_KEY` (anon/publishable key)
 
-## For LLMs and Bots
+### Recombee konfigurace
 
-p-book is designed to be easily indexed and co-authored by AI:
-
-- **`/.well-known/pbook.json`** — Discovery manifest for bots
-- **`/pbook.json`** — Full project manifest with schema docs
-- **`/content/book.json`** — Structured chapter/file index
-- **Content files** — Plain markdown with machine-readable YAML frontmatter
-- **Status field** — `draft → review → accepted` workflow for AI-contributed content
-
-LLMs can read, index, and contribute to p-books using standard file operations. See [CONTRIBUTING.md](CONTRIBUTING.md) for the content format and PR workflow.
-
-## Create Your Own p-book
-
-1. **Fork this repository**
-2. **Edit `content/book.json`** — define your chapters
-3. **Write content** in `content/chN-*/` as markdown files with frontmatter
-4. **Customize `js/config.js`** — title, author, voices, features
-5. **Deploy** to Vercel or Netlify (or any static host)
-
-### Without Recombee (works out of the box)
-
-The book works fully without Recombee — all recommendation features have local fallbacks (random/sequential content). Set `recombee.enabled: false` in config.js or simply don't configure a token.
-
-### With Recombee (personalized recommendations)
-
-1. Create a free database at [recombee.com](https://recombee.com)
-2. Set `RECOMBEE_TOKEN` environment variable
-3. Create scenarios in Recombee admin: `homepage-personal`, `homepage-voice`, `next-read`, `context-related`, `search`
-
-## Local Development
-
-```bash
-# Create .env with your Recombee token (optional)
-echo "RECOMBEE_TOKEN=your_token_here" > .env
-
-# Start dev server (static files + Recombee proxy)
-node serve-local.js
-
-# Or with shell script
-sh serve.sh
-
-# Open http://localhost:8000
-```
-
-The dev server includes a Recombee API proxy at `/.netlify/functions/recombee`, so everything works locally including recommendations.
-
-### Content Validation
-
-```bash
-node .github/scripts/validate-content.js
-```
-
-Validates all content files: frontmatter schema, unique IDs, book.json consistency, game references.
-
-## Deployment
+1. Vytvoř databázi na [recombee.com](https://recombee.com)
+2. V Recombee adminu vytvoř scénáře: `homepage-personal`, `homepage-voice`, `next-read`, `context-related`, `search`
+3. Zapiš si `RECOMBEE_TOKEN` a `RECOMBEE_DB`
 
 ### Vercel
 
-1. Import repo on [vercel.com](https://vercel.com)
-2. Set env var: `RECOMBEE_TOKEN`
-3. Deploy — no build step needed
+1. Importuj repo na [vercel.com](https://vercel.com)
+2. Nastav proměnné prostředí:
+   - `RECOMBEE_TOKEN` — token z Recombee
+   - `RECOMBEE_DB` — název databáze (volitelné, default v config.js)
+   - `SUPABASE_URL` — URL tvého Supabase projektu
+   - `SUPABASE_KEY` — Supabase anon key
+3. Deploy — žádný build krok není potřeba
 
 ### Netlify
 
-1. Connect repo on [netlify.com](https://netlify.com)
-2. Set env var: `RECOMBEE_TOKEN`
-3. Deploy — functions auto-detected from `netlify/functions/`
+1. Připoj repo na [netlify.com](https://netlify.com)
+2. Nastav proměnné prostředí (stejné jako výše)
+3. Deploy — funkce se automaticky detekují z `netlify/functions/`
 
-### Any Static Host
+### Bez Recombee a Supabase
 
-Works as a static site without Recombee. Just serve the root directory.
+Kniha funguje plně i bez externích služeb — všechny doporučovací funkce mají lokální fallbacky (náhodný/sekvenční obsah), účty se ukládají lokálně v prohlížeči.
 
-## Architecture
+## Lokální vývoj
+
+```bash
+# Vytvoř .env s tokeny (volitelné)
+cat > .env << EOF
+RECOMBEE_TOKEN=tvuj_token
+RECOMBEE_DB=tvoje_databaze
+SUPABASE_URL=https://xxx.supabase.co
+SUPABASE_KEY=tvuj_supabase_key
+EOF
+
+# Spusť vývojový server
+node serve-local.js
+
+# Otevři http://localhost:8000
+```
+
+Dev server obsahuje proxy pro Recombee API, Supabase log i auth — vše funguje lokálně.
+
+## Architektura
 
 ```
-index.html          # Reader app (single page)
+index.html          # Čtečka (SPA)
 admin.html          # Admin dashboard
 js/
-  app.js            # Main application (~3000 lines)
-  config.js         # Configuration and feature flags
-  recombee.js       # Recombee client + UserModel + gamification
-  tutor.js          # AI tutor engine (mock, ready for LLM)
-  markdown.js       # Markdown→HTML renderer with math/table support
+  app.js            # Hlavní aplikace (~4000 řádků)
+  config.js         # Konfigurace a feature flags
+  recombee.js       # Recombee klient + UserModel + gamifikace
+  tutor.js          # AI tutor engine (mock, připravený pro LLM)
+  markdown.js       # Markdown→HTML renderer s podporou matiky/tabulek
   diagrams.js       # SVG diagram renderer
-css/style.css       # All styles
-content/            # Markdown content files
-games/              # Game data (JSON)
-images/             # SVG diagrams
+css/style.css       # Všechny styly
+content/            # Markdown obsahové soubory
+games/              # Herní data (JSON)
+images/             # SVG diagramy a ilustrace
 netlify/functions/  # Serverless proxy (Netlify)
 api/                # Serverless proxy (Vercel)
+sw.js               # Service Worker pro offline přístup
 ```
 
-## Future Integrations
+## Vytvoř si vlastní p-book
 
-### Tiny Learning Platform
-Integration with [Tiny School](https://www.tiny.school) for:
-- Argumentative and critic chatbots during reading
-- Progress reporting to teacher/parent profiles
-- Cross-platform learning analytics
+1. **Forkni tento repozitář**
+2. **Uprav `content/book.json`** — definuj své kapitoly
+3. **Piš obsah** v `content/chN-*/` jako markdown soubory s frontmatter
+4. **Přizpůsob `js/config.js`** — název, autor, hlasy, funkce
+5. **Nasaď** na Vercel nebo Netlify (nebo jakýkoliv statický hosting)
 
-### LLM Author Persona
-The tutor system (`js/tutor.js`) is built with a `TutorEngine` abstraction ready for LLM integration:
-- `MockTutorEngine` — current keyword-search implementation
-- `LLMTutorEngine` — future drop-in replacement via serverless function → Claude/GPT API
-- Author escalation — "Message the real author" with conversation queue
+## Přispívání
 
-### Research Analytics
-Every interaction logs the discovery mode (`netflix`, `read`, `mission`, `map`, `search`, `tutor`), enabling research comparing:
-- Personalized vs. non-personalized content delivery
-- Mission-based vs. free-browse learning
-- Effects of gamification on engagement and retention
-- Impact of spaced repetition on knowledge retention
+Viz [CONTRIBUTING.md](CONTRIBUTING.md) pro formát obsahu, stylový průvodce a PR workflow.
 
-## Contributing
+## Licence
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for content format, style guide, and PR workflow.
+Obsah: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Kód: [MIT](LICENSE)
 
-## License
+## Autoři
 
-Content: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-Code: [MIT](LICENSE)
-
-## Authors
-
-- **Pavel Kordík** — Author, co-founder of [Recombee](https://recombee.com) & [AI dětem](https://aidetem.cz), assoc. professor at [CTU in Prague](https://kam.fit.cvut.cz)
-- AI-assisted development with Claude (Anthropic)
+- **Pavel Kordík** — Autor, spoluzakladatel [Recombee](https://recombee.com) a [AI dětem](https://aidetem.cz), docent na [FIT ČVUT v Praze](https://kam.fit.cvut.cz)
+- Vývoj s asistencí AI (Claude, Anthropic)
