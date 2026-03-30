@@ -1641,19 +1641,17 @@ class PBook {
     const block = this.findBlock(blockId);
     if (!block) return;
     const url = window.location.origin + window.location.pathname + '#' + blockId;
-    const title = block.meta.title;
-    const text = block.meta.teaser || 'Check out this section from "How Recommendations Work"';
+    const title = (block.meta.title || '').replace(/&[^;]+;/g, '').replace(/\\"/g, '"');
+    const teaser = (block.meta.teaser || '').replace(/&[^;]+;/g, '').replace(/\\"/g, '"');
+    const text = teaser || 'Podívej se na tuto sekci z knihy Jak funguje doporučování online?';
 
-    // Try native share first (mobile)
     if (navigator.share) {
       navigator.share({ title, text, url }).catch(() => {});
     } else {
-      // Fallback: copy to clipboard
-      navigator.clipboard.writeText(url).then(() => {
+      navigator.clipboard.writeText(`${title} — ${url}`).then(() => {
         this.showXPToast('Odkaz zkopírován!', 'info');
       }).catch(() => {
-        // Double fallback
-        prompt('Share this link:', url);
+        prompt('Sdílej tento odkaz:', url);
       });
     }
     this.rc.logEvent('share', { blockId, mode: 'share' });
@@ -1663,15 +1661,15 @@ class PBook {
     const m = this.getMissions().find(x => x.id === missionId);
     if (!m) return;
     const url = window.location.origin + window.location.pathname + '#mission-' + missionId;
-    const title = m.title;
-    const text = m.story.substring(0, 100);
+    const title = (m.title || '').replace(/\\"/g, '"');
+    const text = (m.story || '').substring(0, 100).replace(/\\"/g, '"');
 
     if (navigator.share) {
       navigator.share({ title, text, url }).catch(() => {});
     } else {
-      navigator.clipboard.writeText(url).then(() => {
+      navigator.clipboard.writeText(`${title} — ${url}`).then(() => {
         this.showXPToast('Odkaz na misi zkopírován!', 'info');
-      }).catch(() => { prompt('Share this link:', url); });
+      }).catch(() => { prompt('Sdílej tento odkaz:', url); });
     }
     this.rc.logEvent('share', { missionId, mode: 'share_mission' });
   }
