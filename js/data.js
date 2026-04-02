@@ -1,3 +1,22 @@
+const MISSIONS = [
+  {
+    id: 'mission-co-jsou',
+    title: 'Co jsou doporučovače?',
+    description: 'Zjisti, jak YouTube, TikTok a Spotify vědí, co chceš sledovat.',
+    emoji: '🎯',
+    topic: 'coJsou',
+    glitches: ['ch1-noticed', 'ch1-everywhere', 'ch1-not-magic', 'ch1-three-jobs'],
+  },
+  {
+    id: 'mission-jak-se-uci',
+    title: 'Jak se o tobě učí?',
+    description: 'Každé kliknutí zanechá stopu. Zjisti, co o tobě systém ví.',
+    emoji: '🔍',
+    topic: 'jakSeUci',
+    glitches: ['ch2-footprints', 'ch2-clues', 'ch2-privacy'],
+  },
+];
+
 const TOPICS = {
   coJsou: { label: 'Co jsou?', emoji: '🎯', color: '#00A3FF', bg: 'linear-gradient(135deg, #0a1628 0%, #0d2d5e 50%, #003d80 100%)' },
   jakSeUci: { label: 'Jak se učí?', emoji: '🔍', color: '#00E676', bg: 'linear-gradient(135deg, #0a1a0a 0%, #0d3d1a 50%, #005522 100%)' },
