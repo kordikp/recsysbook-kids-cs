@@ -138,10 +138,14 @@ html, body {
 .topbar-logo {
   display: flex;
   align-items: center;
+  overflow: hidden;
+  max-width: 60%;
 }
 .topbar-logo img {
-  height: 32px;
+  height: 28px;
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 .topbar-profile {
   width: 38px; height: 38px;
