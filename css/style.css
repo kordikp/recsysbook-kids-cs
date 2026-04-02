@@ -59,20 +59,23 @@ html, body {
   line-height: 1;
 }
 .logo-tiny {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 900;
   font-size: clamp(72px, 20vw, 96px);
   color: var(--accent);
-  letter-spacing: -2px;
+  letter-spacing: -4px;
 }
 .logo-glitch {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
   font-size: clamp(36px, 10vw, 52px);
   color: var(--text);
+  letter-spacing: -2px;
   margin-top: -8px;
 }
 .splash-sub {
   font-size: 18px;
+  font-family: 'Inter', sans-serif;
   color: var(--text-muted);
   text-align: center;
   line-height: 1.5;
