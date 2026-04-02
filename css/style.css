@@ -175,11 +175,13 @@ html, body {
   overflow-y: auto;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
   opacity: 0;
   transform: translateY(12px);
   pointer-events: none;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
+.view::-webkit-scrollbar { display: none; }
 .view.active {
   opacity: 1;
   transform: translateY(0);
