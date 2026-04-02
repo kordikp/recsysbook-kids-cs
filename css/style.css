@@ -53,10 +53,10 @@ html, body {
   padding: 40px 24px;
 }
 .splash-logo-img {
-  width: 300px;
+  width: 180px;
   max-width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 32px;
 }
 .splash-logo {
   display: flex;
