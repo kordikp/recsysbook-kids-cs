@@ -52,6 +52,12 @@ html, body {
   gap: 28px;
   padding: 40px 24px;
 }
+.splash-logo-img {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 .splash-logo {
   display: flex;
   flex-direction: column;
