@@ -131,7 +131,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 20px 0 16px;
   z-index: 100;
   border-bottom: 1px solid var(--border);
 }
@@ -142,7 +142,7 @@ html, body {
   max-width: 60%;
 }
 .topbar-logo img {
-  height: 28px;
+  height: 38px;
   width: auto;
   max-width: 100%;
   object-fit: contain;
