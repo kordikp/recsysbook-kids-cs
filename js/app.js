@@ -251,10 +251,36 @@ function renderMapContent(container, query) {
 
 let activeCategoryId = null;
 
+let categoryScrollBound = false;
+
 function renderMissions() {
   activeCategoryId = activeCategoryId || (CATEGORIES[0] && CATEGORIES[0].id);
   renderCategoryCarousel();
   renderMissionList();
+  if (!categoryScrollBound) {
+    categoryScrollBound = true;
+    bindCategoryScroll();
+  }
+}
+
+function bindCategoryScroll() {
+  const carousel = document.getElementById('category-carousel');
+  if (!carousel) return;
+  let scrollTimer;
+  carousel.addEventListener('scroll', () => {
+    clearTimeout(scrollTimer);
+    scrollTimer = setTimeout(() => {
+      const track = carousel.querySelector('.cat-track');
+      if (!track || !CATEGORIES.length) return;
+      const cardWidth = track.scrollWidth / CATEGORIES.length;
+      const idx = Math.min(Math.round(track.scrollLeft / cardWidth), CATEGORIES.length - 1);
+      const cat = CATEGORIES[idx];
+      if (cat && cat.id !== activeCategoryId) {
+        activeCategoryId = cat.id;
+        renderMissionList();
+      }
+    }, 120);
+  }, { passive: true });
 }
 
 function renderCategoryCarousel() {
