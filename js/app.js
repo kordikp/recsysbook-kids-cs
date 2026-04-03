@@ -311,9 +311,6 @@ function renderCategoryCarousel() {
     const starsHtml = buildStarsHtml(cat);
 
     card.innerHTML =
-      '<button class="cat-card-btn" aria-label="Otevřít ' + cat.title + '">' +
-        '<img src="assets/go.svg" width="31" height="31" alt="">' +
-      '</button>' +
       '<div class="cat-card-title">' + cat.title + '</div>' +
       '<div class="cat-card-bottom">' +
         '<div class="cat-card-progress">' + starsHtml + '</div>' +

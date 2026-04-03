@@ -500,6 +500,7 @@ html, body {
 
 @media (min-width: 600px) {
   .cat-arrow { display: flex; align-items: center; justify-content: center; }
+  .cat-card { max-width: 350px; }
 }
 
 .cat-track {
