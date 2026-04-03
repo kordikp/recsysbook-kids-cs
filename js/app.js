@@ -160,9 +160,7 @@ function buildFeedCard(glitch, index) {
     '<div class="card-header">' +
       '<span class="card-topic-badge">' + topic.label + '</span>' +
       '<span class="card-done-indicator' + (done ? ' done' : '') + '">' +
-        (done
-          ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>'
-          : '') +
+        (done ? '<img src="assets/done.svg" width="21" height="21" alt="">' : '') +
       '</span>' +
     '</div>' +
     '<div class="card-content">' +
@@ -171,7 +169,7 @@ function buildFeedCard(glitch, index) {
       '<div class="card-footer">' +
         '<span class="card-hook-pill">' + hook + '</span>' +
         '<button class="card-cta" aria-label="Otevřít">' +
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>' +
+          '<img src="assets/go.svg" width="21" height="21" alt="">' +
         '</button>' +
       '</div>' +
     '</div>';

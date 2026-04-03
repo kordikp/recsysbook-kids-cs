@@ -339,18 +339,10 @@ html, body {
   backdrop-filter: blur(4px);
 }
 .card-done-indicator {
-  width: 32px; height: 32px;
-  border-radius: 50%;
-  background: rgba(255,255,255,0.12);
+  width: 21px; height: 21px;
   display: flex; align-items: center; justify-content: center;
-  color: rgba(255,255,255,0.4);
   flex-shrink: 0;
 }
-.card-done-indicator.done {
-  background: var(--accent);
-  color: #1a1200;
-}
-.card-done-indicator svg { width: 16px; height: 16px; }
 
 /* card content: title, teaser, footer */
 .card-content {
@@ -390,16 +382,14 @@ html, body {
   line-height: 20px;
 }
 .card-cta {
-  width: 44px; height: 44px;
-  border-radius: 50%;
-  background: var(--accent);
+  width: 31px; height: 31px;
   border: none;
+  background: none;
   cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  color: #1a1200;
+  padding: 0;
   flex-shrink: 0;
 }
-.card-cta svg { width: 20px; height: 20px; }
 .card-done-badge {
   position: absolute;
   top: 14px;
