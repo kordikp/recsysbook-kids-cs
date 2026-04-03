@@ -137,20 +137,27 @@ function renderFeed() {
   triggerFeedAnimations();
 }
 
+function blobNum(id) {
+  let n = 0;
+  for (let i = 0; i < id.length; i++) n += id.charCodeAt(i);
+  return String((n % 20) + 1).padStart(2, '0');
+}
+
 function buildFeedCard(glitch) {
   const topic = TOPICS[glitch.topic];
   const done = State.isDone(glitch.id);
+  const blob = blobNum(glitch.id);
 
   const card = document.createElement('article');
   card.className = 'glitch-card';
   card.dataset.id = glitch.id;
 
   card.innerHTML =
-    '<div class="card-bg" style="background:' + topic.bg + '"></div>' +
+    '<div class="card-bg"></div>' +
+    '<img class="card-blob-img" src="assets/blob-images_' + blob + '.png" alt="">' +
     '<div class="card-overlay"></div>' +
     (done ? '<div class="card-done-badge">✓ Splněno</div>' : '') +
     '<div class="card-content">' +
-      '<span class="card-emoji">' + topic.emoji + '</span>' +
       '<span class="card-topic-badge" style="background:' + topic.color + '22;color:' + topic.color + '">' + topic.label + '</span>' +
       '<h2 class="card-title">' + glitch.title + '</h2>' +
       '<p class="card-teaser">' + glitch.teaser + '</p>' +

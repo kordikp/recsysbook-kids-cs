@@ -304,6 +304,17 @@ html, body {
   position: absolute;
   inset: 0;
   z-index: 0;
+  background: #2a1f3d;
+}
+.card-blob-img {
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+  width: 72%;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+  object-fit: contain;
 }
 .card-overlay {
   position: absolute;
