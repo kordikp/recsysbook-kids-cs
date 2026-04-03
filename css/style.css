@@ -554,13 +554,12 @@ html, body {
 }
 
 .cat-star {
-  width: 20px;
-  height: 20px;
-  fill: rgba(255,255,255,0.2);
-  stroke: none;
+  width: 24px;
+  height: 24px;
+  opacity: 0.2;
 }
 .cat-star.filled {
-  fill: var(--accent);
+  opacity: 1;
 }
 
 .cat-blob-img {
