@@ -3,6 +3,7 @@ id: ch4-explainability
 topic: lepsi
 title: Proč mi to TOHLE doporučilo?
 teaser: Vidíš náhodný film na vrcholu feedu. Proč? Odpověď je složitější, než si myslíš.
+hook: Proč zrovna tohle?
 ---
 
 Otevřeš Netflix a na první pozici vidíš dokumentář o chobotnicích. Nikdy jsi nic o chobotnicích nesledoval. Proč tam je?

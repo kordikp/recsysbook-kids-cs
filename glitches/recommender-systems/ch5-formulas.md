@@ -3,6 +3,7 @@ id: ch5-formulas
 topic: postav
 title: Matematika za doporučováním
 teaser: Kosinová podobnost a nDCG — vzorce za doporučovači vysvětlené srozumitelně.
+hook: Ale jak to funguje?
 ---
 
 Kosinová podobnost: sim(A,B) = (A·B) / (||A|| × ||B||). Vynásob hodnocení párově a sečti (skalární součin), pak dělíš délkami obou vektorů. Výsledek 1 = dokonalá shoda, -1 = úplný opak, 0 = žádná podobnost.

@@ -3,6 +3,7 @@ id: ch3-netflix-story
 topic: zpusoby
 title: Milionová doporučovací soutěž
 teaser: Netflix nabídl 1 000 000 dolarů každému, kdo dokáže zlepšit jeho doporučování o 10 %.
+hook: Kdo ten milion vyhrál?
 ---
 
 V roce 2006 Netflix vyhlásil soutěž: milion dolarů pro každého, kdo zlepší filmová doporučení o 10 %. Zveřejnili 100 milionů hodnocení od 480 000 uživatelů. Přihlásilo se 40 000 týmů ze 186 zemí.

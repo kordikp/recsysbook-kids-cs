@@ -3,6 +3,7 @@ id: ch3-cf-build
 topic: zpusoby
 title: Postav si vlastní systém pro párování vkusu
 teaser: Průzkum mezi spolužáky, tabulka hodnocení a skryté vkusové dvojníky.
+hook: Kdo je tvůj vkusový dvojník?
 ---
 
 Na kolaborativní filtrování nepotřebuješ počítač. Vyber 8 populárních filmů. Zeptej se 10 spolužáků: „Líbil se ti tento film? Ano nebo ne?" Udělej tabulku — jména po straně, filmy nahoře.

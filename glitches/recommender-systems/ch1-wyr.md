@@ -3,6 +3,7 @@ id: ch1-wyr
 topic: coJsou
 title: Radši bys...?
 teaser: Žádné správné odpovědi, jen nemožné volby. Vítej v pravých dilematech navrhování doporučení.
+hook: Zvládneš se rozhodnout?
 ---
 
 Radši bys dostával doporučení, která jsou VŽDY DOKONALÁ (ale nikdy tě nic nového nepřekvapí) — nebo dostával občas podivná doporučení, ale někdy narazíš na něco naprosto úžasného, co bys sám nenašel?

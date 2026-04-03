@@ -3,6 +3,7 @@ id: ch5-improve
 topic: postav
 title: Krok 4 — Udělej ho lepším
 teaser: Tvůj systém funguje! Teď ho udělejme chytřejším.
+hook: Jak ho udělat chytřejším?
 ---
 
 Největší zlepšení jedním krokem: více dat. Víc hodnocení od víc lidí znamená více spojení a lepší předpovědi.

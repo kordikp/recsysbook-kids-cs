@@ -3,6 +3,7 @@ id: vc19-project-ideas
 topic: coJeVibecoding
 title: 10 nápadů na první projekt
 teaser: Nevíš co postavit? Tady je 10 nápadů, které zvládneš za odpoledne.
+hook: Co bys postavil dnes?
 ---
 
 Největší blokáda při začátku vibecoding: „Co vlastně mám dělat?" Tady je 10 nápadů seřazených od nejjednoduššího.

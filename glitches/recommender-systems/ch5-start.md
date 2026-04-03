@@ -3,6 +3,7 @@ id: ch5-start
 topic: postav
 title: Tohle fakt zvládneš
 teaser: Naučil ses, jak doporučení fungují. Teď je čas postavit jedno vlastní.
+hook: Jsi připravený stavět?
 ---
 
 Naučil ses o kolaborativním filtrování, filtračních bublinách, spravedlnosti a A/B testech. Víš o tom víc než většina dospělých. A teď přichází ta zábavná část: postavíš si vlastní doporučovací systém.

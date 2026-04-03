@@ -3,6 +3,7 @@ id: ch6-dopamine
 topic: etika
 title: Dopaminové spojení
 teaser: Tvůj mozek má chemický systém odměn. Doporučovací algoritmy se naučily, jak ho ovládnout.
+hook: Ovládají tě algoritmy?
 ---
 
 Dopamin se neuvolní, když odměnu DOSTANEŠ — uvolní se, když ji OČEKÁVÁŠ. Nejistota „bude to další video úžasné?" spouští největší nával dopaminu. Přesně takto fungují doporučovací feedy — nikdy nevíš, co přijde dál.

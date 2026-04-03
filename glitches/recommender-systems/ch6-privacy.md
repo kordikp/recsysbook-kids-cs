@@ -3,6 +3,7 @@ id: ch6-privacy
 topic: etika
 title: Tvá data — co o tobě skutečně vědí
 teaser: Přeskočme vágní varování a pojďme na to konkrétně. Co o tobě aplikace vědí?
+hook: Víš, co o tobě vědí?
 ---
 
 YouTube ví: každé video, které jsi sledoval, jak dlouho, co jsi hledal, jaké zařízení používáš, tvoji přibližnou polohu. TikTok ví: každé přeskočené video a jak rychle, videa přehraná znovu, tvůj obličej z videí, které jsi zveřejnil.

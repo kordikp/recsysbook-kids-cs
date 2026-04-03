@@ -3,6 +3,7 @@ id: ch4-ab-test
 topic: lepsi
 title: Spusť si vlastní A/B test
 teaser: Experiment s hudební aplikací — která strategie doporučení zvítězí?
+hook: Zkus to zjistit →
 ---
 
 Jsi hlavní inženýr v hudební aplikaci TuneUp. Strategie A: ukaž všem 30 nejpřehrávanějších písniček týdne. Strategie B: analyzuj poslechovou historii každého člověka a doporuč písničky, které lidé s podobným vkusem milovali, ale tento člověk ještě neslyšel.

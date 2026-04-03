@@ -3,6 +3,7 @@ id: ch2-track
 topic: jakSeUci
 title: Co vlastně sledují?
 teaser: Úplný seznam stop, které za sebou zanecháváš. Některé tě překvapí.
+hook: Budeš překvapený →
 ---
 
 Kliknutí a lajky jsou jen začátek. Systém sleduje i to, jak dlouho se díváš na každé video — 10 sekund nebo celé? Přehrál sis video znovu? Přeskočil sis intro? Dokonce i samotné najetí myší na náhled bez kliknutí mu něco říká.

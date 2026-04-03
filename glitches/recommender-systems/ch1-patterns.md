@@ -3,6 +3,7 @@ id: ch1-patterns
 topic: coJsou
 title: Vzory jsou všude
 teaser: Od diamantů v Minecraftu po předpověď počasí — vzory vládnou světu.
+hook: Vidíš vzory všude?
 ---
 
 Doporučovací systémy hledají vzory ve tvém chování. Hledání vzorů je přitom jedna z nejvýkonnějších myšlenek v celé vědě. Červené nebe večer znamená dobré počasí — námořníci to věděli po staletí. Diamanty v Minecraftu se nejčastěji vyskytují mezi vrstvami 5 a 12. Jak to lidi vědí? Vyryli tisíce bloků a vzor našli.

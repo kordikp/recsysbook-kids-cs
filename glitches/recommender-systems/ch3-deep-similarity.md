@@ -3,6 +3,7 @@ id: ch3-deep-similarity
 topic: zpusoby
 title: Jak počítače chápou podobnost
 teaser: Rocková a jazzová písnička mohou znít podobně. Jak se to počítač naučí cítit?
+hook: Počítač cítí hudbu?!
 ---
 
 Starší systémy používaly štítky: „Oba filmy mají tag Akce, takže jsou podobné." Problém? Dva filmy označené jako komedie mohou být úplně jiné.

@@ -3,6 +3,7 @@ id: vc5-tools-overview
 topic: nastrojePro
 title: Přehled nástrojů pro vibecoding
 teaser: Lovable, Bolt, v0, Cursor, Replit — jaký je mezi nimi rozdíl?
+hook: Který nástroj je nejlepší?
 ---
 
 Vibecoding nástrojů je dnes spousta. Jak se v nich vyznat? Každý je trochu jiný — jako různé druhy sportů. Tady je rychlý přehled.

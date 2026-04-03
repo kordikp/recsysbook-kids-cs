@@ -3,6 +3,7 @@ id: ch2-myth
 topic: jakSeUci
 title: Mýty pod lupou
 teaser: Poslouchá opravdu tvůj telefon tvoje rozhovory? Pojďme rozbít mýty.
+hook: Opravdu tě poslouchá?
 ---
 
 Mýtus č. 1: „Můj telefon odposlouchává rozhovory." Ne! Algoritmy předpovídají z tvých kliknutí tak dobře, že to vypadá jako odposlech — ale není. Navíc by neustálé nahrávání zvuku vybilo baterii za pár hodin.

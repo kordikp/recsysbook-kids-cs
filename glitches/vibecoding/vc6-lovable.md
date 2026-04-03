@@ -3,6 +3,7 @@ id: vc6-lovable
 topic: nastrojePro
 title: Lovable — stavíš aplikace jako stavebnici
 teaser: Jeden z nejpopulárnějších vibecoding nástrojů na světě.
+hook: Chceš to vyzkoušet?
 ---
 
 Lovable je jeden z nejznámějších vibecoding nástrojů. Původní název byl GPT Engineer — vytvořili ho vývojáři ze Stockholmu.

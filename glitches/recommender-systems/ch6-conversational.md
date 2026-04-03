@@ -3,6 +3,7 @@ id: ch6-conversational
 topic: etika
 title: Mluvit se svým doporučovačem
 teaser: Co kdybys místo scrollování mohl jednoduše POŽÁDAT o to, co chceš?
+hook: A co to vlastně je?
 ---
 
 Představ si: místo scrollování Netflixem prostě řekneš: „Chci něco vtipného, ale ne moc pitomého, asi 90 minut, co si pustím s rodiči." To je konverzační doporučování — a stává se skutečností.

@@ -3,6 +3,7 @@ id: ch3-popular
 topic: zpusoby
 title: Co je teď populární?
 teaser: Nejjednodušší doporučení ze všech — ukáž každému, co je trending.
+hook: Proč to funguje?
 ---
 
 Nejjednodušší přístup: ukaž každému, co má nejvíce zhlédnutí. TikTok Discover, YouTube Trending, Spotify Charts, App Store Top žebříčky. Žádné párování uživatelů, žádná analýza obsahu — jen seřaď podle počtu zhlédnutí.

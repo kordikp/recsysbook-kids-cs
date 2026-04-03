@@ -3,6 +3,7 @@ id: ch1-wrong-sidebar
 topic: coJsou
 title: Když doporučení zkolabují
 teaser: Jedno video o slizu a najednou jsi navždy expert na sliz.
+hook: Jenže jak to možné?
 ---
 
 Doporučovací systémy jsou chytré, ale ne TAK chytré. Sleduješ JEDNO video o tom, jak se vyrábí sliz — a najednou je celý tvůj YouTube plný slizu. Tutoriály, ASMR, slizové katastrofy. A TY ANI SLIZ NEMÁŠ RÁD.

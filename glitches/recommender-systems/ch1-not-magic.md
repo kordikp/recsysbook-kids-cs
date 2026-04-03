@@ -3,6 +3,7 @@ id: ch1-not-magic
 topic: coJsou
 title: Není to magie – jsou to vzory
 teaser: Doporučovací systémy jsou jako detektivové. Hledají stopy ve tvých kliknutích.
+hook: Ale jak to funguje?
 ---
 
 Sledoval jsi 10 videí s kočkami za sebou? Systém si to zapsal. Přeskočil jsi každé sportovní video? Zapsáno. Systém hledá vzory.

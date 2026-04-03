@@ -3,6 +3,7 @@ id: ch6-hard-questions
 topic: etika
 title: Otázky, na které ještě nikdo neodpověděl
 teaser: Ani světoví odborníci se na těchto věcech neshodnou. Tvůj názor je stejně platný jako jejich.
+hook: Co si myslíš ty?
 ---
 
 Mají být doporučovací systémy povinny ukazovat ti obsah, se kterým NESOUHLASÍŠ? Na jedné straně — jen souhlasný obsah vytváří ozvěnové komory. Na druhé — chceš, aby ti algoritmus servíroval protichůdné pohledy, když se chceš uvolnit?

@@ -3,6 +3,7 @@ id: vc16-prompting-tips
 topic: nastrojePro
 title: Jak psát dobré prompty
 teaser: Špatný prompt = frustrující výsledek. Dobrý prompt = magie.
+hook: Jak psát správně?
 ---
 
 Vibecoding je z velké části o tom, jak prompty psát. Špatně napsaný prompt = AI dělá co chce, ne co chceš ty.

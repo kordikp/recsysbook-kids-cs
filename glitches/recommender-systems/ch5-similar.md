@@ -3,6 +3,7 @@ id: ch5-similar
 topic: postav
 title: Krok 2 — Najdi podobné lidi
 teaser: Kdo má stejný vkus? Najdi svoje filmové dvojníky.
+hook: Kdo je tvůj filmový dvojník?
 ---
 
 Alex a Sam — oba dali Frozenu 5 hvězdiček, Spider-Manovi 3, Moaně a Encantu podobné. Průměrný rozdíl hodnocení: 0,5. Velmi podobní!

@@ -3,6 +3,7 @@ id: ch3-two-tower
 topic: zpusoby
 title: Architektura dvou věží
 teaser: Jak moderní systémy párují uživatele a položky bleskovou rychlostí.
+hook: Ale jak to funguje?
 ---
 
 Architektura dvou věží je populární design na YouTube, Instagramu i TikToku. Věž uživatelů: neuronová síť vezme vše o tobě a vytvoří jeden embedding. Věž položek: druhá síť vezme vše o videu a vytvoří embedding stejné velikosti. Jsou-li tvůj vektor a vektor videa blízko — systém předpovídá, že se ti bude líbit.

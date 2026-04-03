@@ -3,6 +3,7 @@ id: ch3-content
 topic: zpusoby
 title: Podívej se na věc samotnou
 teaser: Zapomeň na ostatní lidi. Co kdybychom se podívali přímo na to, co daná věc vlastně je?
+hook: A co to vlastně je?
 ---
 
 Kolaborativní filtrování má problém: co se stane, když vyjde něco úplně nového? Video nahráno před pěti minutami nemá žádná hodnocení. Systém je zaseknutý — nemůže doporučit něco, co nikdo ještě nevyzkoušel.

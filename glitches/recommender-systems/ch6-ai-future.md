@@ -3,6 +3,7 @@ id: ch6-ai-future
 topic: etika
 title: Budoucnost je tvá k utváření
 teaser: Lidé, kteří vytvářeli dnešní algoritmy, s nimi nevyrůstali. Ty ano. To ti dává výhodu.
+hook: Budeš ten, kdo ho změní?
 ---
 
 Inženýři z YouTube, TikToku, Spotify dostali první smartphone na vysoké škole. Hudbu objevovali z rádia a od kamarádů. Nekonečné scrollování jako teenager nezažili.

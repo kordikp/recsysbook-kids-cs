@@ -3,6 +3,7 @@ id: ch3-friends
 topic: zpusoby
 title: Zeptej se přátel
 teaser: Co kdybys mohl dostat tipy od milionu lidí, kteří mají úplně stejný vkus jako ty?
+hook: Chceš vědět jak?
 ---
 
 Jak obvykle přicházíš na nové věci ke sledování? Většina lidí se zeptá kamaráda. A když má ten kamarád skvělý vkus — pokaždé ti doporučí věci, které pak miluješ — věříš mu příště ještě víc.

@@ -3,6 +3,7 @@ id: vc11-macaly-edit-mode
 topic: macaly
 title: Edit Mode — klikni a změň
 teaser: Nechceš psát prompt? Prostě klikni na co chceš změnit.
+hook: Tak jak na to?
 ---
 
 Normální vibecoding: vidíš aplikaci, chceš změnit tlačítko → napíšeš do chatu „Změň tlačítko na červenou" → AI to provede.

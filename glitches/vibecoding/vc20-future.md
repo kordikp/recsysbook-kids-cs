@@ -3,6 +3,7 @@ id: vc20-future
 topic: coJeVibecoding
 title: Budoucnost vibecoding
 teaser: Toto není trend — je to změna způsobu, jak lidstvo tvoří software.
+hook: Budeš u toho?
 ---
 
 Vibecoding není jen módní vlna. Je to fundamentální změna v tom, kdo může tvořit software.

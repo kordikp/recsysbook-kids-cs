@@ -3,6 +3,7 @@ id: vc10-macaly-first-project
 topic: macaly
 title: Tvůj první projekt v Macaly
 teaser: Krok za krokem: od nápadu k funkční aplikaci za 15 minut.
+hook: Zvládneš to za 15 minut?
 ---
 
 Pojďme na to. Tady je postup pro první projekt v Macaly.

@@ -3,6 +3,7 @@ id: ch4-echo-chamber
 topic: lepsi
 title: Ozvěnové komory — když se bubliny stanou vážným problémem
 teaser: Co se stane, když filtrační bubliny ovlivní to, jak vidíme svět?
+hook: Co se potom stane?
 ---
 
 Filtrační bubliny s videi jsou jedna věc. Ale co se stane, když nastane totéž s novinkami a názory?

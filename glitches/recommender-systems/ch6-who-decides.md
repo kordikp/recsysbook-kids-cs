@@ -3,6 +3,7 @@ id: ch6-who-decides
 topic: etika
 title: Kdo rozhoduje o tom, co vidíš?
 teaser: Když otevřeš TikTok, kdo vybral, co máš na obrazovce? Ne ty. Ne tvoji rodiče. Ani žádný člověk.
+hook: Kdo to vlastně řídí?
 ---
 
 Otevřeš TikTok. Podívej se na prvních pět věcí na obrazovce. Vybral jsi je? Ne. Vybrali tvoji rodiče? Ne. Vybral je člověk sedící v kanceláři? Taky ne. Rozhodl algoritmus.

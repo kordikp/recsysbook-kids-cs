@@ -3,6 +3,7 @@ id: vc13-macaly-memory
 topic: macaly
 title: Agent Memory — AI, která si pamatuje
 teaser: Nemusíš pokaždé vysvětlovat kdo jsi a co děláš. Macaly si to pamatuje.
+hook: AI, co si pamatuje vše?
 ---
 
 Velký problém s AI: Normálně si nepamatuje nic z minulé konverzace. Každý nový chat začínáš od nuly. „Jsem student, dělám aplikaci pro sledování úkolů, preferuji tmavý design..."

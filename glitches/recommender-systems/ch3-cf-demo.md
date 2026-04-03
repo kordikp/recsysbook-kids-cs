@@ -3,6 +3,7 @@ id: ch3-cf-demo
 topic: zpusoby
 title: Kolaborativní filtrování v akci
 teaser: Tabulka, která přesně ukazuje, jak systém najde tvoje vkusové dvojníky.
+hook: Ale jak to funguje?
 ---
 
 Šest dětí, pět filmů. Ty jsi sledoval Spider-Verse, Encanto, Mitchellovy a Červenou — a všechny miluješ. Maya a Leo souhlasí se VŠÍM. Jsou tvoji dokonalí vkusoví dvojníci.

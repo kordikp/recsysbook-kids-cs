@@ -3,6 +3,7 @@ id: ch4-objectives
 topic: lepsi
 title: O co se algoritmus vlastně snaží?
 teaser: Každý doporučovač optimalizuje NĚCO. Otázka je — čí cíle sleduje?
+hook: Čí zájmy sleduje?
 ---
 
 Každý doporučovací algoritmus má cíl — číslo, které se snaží maximalizovat. Stejná filmová aplikace se třemi různými cíli dá úplně jiná doporučení: maximalizovat sledovanou dobu (udrží tě u sledování), maximalizovat nákupy (nabídne drahé novinky), nebo maximalizovat spokojenost (hledá, co opravdu oceníš).

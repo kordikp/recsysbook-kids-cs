@@ -3,6 +3,7 @@ id: ch5-spreadsheet
 topic: postav
 title: Postav to v tabulce
 teaser: Google Sheets jako tvůj první doporučovací engine — s barevnými vzorci.
+hook: Postavíš to dnes?
 ---
 
 Otevři Google Sheets. Buňka A1: „Jméno". B1 až K1: názvy filmů. Řádky 2 a dál: jména lidí s hodnoceními 1–5. Prázdná buňka = neviděl.

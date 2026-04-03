@@ -3,6 +3,7 @@ id: ch6-take-control
 topic: etika
 title: Převezmi kontrolu — tvůj digitální toolkit
 teaser: Praktické věci, které můžeš udělat HNED TEĎ, abys byl pánem svého algoritmu.
+hook: Převezmou kontrolu sami?
 ---
 
 Nastav si skutečné časové limity — ne „skončím, až toto video dohraje" (neskončíš). Použij iPhone Čas u obrazovky nebo Android Digitální pohoda. Tvrdá zarážka tě nutí se skutečně rozhodnout, ne jen unášet.

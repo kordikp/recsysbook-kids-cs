@@ -3,6 +3,7 @@ id: ch5-career
 topic: postav
 title: Inženýr doporučení — skutečná práce
 teaser: Lidé staví doporučovací systémy pro živobytí. A je to skvělá kariéra.
+hook: Dá se tím živit?
 ---
 
 Inženýři doporučení (ML inženýři, datoví vědci) na YouTube, Spotify, Netflixu nebo v českém Recombee tráví dny navrhováním algoritmů, prováděním A/B testů, analýzou dat a laděním systémů — aby lidem pomáhali nacházet nový obsah, ne je zavírali do bublin.

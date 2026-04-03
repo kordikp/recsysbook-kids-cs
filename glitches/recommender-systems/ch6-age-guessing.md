@@ -3,6 +3,7 @@ id: ch6-age-guessing
 topic: etika
 title: Dokáže algoritmus odhadnout tvůj věk?
 teaser: I když jsi mu nikdy neřekl, kolik ti je, algoritmus to pravděpodobně ví.
+hook: Ví víc, než myslíš?
 ---
 
 Nikdy jsi do aplikace nezadal datum narození. Takže tvůj věk nezná, že? Téměř jistě zná — s přesností přibližně 3–5 let, jen ze sledovacího chování.

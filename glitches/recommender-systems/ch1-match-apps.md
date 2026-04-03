@@ -3,6 +3,7 @@ id: ch1-match-apps
 topic: coJsou
 title: Který model pohání tvou oblíbenou aplikaci?
 teaser: Otevři si oblíbené aplikace a zjisti, který doporučovací model v zákulisí řídí show!
+hook: Uhádneš správný model?
 ---
 
 Každá aplikace má tajný recept. TikTok? Algoritmus vybírá za tebe vše na stránce „Pro tebe" — model D, na základě AI. Reddit? Přidal sis subreddity sám — model C, na základě zájmů. Discord? Vidíš jen obsah serverů, ke kterým ses připojil — model E, na základě skupin.

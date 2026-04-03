@@ -3,6 +3,7 @@ id: ch1-everywhere
 topic: coJsou
 title: Doporučení jsou všude
 teaser: Jakmile začneš hledat, přestaneš je přehlížet.
+hook: Vidíš je teď všude?
 ---
 
 Sloupec videí napravo na YouTube? Autoplay po skončení videa? Stránka „Pro tebe" na TikToku? Discover Weekly na Spotify? Všechno jsou doporučení.

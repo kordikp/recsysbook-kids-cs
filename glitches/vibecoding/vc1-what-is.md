@@ -3,6 +3,7 @@ id: vc1-what-is
 topic: coJeVibecoding
 title: Co je vibecoding?
 teaser: Programování bez znalosti kódu? Zní to divně, ale funguje to.
+hook: A co to vlastně je?
 ---
 
 Představ si, že chceš postavit dům. Normálně bys musel umět zedničinu, elektrikařinu, instalatérství... Nebo najmeš architekta a řemeslníky. Vibecoding je jako mít architekta, který rozumí VŠEMU — a ty mu jen řekneš, co chceš.

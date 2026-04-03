@@ -3,6 +3,7 @@ id: ch3-pipeline
 topic: zpusoby
 title: Doporučovací pipeline
 teaser: Skutečné systémy nepoužívají jen jednu metodu. Používají VŠECHNY, ve třech chytrých krocích.
+hook: Jaké jsou ty kroky?
 ---
 
 Skutečné systémy si nevybírají jednu metodu — používají všechno ve specifickém pořadí.

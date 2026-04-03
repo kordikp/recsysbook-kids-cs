@@ -3,6 +3,7 @@ id: vc12-macaly-global-styles
 topic: macaly
 title: Global Styles — jeden styl pro celou aplikaci
 teaser: Změníš barvu jednou — změní se všude. Magie konzistentního designu.
+hook: Jak to funguje?
 ---
 
 Problém bez Global Styles: chceš změnit modrou barvu na zelenou. Ale modrá je na 15 místech v aplikaci. Musíš to říct 15krát? Ne.

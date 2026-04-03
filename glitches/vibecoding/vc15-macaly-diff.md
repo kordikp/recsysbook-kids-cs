@@ -3,6 +3,7 @@ id: vc15-macaly-diff
 topic: macaly
 title: Diff Mode — vidíš co se změnilo
 teaser: Než AI změnu potvrdí, ukáže ti přesně co přidala a co odebrala.
+hook: Vidíš, co AI změnila?
 ---
 
 Jsi v Macaly a požádáš AI: „Přepracuj celou navigaci." AI provede změny. Ale... jak víš, že nezkazila něco, co fungovalo? Jak víš, co přesně změnila?

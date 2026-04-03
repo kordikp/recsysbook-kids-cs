@@ -3,6 +3,7 @@ id: ch2-interactions
 topic: jakSeUci
 title: Explicitní vs. implicitní zpětná vazba
 teaser: Hvězdičková hodnocení vs. doba sledování — proč systémy věří víc tomu, co DĚLÁŠ, než tomu, co ŘÍKÁŠ.
+hook: Proč to funguje?
 ---
 
 Když dáš filmu 4 hvězdičky, říkáš systému svůj názor — to je explicitní zpětná vazba. Když koukáš na seriál do tří ráno, systém sleduje, co děláš — implicitní zpětná vazba.

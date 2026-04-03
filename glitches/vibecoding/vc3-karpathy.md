@@ -3,6 +3,7 @@ id: vc3-karpathy
 topic: coJeVibecoding
 title: Andrej Karpathy a zrod vibecoding
 teaser: Jeden tweet od AI génia změnil svět programování.
+hook: Jeden tweet změnil vše?
 ---
 
 Únor 2025. Andrej Karpathy — výzkumník z OpenAI a dříve šéf AI v Tesle — zveřejnil tweet, který odstartoval revoluci.

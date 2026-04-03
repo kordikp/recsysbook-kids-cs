@@ -3,6 +3,7 @@ id: ch3-matrix-factorization
 topic: zpusoby
 title: Maticová faktorizace — metoda Netflixu
 teaser: Jak Netflix zkomprimoval miliony hodnocení do skrytých dimenzí vkusu.
+hook: Skryté dimenze vkusu?!
 ---
 
 Netflix má 230 milionů uživatelů a 15 000 filmů. Tabulka hodnocení by měla 3,4 bilionu buněk — a 99 % by bylo prázdných.

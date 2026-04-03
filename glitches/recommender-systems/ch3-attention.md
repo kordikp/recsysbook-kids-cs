@@ -3,6 +3,7 @@ id: ch3-attention
 topic: zpusoby
 title: Self-attention — ne každý klik je stejně důležitý
 teaser: Proč film, co jsi sledoval včera, je důležitější než ten z před 3 měsíců.
+hook: Jenže jak to možné?
 ---
 
 Za poslední rok jsi zhlédl 500 videí. Má YouTube zacházet se všemi stejně? Samozřejmě ne — kuchařská show z před 3 měsíců je mnohem méně relevantní než sci-fi film, co jsi sledoval včera.

@@ -3,6 +3,7 @@ id: ch6-adtech
 topic: etika
 title: Doporučení vs. reklamy — poznej rozdíl
 teaser: Ta reklama na boty, která tě všude sleduje, NENÍ doporučovací systém.
+hook: Poznáš ten rozdíl?
 ---
 
 Podíval ses na tenisky na jednom webu. Teď tě reklamy na tenisky sledují všude — na Instagramu, YouTube, zpravodajských webech. Je to doporučovací systém? Ne. Je to adtech (reklamní technologie).

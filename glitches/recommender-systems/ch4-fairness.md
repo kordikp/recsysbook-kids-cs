@@ -3,6 +3,7 @@ id: ch4-fairness
 topic: lepsi
 title: Je to spravedlivé?
 teaser: Populární tvůrci jsou stále populárnější. Noví tvůrci zůstávají neviditelní.
+hook: Je to vůbec spravedlivé?
 ---
 
 Představ si školní talentovou show, kde děti z minulého roku vystupují první, na největším pódiu. Nové děti hrají v malé místnosti vzadu. Populární jsou povzbuzovány — a tím ještě populárnější. Nové nikdy nedostanou šanci.

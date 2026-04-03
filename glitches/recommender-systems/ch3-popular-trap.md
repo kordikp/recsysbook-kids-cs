@@ -3,6 +3,7 @@ id: ch3-popular-trap
 topic: zpusoby
 title: Past popularity
 teaser: Když populární věci jsou populárnější jen proto, že jsou populární.
+hook: Jak z toho ven?
 ---
 
 Video se stane populárním → dostane se na trending → miliony dalších lidí ho uvidí → ještě populárnější → zůstane v trendingu → opakuj. Mezitím nový tvůrce nahraje skvělé video, ale nikdo ho nevidí, protože není v trendingu.

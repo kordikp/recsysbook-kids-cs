@@ -3,6 +3,7 @@ id: ch5-seo
 topic: postav
 title: SEO pro věk algoritmů
 teaser: Vyhledávače a doporučovací systémy se slévají. Tady je návod, jak tě najdou oba.
+hook: Chceš být doporučený?
 ---
 
 Staré SEO (2010): cpej klíčová slova, získej co nejvíc odkazů, obelsti algoritmus. Nové SEO (2020+): piš přirozeně, zaměř se na témata, získej skutečné zapojení, pomáhej algoritmu pochopit tvůj obsah.

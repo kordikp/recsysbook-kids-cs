@@ -3,6 +3,7 @@ id: ch3-compare
 topic: zpusoby
 title: Přátelé vs. věci — která metoda vyhraje?
 teaser: Kolaborativní filtrování, nebo filtrování podle obsahu? Každé má své silné stránky.
+hook: Která metoda vyhraje?
 ---
 
 Kolaborativní filtrování (metoda přátel) dokáže tě překvapit — doporučí něco, co bys sám nikdy nehledal, protože lidé s tvým hudebním vkusem ho milují. Ale selhává u nových položek a niche zájmů.

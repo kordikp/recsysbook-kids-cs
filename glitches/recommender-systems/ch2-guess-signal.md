@@ -3,6 +3,7 @@ id: ch2-guess-signal
 topic: jakSeUci
 title: Silný signál nebo slabý signál?
 teaser: Ne každé kliknutí je stejné. Poznáš, které opravdu záleží?
+hook: Poznáš to na první pohled?
 ---
 
 Kliknutí, přeskočení, vyhledávání, sdílení — všechno jsou to signály pro algoritmus. Ale mají různou váhu.

@@ -3,6 +3,7 @@ id: vc8-cursor
 topic: nastrojePro
 title: Cursor — AI editor pro budoucí profíky
 teaser: Jako VS Code, ale AI ti píše kód přímo do editoru.
+hook: AI píše kód za tebe?
 ---
 
 Cursor je jiný typ nástroje. Není to „napiš zadání a dostaneš aplikaci." Je to textový editor (jako Word, ale pro kód), do kterého je vestavěná AI.

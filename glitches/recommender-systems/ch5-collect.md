@@ -3,6 +3,7 @@ id: ch5-collect
 topic: postav
 title: Krok 1 — Sbírej data
 teaser: Proveď průzkum mezi kamarády, postav hodnotící mřížku a sleduj, jak se vynoří vzorce.
+hook: Tak jak na to?
 ---
 
 Vyber 10 filmů, které většina lidí zná. Promíchej žánry: Frozen, Spider-Verse, Moana, Encanto, Duna... Najdi 10 lidí a každého se zeptej: „Ohodnoť každý film od 1 do 5 hvězdiček. Pokud jsi ho neviděl, nech to prázdné."

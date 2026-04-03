@@ -3,6 +3,7 @@ id: ch3-speed
 topic: zpusoby
 title: Čísla, která ti vezmou dech!
 teaser: 800 milionů videí. 0,2 sekundy. Čísla za YouTube doporučeními jsou naprosto šílená.
+hook: Ta čísla tě dostanou →
 ---
 
 YouTube má 800 milionů videí. Celý pipeline — projít kandidáty, seřadit, zkontrolovat — musí proběhnout za méně než 200 milisekund. To je rychleji, než mrkneš (mrknutí trvá 300–400 ms).

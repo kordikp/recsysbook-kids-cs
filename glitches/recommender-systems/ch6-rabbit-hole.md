@@ -3,6 +3,7 @@ id: ch6-rabbit-hole
 topic: etika
 title: Efekt králičí nory
 teaser: Hledal sis triky s kartami. O dvacet minut později sleduješ videa o konspiracích. Jak se TO stalo?
+hook: Jak ses tam dostal?
 ---
 
 Hledáš „cool triky s kartami." Pak záběry z kouzelných představení. Pak „neuvěřitelné iluze VYSVĚTLENY." Pak „věci, které ti nechtějí říct." Pak konspirační videa.

@@ -3,6 +3,7 @@ id: ch4-experiment
 topic: lepsi
 title: Vyzkoušej to hned teď!
 teaser: Pětiminutový experiment, který dokazuje, že TY můžeš ovládat algoritmus.
+hook: Zvládneš to za 5 minut?
 ---
 
 Otevři YouTube a pořiď screenshot úvodní stránky. To je tvůj obrázek „před." Zápiš 5 hlavních kategorií videí.

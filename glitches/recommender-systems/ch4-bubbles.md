@@ -3,6 +3,7 @@ id: ch4-bubbles
 topic: lepsi
 title: Uvězněni v bublině
 teaser: Když jsou doporučení TAK dobrá, vidíš jen věci, které už máš rád.
+hook: Jsi uvězněný v bublině?
 ---
 
 Koukneš se na jedno Minecraft video. Algoritmus si řekne: „Aha, tohle ho baví!" Ukáže ti další. Kouknout na ta (jsou tu hned před tebou!). Brzy je celý feed plný Minecraftu. Nikdy neuvidíš ten skvělý vědecký kanál, o kterém všichni mluví.

@@ -3,6 +3,7 @@ id: ch6-check-data
 topic: etika
 title: Zkontroluj si to sám!
 teaser: Jak skutečně VIDĚT, jaká data o tobě aplikace nasbíraly. Většina lidí zůstane v šoku.
+hook: Zkus to zjistit →
 ---
 
 YouTube / Google: přejdi na myactivity.google.com. Klikni na „Historie YouTube." Scrolluj. Pokračuj. To jsou každé jednotlivé video a vyhledávání. Někteří lidé tu najdou ROKY historie.

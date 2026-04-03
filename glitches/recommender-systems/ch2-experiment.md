@@ -3,6 +3,7 @@ id: ch2-experiment
 topic: jakSeUci
 title: Velký experiment s algoritmem
 teaser: Smaž historii, natrénuj algoritmus od nuly a sleduj, jak rychle se učí.
+hook: Zkus to zjistit →
 ---
 
 Vyčisti historii YouTube. Podívej se na domovskou stránku — vidíš obecná populární videa. Teď záměrně sleduj 5 vesmírných videí celá. Den 2: otevři YouTube bez vyhledávání. Kolik z prvních 10 doporučení je o vesmíru?

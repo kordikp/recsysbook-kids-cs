@@ -3,6 +3,7 @@ id: ch3-spot-method
 topic: zpusoby
 title: Poznej metodu!
 teaser: Kolaborativní filtrování, filtrování podle obsahu, nebo popularita? Dokážeš je rozeznat?
+hook: Dáš to na první pokus?
 ---
 
 Tři hlavní metody doporučování: KF (kolaborativní filtrování — na základě vkusu podobných lidí), FO (filtrování podle obsahu — na základě vlastností položky), POP (popularita — na základě trendů).

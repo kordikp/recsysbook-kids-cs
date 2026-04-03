@@ -3,6 +3,7 @@ id: ch1-three-jobs
 topic: coJsou
 title: Tři úkoly doporučovače
 teaser: Objevovat, nacházet a udržovat zájem – to je jeho práce.
+hook: A co to vlastně je?
 ---
 
 Každý doporučovací systém na světě má tři hlavní úkoly — ať je to YouTube, Spotify nebo Netflix.

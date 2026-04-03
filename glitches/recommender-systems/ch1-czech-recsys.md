@@ -3,6 +3,7 @@ id: ch1-czech-recsys
 topic: coJsou
 title: Doporučování v Česku
 teaser: Seznam, Prima+, mujRozhlas, Glami — české firmy, které denně používají doporučovací systémy.
+hook: A znáš je všechny?
 ---
 
 Doporučovací systémy nejsou jen věc Silicon Valley. Používají je i české firmy, které znáš z každodenního života.

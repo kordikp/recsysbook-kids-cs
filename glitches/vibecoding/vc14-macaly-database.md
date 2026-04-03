@@ -3,6 +3,7 @@ id: vc14-macaly-database
 topic: macaly
 title: Vestavěná databáze — aplikace, která si pamatuje data
 teaser: Chceš ukládat uživatele, záznamy, skóre? Macaly má databázi zabudovanou.
+hook: A co to vlastně je?
 ---
 
 Aplikace bez databáze je jako zápisník, který zmizí po zavření záložky. Data se nezachovají.

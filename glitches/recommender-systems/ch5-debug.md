@@ -3,6 +3,7 @@ id: ch5-debug
 topic: postav
 title: Výzva — Hledej chybu!
 teaser: Tvoje předpověď byla špatná. Dokážeš přijít na to, proč?
+hook: Najdeš chybu sám?
 ---
 
 Tvůj systém předpověděl: Sam ohodnotí Frozen 4 z 5 hvězdiček. Ale Sam ho skutečně zhlédl — a dal 2 hvězdičky. Sakra. PROČ se systém mýlil?

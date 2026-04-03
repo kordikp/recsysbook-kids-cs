@@ -3,6 +3,7 @@ id: ch5-code
 topic: postav
 title: Nakóduj to!
 teaser: Jednoduchý Python skript, který dělá vše, co ses naučil — ve 20 řádcích.
+hook: Zkus to zjistit →
 ---
 
 Python skript na kolaborativní filtrování. Nejprve ulož data jako ratings.csv: jméno v prvním sloupci, hodnocení filmů v dalších. Prázdná buňka = neviděl.

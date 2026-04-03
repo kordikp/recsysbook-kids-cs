@@ -3,6 +3,7 @@ id: ch4-unfair-game
 topic: lepsi
 title: Nespravedlivá třída
 teaser: Co se stane, když jsou vyvoláváni jen hlasití žáci? To samé, co se děje s populárními videi.
+hook: Hraje algoritmus fér?
 ---
 
 Učitel vyvolá Majku — skvělá odpověď. Druhý den ji vyvolá znovu. Do pátku ji volá téměř pokaždé. Mezitím Kuba nezvedl ruku v pondělí a postupně přestal zkoušet. Majka je slyšena, protože byla slyšena dřív. Kuba mlčí, protože mlčel dřív.

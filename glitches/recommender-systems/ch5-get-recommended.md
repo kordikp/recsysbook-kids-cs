@@ -3,6 +3,7 @@ id: ch5-get-recommended
 topic: postav
 title: Jak dostat SVŮJ obsah do doporučení
 teaser: Víš, jak algoritmy vybírají obsah. Teď to otoč — jak přiměješ algoritmus vybrat TVŮJ obsah?
+hook: Chceš vědět jak?
 ---
 
 Každý doporučovací systém dbá na míru zapojení víc než na počet zhlédnutí. Video, které 100 lidí dosleduje do konce, poráží video, na které 1 000 lidí klikne a okamžitě odejde. Sledovaná doba, míra dokončení, akce po zhlédnutí — to jsou klíčové signály.

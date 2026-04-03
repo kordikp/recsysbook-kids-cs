@@ -3,6 +3,7 @@ id: ch6-addictive
 topic: etika
 title: Navrženo tak, aby tě udrželo u sledování
 teaser: Nekonečné scrollování. Autoplay. Ještě jedno. To nejsou náhody — jsou to záměrná rozhodnutí.
+hook: Jsi závislý na algoritmu?
 ---
 
 Jmenuj jednu populární aplikaci, která má přirozený bod zastavení. Těžké, že? Nekonečné scrollování — vždy je další obsah. Autoplay — další video se spustí dřív, než se rozhodneš, jestli ho chceš. Doporučení „ještě jedno" se objeví v okamžiku, kdy skončí to aktuální.

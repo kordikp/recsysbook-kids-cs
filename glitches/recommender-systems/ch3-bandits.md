@@ -3,6 +3,7 @@ id: ch3-bandits
 topic: zpusoby
 title: Dilema průzkum vs. využití
 teaser: Má algoritmus ukázat něco, o čem VÍ, že se ti líbí, nebo zkusit něco nového?
+hook: Jak by ses rozhodl ty?
 ---
 
 Jsi na food courtu s 20 restauracemi. Vyzkoušel sis 3 a jednu miluješ. Vrátíš se do oblíbené (bezpečná sázka), nebo zkusíš nové místo? Tohle dilema průzkumu vs. využití řeší každý doporučovací systém neustále.

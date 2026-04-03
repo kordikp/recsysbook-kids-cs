@@ -3,6 +3,7 @@ id: vc7-bolt
 topic: nastrojePro
 title: Bolt — vibecoding přímo v prohlížeči
 teaser: Žádná instalace, žádné nastavení — otevřeš prohlížeč a stavíš.
+hook: Stavíš přímo v prohlížeči?
 ---
 
 Bolt.new je nástroj od firmy StackBlitz. Jeho hlavní výhoda? Vše běží přímo v prohlížeči. Žádná instalace, žádné nastavení.

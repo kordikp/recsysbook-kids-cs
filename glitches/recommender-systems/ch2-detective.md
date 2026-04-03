@@ -3,6 +3,7 @@ id: ch2-detective
 topic: jakSeUci
 title: Buď datový detektiv
 teaser: Vem si telefon a prozkoumej svůj algoritmus — přistihneš ho při učení!
+hook: Přistihneš svůj algoritmus?
 ---
 
 Otevři YouTube. Podívej se na prvních 10 doporučení. Kolik z nich je o tématech, která jsi nedávno sledoval? Pravděpodobně většina — algoritmus ti ukazuje zrcadlo tvého minulého chování.

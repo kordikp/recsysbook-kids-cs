@@ -3,6 +3,7 @@ id: ch2-cold-start
 topic: jakSeUci
 title: Problém studeného startu
 teaser: Nový účet, nula indicií — co teď?
+hook: Tak jak na to?
 ---
 
 Vytvořil sis někdy nový účet a doporučení byla divná, obecná, nudná? To je problém studeného startu. Systém o tobě nemá žádné indicie — takže ukazuje populární věci, co ukazuje všem.

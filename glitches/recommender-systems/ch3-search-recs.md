@@ -3,6 +3,7 @@ id: ch3-search-recs
 topic: zpusoby
 title: Vyhledávání a doporučování — dvě strany téže mince
 teaser: Výsledky vyhledávání nejsou stejné pro každého — jsou to doporučení v přestrojení.
+hook: Vyhledáváš, nebo tě řídí?
 ---
 
 Napíšeš „boty" v internetovém obchodě. Vidíš ty a tvůj kamarád stejné výsledky? Asi ne. Ty jsi minulý měsíc koupil běžecké boty — obchod ti ukáže nejdřív běžecké vybavení. Kamarád koupil společenské — vidí formální možnosti.

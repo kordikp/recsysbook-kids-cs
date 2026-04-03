@@ -3,6 +3,7 @@ id: ch4-testing
 topic: lepsi
 title: Testování, testování, 1-2-3
 teaser: Jak zjistíš, jestli doporučovací systém skutečně funguje? Vědou!
+hook: Jak to změříš?
 ---
 
 Postavil sis doporučovací systém. MYSLÍŠ, že je dobrý. Ale jak to VÍŠ? Potřebuješ A/B test.

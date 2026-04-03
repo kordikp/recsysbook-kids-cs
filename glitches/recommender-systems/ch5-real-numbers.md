@@ -3,6 +3,7 @@ id: ch5-real-numbers
 topic: postav
 title: Skutečná čísla ze světa
 teaser: Tvůj doporučovač pro 5 kamarádů je roztomilý. Skutečné systémy pracují s čísly, která se sotva vejdou na stránku.
+hook: Čísla, co ti vezmou dech →
 ---
 
 Stavíš mini systém — 5 kamarádů, 6 filmů, 30 buněk. Netflix má 230 milionů uživatelů a 15 000 filmů: 3,4 BILIONU možných kombinací.

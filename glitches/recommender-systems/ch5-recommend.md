@@ -3,6 +3,7 @@ id: ch5-recommend
 topic: postav
 title: Krok 3 — Vytvoř předpovědi
 teaser: Použij podobné uživatele k předpovídání hodnocení a vytvoř skutečná doporučení.
+hook: Tak jak na to?
 ---
 
 Pro každou prázdnou buňku v matici (film, který někdo neviděl): najdi 2–3 nejpodobnější lidi, kteří ten film hodnotili, podívej se na jejich hodnocení, vypočítej průměr. Tento průměr je tvoje předpovězené hodnocení.

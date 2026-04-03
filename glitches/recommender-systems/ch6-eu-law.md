@@ -3,6 +3,7 @@ id: ch6-eu-law
 topic: etika
 title: Zákony se snaží dohnat technologie
 teaser: Vlády chtějí regulovat doporučovací algoritmy. Ale dokážou přimět velké technologické firmy, aby poslouchaly?
+hook: Dokážou ho zastavit?
 ---
 
 EU přijala Digital Services Act (DSA) v roce 2024: platformy musí umožnit odmítnout algoritmické feedy, přestat profilovat nezletilé a vysvětlit, jak doporučení fungují. Zní to skvěle.

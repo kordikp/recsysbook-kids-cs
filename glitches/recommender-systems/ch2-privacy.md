@@ -3,6 +3,7 @@ id: ch2-privacy
 topic: jakSeUci
 title: Tvoje data, tvoje volba
 teaser: O svých digitálních stopách rozhoduješ ty. Tady je jak na to.
+hook: Umíš se chránit?
 ---
 
 Všechny ty digitální stopy, o kterých jsme mluvili? Jsou TVOJE. A máš nad nimi větší kontrolu, než si možná myslíš.

@@ -3,6 +3,7 @@ id: vc9-macaly-intro
 topic: macaly
 title: Macaly — česká vibecoding platforma
 teaser: Česká alternativa ke světovým nástrojům. Postavená přímo pro vibecoding.
+hook: Česká alternativa světu?
 ---
 
 Macaly je česká vibecoding platforma — startup z Prahy. Zatímco Lovable a Bolt vznikly ve Švédsku a USA, Macaly je náš domácí projekt.

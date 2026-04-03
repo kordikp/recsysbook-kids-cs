@@ -3,6 +3,7 @@ id: vc4-what-can-build
 topic: coJeVibecoding
 title: Co všechno můžeš postavit?
 teaser: Web, hra, aplikace, chatbot — bez jediného řádku kódu napsaného rukou.
+hook: Co bys postavil dnes?
 ---
 
 Co můžeš vytvořit pomocí vibecoding? Skoro cokoli, co běží v prohlížeči nebo na telefonu.

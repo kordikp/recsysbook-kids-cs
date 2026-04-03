@@ -3,6 +3,7 @@ id: ch2-footprints
 topic: jakSeUci
 title: Tvoje digitální stopa
 teaser: Každé kliknutí, každé přeskočení, každé přehrání znovu – zanecháváš za sebou stopu.
+hook: Co o tobě prozradíš?
 ---
 
 Představ si, že jdeš čerstvým sněhem. Každý krok zanechá otisk. Na internetu funguje totéž — místo sněhu jsou tu data, místo chodidel tvoje kliknutí.

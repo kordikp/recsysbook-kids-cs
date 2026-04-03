@@ -3,6 +3,7 @@ id: ch3-pipeline-visual
 topic: zpusoby
 title: Sleduj skutečné doporučení na YouTube
 teaser: Sleduj jedno doporučení od okamžiku otevření aplikace až po zobrazení na obrazovce.
+hook: Co se děje za scénou?
 ---
 
 Klepneš na YouTube. Za 0,1 sekundy systém shrne: posledních 10 sledovaných videí — 6 o Minecraftu, 2 o zvířatech. Čas: sobota 16:00 — obvykle sleduješ delší videa.

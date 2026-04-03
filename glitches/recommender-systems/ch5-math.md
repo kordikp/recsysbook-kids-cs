@@ -3,6 +3,7 @@ id: ch5-math
 topic: postav
 title: Matematika za podobností
 teaser: Jak počítače měří podobnost pomocí kosinové podobnosti.
+hook: Proč to funguje?
 ---
 
 Metoda průměrného rozdílu je dobrý začátek. Ale co když někdo hodnotí vše nízko a jiný vše vysoko — přesto mají stejný vzorec preferencí?

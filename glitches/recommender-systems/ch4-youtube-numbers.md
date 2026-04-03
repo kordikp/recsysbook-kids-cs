@@ -3,6 +3,7 @@ id: ch4-youtube-numbers
 topic: lepsi
 title: YouTube v číslech
 teaser: Závratná velikost doporučovacího enginu YouTube.
+hook: Ta čísla tě dostanou →
 ---
 
 YouTube má přes 2 miliardy uživatelů, kteří sledují přes 1 miliardu hodin videa denně. Každou minutu se nahraje přes 500 hodin nových videí. A 70 % sledovací doby pochází z doporučení — ne z vyhledávání.

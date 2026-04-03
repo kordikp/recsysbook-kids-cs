@@ -3,6 +3,7 @@ id: ch2-clues
 topic: jakSeUci
 title: Tři druhy indicií
 teaser: Indicie z obsahu, z tebe a z tvých akcí — tři ingredience každého doporučení.
+hook: Která indicie váží nejvíc?
 ---
 
 Doporučovací systém používá tři druhy indicií. Představ si je jako tři ingredience v receptu — pro nejlepší výsledek potřebuješ všechny tři.

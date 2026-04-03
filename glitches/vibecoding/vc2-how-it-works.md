@@ -3,6 +3,7 @@ id: vc2-how-it-works
 topic: coJeVibecoding
 title: Jak vibecoding funguje?
 teaser: Popis → kód → aplikace. Takhle jednoduchý je ten proces.
+hook: Ale jak to funguje?
 ---
 
 Vibecoding má jednoduchý cyklus. Nejprve popíšeš, co chceš — třeba: „Aplikace pro sledování, kolik vody denně vypiji." AI vygeneruje kód. Ty ho vidíš v akci. Pak řekneš, co změnit.
