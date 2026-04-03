@@ -284,6 +284,9 @@ function renderCategoryCarousel() {
       activeCategoryId = cat.id;
       renderCategoryCarousel();
       renderMissionList();
+      const track = document.querySelector('.cat-track');
+      const idx = CATEGORIES.findIndex(c => c.id === cat.id);
+      if (track) track.scrollTo({ left: idx * track.offsetWidth, behavior: 'smooth' });
     });
 
     track.appendChild(card);

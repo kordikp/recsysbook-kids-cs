@@ -507,7 +507,7 @@ html, body {
   flex-direction: column;
   transition: background 0.2s;
 }
-.cat-card.active { background: #2e2248; }
+.cat-card.active { background: #2f2241; }
 .cat-card:active { transform: scale(0.98); }
 
 .cat-card-btn {
