@@ -14,7 +14,7 @@
   --radius: 18px;
   --radius-sm: 10px;
   --topbar-h: 72px;
-  --nav-h: 64px;
+  --nav-h: 86px;
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
@@ -199,7 +199,7 @@ html, body {
   -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid var(--border);
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: space-around;
   z-index: 100;
   overflow: hidden;
@@ -238,22 +238,26 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 4px;
-  padding-top: 12px;
+  justify-content: flex-start;
+  gap: 2px;
+  padding-top: 10px;
+  padding-bottom: 0;
   background: none;
   border: none;
   cursor: pointer;
   color: var(--text-muted);
   transition: color 0.35s;
+  overflow: visible;
 }
 .nav-btn .nav-blob {
-  width: 40px;
-  height: 40px;
+  width: auto;
+  height: 44px;
   object-fit: contain;
   display: block;
+  flex-shrink: 0;
   filter: hue-rotate(225deg) saturate(0.4) brightness(0.6);
   transition: filter 0.35s;
+  margin-top: auto;
 }
 .nav-btn.active .nav-blob {
   filter: none;
