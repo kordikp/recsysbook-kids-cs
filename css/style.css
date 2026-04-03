@@ -870,7 +870,7 @@ html, body {
   .topbar { padding-left: 30px; padding-right: 30px; }
   #feed-container { padding-left: 30px; padding-right: 30px; }
   .card-content { padding-left: 30px; padding-right: 30px; }
-  .card-header { padding-left: 30px; padding-right: 30px; }
+  .card-header { padding-left: 20px; padding-right: 20px; }
   .map-search-wrap { padding-left: 30px; padding-right: 30px; }
   .map-topic-header { padding-left: 30px; padding-right: 30px; }
   .map-tile { padding-left: 30px; padding-right: 30px; }
