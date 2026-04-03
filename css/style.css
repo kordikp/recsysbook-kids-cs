@@ -496,7 +496,7 @@ html, body {
 .cat-card {
   flex: 0 0 calc(100% - 32px);
   scroll-snap-align: start;
-  background: #2a1f3d;
+  background: #2f2241;
   border-radius: 20px;
   padding: 20px;
   cursor: pointer;
@@ -530,7 +530,8 @@ html, body {
 
 .cat-card-title {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 500;
+  line-height: 30px;
   color: #fff;
   line-height: 1.25;
   max-width: 65%;
