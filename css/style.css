@@ -331,10 +331,11 @@ html, body {
   display: inline-block;
   padding: 5px 14px;
   border-radius: 100px;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
   background: rgba(255,255,255,0.12);
-  color: rgba(255,255,255,0.75);
+  color: #958BB7;
   backdrop-filter: blur(4px);
 }
 .card-done-indicator {
@@ -359,16 +360,17 @@ html, body {
   margin-top: auto;
 }
 .card-title {
-  font-size: 24px;
-  font-weight: 900;
+  font-size: 20px;
+  font-weight: 600;
   color: var(--accent);
-  line-height: 1.2;
+  line-height: 30px;
   margin-bottom: 10px;
 }
 .card-teaser {
-  font-size: 14px;
-  color: rgba(255,255,255,0.85);
-  line-height: 1.5;
+  font-size: 15px;
+  font-weight: 400;
+  color: #958BB7;
+  line-height: 20px;
   margin-bottom: 18px;
 }
 .card-footer {
@@ -382,9 +384,10 @@ html, body {
   padding: 8px 18px;
   border-radius: 100px;
   background: var(--accent);
-  color: #1a1200;
-  font-size: 14px;
-  font-weight: 700;
+  color: #342546;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
 .card-cta {
   width: 44px; height: 44px;
