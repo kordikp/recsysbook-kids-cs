@@ -316,12 +316,7 @@ html, body {
   pointer-events: none;
   object-fit: contain;
 }
-.card-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
-  z-index: 1;
-}
+.card-overlay { display: none; }
 .card-content {
   position: relative;
   z-index: 2;
