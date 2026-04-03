@@ -174,7 +174,7 @@ html, body {
   inset: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  padding-top: 30px;
+  padding-top: 22px;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
