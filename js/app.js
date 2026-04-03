@@ -140,20 +140,14 @@ function submitLogin() {
 function renderFeed() {
   const container = document.getElementById('feed-container');
   container.innerHTML = '';
-  GLITCHES.forEach(g => container.appendChild(buildFeedCard(g)));
+  GLITCHES.forEach((g, i) => container.appendChild(buildFeedCard(g, i)));
   triggerFeedAnimations();
 }
 
-function blobNum(id) {
-  let n = 0;
-  for (let i = 0; i < id.length; i++) n += id.charCodeAt(i);
-  return String((n % 20) + 1).padStart(2, '0');
-}
-
-function buildFeedCard(glitch) {
+function buildFeedCard(glitch, index) {
   const topic = TOPICS[glitch.topic];
   const done = State.isDone(glitch.id);
-  const blob = blobNum(glitch.id);
+  const blob = String((index % 20) + 1).padStart(2, '0');
   const hook = glitch.hook || glitch.teaser || '→';
 
   const card = document.createElement('article');
