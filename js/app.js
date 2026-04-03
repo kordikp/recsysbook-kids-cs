@@ -221,8 +221,7 @@ function renderMapContent(container, query) {
     group.className = 'map-topic-group';
     group.innerHTML =
       '<div class="map-topic-header">' +
-        '<span class="map-topic-emoji">' + topic.emoji + '</span>' +
-        '<span class="map-topic-label" style="color:' + topic.color + '">' + topic.label + '</span>' +
+        '<span class="map-topic-label">' + topic.label + '</span>' +
       '</div>' +
       '<div class="map-tiles"></div>';
 
