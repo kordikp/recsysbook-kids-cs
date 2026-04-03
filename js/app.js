@@ -169,7 +169,7 @@ function buildFeedCard(glitch, index) {
       '<div class="card-footer">' +
         '<span class="card-hook-pill">' + hook + '</span>' +
         '<button class="card-cta" aria-label="Otevřít">' +
-          '<img src="assets/go.svg" width="21" height="21" alt="">' +
+          '<img src="assets/go.svg" width="31" height="31" alt="">' +
         '</button>' +
       '</div>' +
     '</div>';
