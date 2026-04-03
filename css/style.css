@@ -554,7 +554,7 @@ html, body {
 .cat-star {
   width: 24px;
   height: 24px;
-  filter: hue-rotate(225deg) saturate(0.4) brightness(0.7);
+  filter: brightness(0) saturate(1) invert(1) sepia(1) hue-rotate(245deg) saturate(0.35) brightness(0.42);
 }
 .cat-star.filled {
   filter: none;
@@ -614,7 +614,7 @@ html, body {
 .mission-star {
   width: 24px;
   height: 24px;
-  filter: hue-rotate(225deg) saturate(0.4) brightness(0.7);
+  filter: brightness(0) saturate(1) invert(1) sepia(1) hue-rotate(245deg) saturate(0.35) brightness(0.42);
 }
 .mission-star.filled {
   filter: none;
