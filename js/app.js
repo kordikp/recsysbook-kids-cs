@@ -266,19 +266,34 @@ function renderCategoryCarousel() {
   const track = document.createElement('div');
   track.className = 'cat-track';
 
+  function switchToIdx(newIdx) {
+    if (newIdx === activeCategoryIdx || !CATEGORIES[newIdx]) return;
+    const dir = newIdx > activeCategoryIdx ? 'next' : 'prev';
+    activeCategoryId = CATEGORIES[newIdx].id;
+    activeCategoryIdx = newIdx;
+    renderMissionList(dir);
+  }
+
+  // Touch: react on touchend, before snap animation finishes
+  let touchStartX = 0;
+  track.addEventListener('touchstart', e => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+  track.addEventListener('touchend', e => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) < 20) return;
+    switchToIdx(dx < 0
+      ? Math.min(activeCategoryIdx + 1, CATEGORIES.length - 1)
+      : Math.max(activeCategoryIdx - 1, 0));
+  }, { passive: true });
+
+  // Desktop: scrollend or debounced scroll
   function onScrollSettle() {
     if (!CATEGORIES.length) return;
     const cardWidth = track.scrollWidth / CATEGORIES.length;
     const idx = Math.min(Math.round(track.scrollLeft / cardWidth), CATEGORIES.length - 1);
-    const cat = CATEGORIES[idx];
-    if (cat && cat.id !== activeCategoryId) {
-      const dir = idx > activeCategoryIdx ? 'next' : 'prev';
-      activeCategoryId = cat.id;
-      activeCategoryIdx = idx;
-      renderMissionList(dir);
-    }
+    switchToIdx(idx);
   }
-
   if ('onscrollend' in window) {
     track.addEventListener('scrollend', onScrollSettle, { passive: true });
   } else {
