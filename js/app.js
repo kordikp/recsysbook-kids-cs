@@ -338,7 +338,7 @@ function renderMissionList() {
           '<div class="mission-bottom-row">' +
             '<div class="mission-stars">' + starsHtml + '</div>' +
             '<button class="mission-go-btn" aria-label="Spustit misi">' +
-              '<img src="assets/go.svg" width="31" height="31" alt="">' +
+              '<img src="assets/go.svg" width="21" height="21" alt="">' +
             '</button>' +
           '</div>' +
         '</div>' +
