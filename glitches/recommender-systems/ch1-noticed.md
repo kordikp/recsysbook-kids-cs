@@ -1,9 +1,9 @@
 ---
 id: ch1-noticed
 topic: coJsou
-title: Všiml sis někdy?
-teaser: YouTube nějak ví, co miluješ. Ale jak to dělá?
-hook: Chceš vědět jak?
+title: Všiml/a sis někdy, že YouTube, Instagram nebo Spotify vědí, co se ti líbí?
+teaser: A na TikToku — tvoje stránka „Pro tebe" je úplně jiná než stránka tvého bro. Stejná aplikace, ale úplně jiný zážitek.
+hook: Jenže jak to možné?
 ---
 
 Otevřeš YouTube a hned na hlavní stránce vidíš přesně to, co chceš sledovat. Nic jsi nevyhledával. Prostě... se to tam objevilo.
