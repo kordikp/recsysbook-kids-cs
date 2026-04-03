@@ -250,11 +250,13 @@ function renderMapContent(container, query) {
 // ── MISSIONS ─────────────────────────────────
 
 let activeCategoryId = null;
+let activeCategoryIdx = 0;
 
 function renderMissions() {
   activeCategoryId = activeCategoryId || (CATEGORIES[0] && CATEGORIES[0].id);
+  activeCategoryIdx = Math.max(0, CATEGORIES.findIndex(c => c.id === activeCategoryId));
   renderCategoryCarousel();
-  renderMissionList();
+  renderMissionList(null);
 }
 
 function renderCategoryCarousel() {
@@ -273,8 +275,10 @@ function renderCategoryCarousel() {
       const idx = Math.min(Math.round(track.scrollLeft / cardWidth), CATEGORIES.length - 1);
       const cat = CATEGORIES[idx];
       if (cat && cat.id !== activeCategoryId) {
+        const dir = idx > activeCategoryIdx ? 'next' : 'prev';
         activeCategoryId = cat.id;
-        renderMissionList();
+        activeCategoryIdx = idx;
+        renderMissionList(dir);
       }
     }, 120);
   }, { passive: true });
@@ -296,12 +300,14 @@ function renderCategoryCarousel() {
       '</div>';
 
     card.addEventListener('click', () => {
+      const newIdx = CATEGORIES.findIndex(c => c.id === cat.id);
+      const dir = newIdx > activeCategoryIdx ? 'next' : newIdx < activeCategoryIdx ? 'prev' : null;
       activeCategoryId = cat.id;
+      activeCategoryIdx = newIdx;
       renderCategoryCarousel();
-      renderMissionList();
+      renderMissionList(dir);
       const track = document.querySelector('.cat-track');
-      const idx = CATEGORIES.findIndex(c => c.id === cat.id);
-      if (track) track.scrollTo({ left: idx * track.offsetWidth, behavior: 'smooth' });
+      if (track) track.scrollTo({ left: newIdx * track.offsetWidth, behavior: 'smooth' });
     });
 
     track.appendChild(card);
@@ -311,16 +317,28 @@ function renderCategoryCarousel() {
   prevBtn.className = 'cat-arrow cat-arrow-left';
   prevBtn.innerHTML = '<img src="assets/arrow.svg" width="21" height="21" alt="Předchozí" style="transform:rotate(180deg)">';
   prevBtn.addEventListener('click', () => {
-    const cardWidth = track.scrollWidth / CATEGORIES.length;
-    track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+    const newIdx = Math.max(0, activeCategoryIdx - 1);
+    if (newIdx === activeCategoryIdx) return;
+    activeCategoryId = CATEGORIES[newIdx].id;
+    activeCategoryIdx = newIdx;
+    renderCategoryCarousel();
+    renderMissionList('prev');
+    const t = document.querySelector('.cat-track');
+    if (t) t.scrollTo({ left: newIdx * t.offsetWidth, behavior: 'smooth' });
   });
 
   const nextBtn = document.createElement('button');
   nextBtn.className = 'cat-arrow cat-arrow-right';
   nextBtn.innerHTML = '<img src="assets/arrow.svg" width="21" height="21" alt="Další">';
   nextBtn.addEventListener('click', () => {
-    const cardWidth = track.scrollWidth / CATEGORIES.length;
-    track.scrollBy({ left: cardWidth, behavior: 'smooth' });
+    const newIdx = Math.min(CATEGORIES.length - 1, activeCategoryIdx + 1);
+    if (newIdx === activeCategoryIdx) return;
+    activeCategoryId = CATEGORIES[newIdx].id;
+    activeCategoryIdx = newIdx;
+    renderCategoryCarousel();
+    renderMissionList('next');
+    const t = document.querySelector('.cat-track');
+    if (t) t.scrollTo({ left: newIdx * t.offsetWidth, behavior: 'smooth' });
   });
 
   carousel.appendChild(prevBtn);
@@ -350,10 +368,8 @@ function buildStarsHtml(cat) {
   return html;
 }
 
-function renderMissionList() {
-  const container = document.getElementById('missions-container');
+function fillMissionList(container) {
   container.innerHTML = '';
-
   const cat = CATEGORIES.find(c => c.id === activeCategoryId);
   if (!cat) return;
 
@@ -375,7 +391,7 @@ function renderMissionList() {
         '<div class="mission-desc">' + mission.description + '</div>' +
         '<div class="mission-footer">' +
           '<div class="mission-meta-row">' +
-            '<span class="mission-meta">' + total + ' glitchů · ' + (complete ? 'splněno ' + done + '/' + total : 'splněno ' + done + '/' + total) + '</span>' +
+            '<span class="mission-meta">' + total + ' glitchů · splněno ' + done + '/' + total + '</span>' +
           '</div>' +
           '<div class="mission-bottom-row">' +
             '<div class="mission-stars">' + starsHtml + '</div>' +
@@ -397,6 +413,27 @@ function renderMissionList() {
 
     container.appendChild(card);
   });
+}
+
+function renderMissionList(dir) {
+  const container = document.getElementById('missions-container');
+
+  if (!dir || !container.children.length) {
+    fillMissionList(container);
+    return;
+  }
+
+  // slide out
+  const outX = dir === 'next' ? '-28px' : '28px';
+  const inX  = dir === 'next' ?  '28px' : '-28px';
+  container.style.cssText = 'opacity:0;transform:translateX(' + outX + ');transition:opacity 0.13s ease,transform 0.13s ease;overflow:hidden';
+
+  setTimeout(() => {
+    fillMissionList(container);
+    container.style.cssText = 'opacity:0;transform:translateX(' + inX + ');transition:none;overflow:hidden';
+    container.getBoundingClientRect(); // force reflow
+    container.style.cssText = 'opacity:1;transform:translateX(0);transition:opacity 0.22s ease,transform 0.22s ease;overflow:hidden';
+  }, 140);
 }
 
 function buildMissionStarsHtml(done, total) {
