@@ -317,52 +317,86 @@ html, body {
   opacity: 0.5;
 }
 .card-overlay { display: none; }
-.card-content {
+
+/* card header: topic badge + done indicator */
+.card-header {
   position: relative;
   z-index: 2;
-  padding: 24px 20px 20px;
-}
-.card-emoji {
-  font-size: 42px;
-  line-height: 1;
-  margin-bottom: 12px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 0;
 }
 .card-topic-badge {
   display: inline-block;
-  padding: 4px 12px;
+  padding: 5px 14px;
   border-radius: 100px;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.75);
+  backdrop-filter: blur(4px);
+}
+.card-done-indicator {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,0.4);
+  flex-shrink: 0;
+}
+.card-done-indicator.done {
+  background: var(--accent);
+  color: #1a1200;
+}
+.card-done-indicator svg { width: 16px; height: 16px; }
+
+/* card content: title, teaser, footer */
+.card-content {
+  position: relative;
+  z-index: 2;
+  padding: 16px 20px 20px;
+  margin-top: auto;
 }
 .card-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 900;
-  color: #fff;
+  color: var(--accent);
   line-height: 1.2;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .card-teaser {
   font-size: 14px;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255,255,255,0.85);
   line-height: 1.5;
+  margin-bottom: 18px;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.card-hook-pill {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 100px;
+  background: var(--accent);
+  color: #1a1200;
+  font-size: 14px;
+  font-weight: 700;
 }
 .card-cta {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  z-index: 2;
   width: 44px; height: 44px;
   border-radius: 50%;
   background: var(--accent);
+  border: none;
+  cursor: pointer;
   display: flex; align-items: center; justify-content: center;
-  font-size: 20px;
   color: #1a1200;
-  font-weight: 900;
+  flex-shrink: 0;
 }
+.card-cta svg { width: 20px; height: 20px; }
 .card-done-badge {
   position: absolute;
   top: 14px;

@@ -55,7 +55,7 @@ function parseMd(text) {
     }
   }
 
-  return { ...frontmatter, chat };
+  return { id: frontmatter.id, topic: frontmatter.topic, title: frontmatter.title, teaser: frontmatter.teaser, hook: frontmatter.hook || null, chat };
 }
 
 async function loadGlitches() {
