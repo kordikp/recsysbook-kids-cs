@@ -3,6 +3,7 @@
    Loads glitches from /glitches/*.md files
    ============================================ */
 
+let CATEGORIES = [];
 let TOPICS = {};
 let MISSIONS = [];
 let GLITCHES = [];
@@ -61,6 +62,7 @@ async function loadGlitches() {
   const resp = await fetch('glitches/index.json');
   const index = await resp.json();
 
+  CATEGORIES = index.categories || [];
   TOPICS = index.topics;
   MISSIONS = index.missions;
 

@@ -232,35 +232,104 @@ function renderMapContent(container, query) {
 
 // ── MISSIONS ─────────────────────────────────
 
+let activeCategoryId = null;
+
 function renderMissions() {
+  activeCategoryId = activeCategoryId || (CATEGORIES[0] && CATEGORIES[0].id);
+  renderCategoryCarousel();
+  renderMissionList();
+}
+
+function renderCategoryCarousel() {
+  const carousel = document.getElementById('category-carousel');
+  carousel.innerHTML = '';
+
+  const track = document.createElement('div');
+  track.className = 'cat-track';
+
+  CATEGORIES.forEach(cat => {
+    const card = document.createElement('div');
+    card.className = 'cat-card' + (cat.id === activeCategoryId ? ' active' : '');
+
+    const starsHtml = buildStarsHtml(cat);
+
+    card.innerHTML =
+      '<button class="cat-card-btn" aria-label="Otevřít ' + cat.title + '">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>' +
+      '</button>' +
+      '<div class="cat-card-title">' + cat.title + '</div>' +
+      '<div class="cat-card-bottom">' +
+        '<div class="cat-card-progress">' + starsHtml + '</div>' +
+        '<img class="cat-blob-img" src="assets/' + cat.blob + '" alt="">' +
+      '</div>';
+
+    card.addEventListener('click', () => {
+      activeCategoryId = cat.id;
+      renderCategoryCarousel();
+      renderMissionList();
+    });
+
+    track.appendChild(card);
+  });
+
+  carousel.appendChild(track);
+}
+
+function buildStarsHtml(cat) {
+  const catMissions = MISSIONS.filter(m => cat.missionIds.includes(m.id));
+  const totalMissions = catMissions.length;
+  const doneMissions = catMissions.filter(m => {
+    const done = m.glitches.filter(id => State.isDone(id)).length;
+    return done === m.glitches.length && m.glitches.length > 0;
+  }).length;
+  const starCount = 5;
+  let html = '';
+  for (let i = 0; i < starCount; i++) {
+    const filled = i < Math.round((doneMissions / Math.max(totalMissions, 1)) * starCount);
+    html += '<svg class="cat-star' + (filled ? ' filled' : '') + '" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>';
+  }
+  return html;
+}
+
+function renderMissionList() {
   const container = document.getElementById('missions-container');
   container.innerHTML = '';
 
-  MISSIONS.forEach(mission => {
-    const topic = TOPICS[mission.topic];
+  const cat = CATEGORIES.find(c => c.id === activeCategoryId);
+  if (!cat) return;
+
+  const catMissions = MISSIONS.filter(m => cat.missionIds.includes(m.id));
+
+  catMissions.forEach((mission, idx) => {
     const total = mission.glitches.length;
     const done = mission.glitches.filter(id => State.isDone(id)).length;
-    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
-    const complete = done === total;
+    const complete = done === total && total > 0;
 
     const card = document.createElement('div');
-    card.className = 'mission-card' + (complete ? ' complete' : '');
+    card.className = 'mission-card';
+
+    const starsHtml = buildMissionStarsHtml(done, total);
+
     card.innerHTML =
-      '<div class="mission-top">' +
-        '<span class="mission-emoji">' + mission.emoji + '</span>' +
-        '<div class="mission-info">' +
-          '<div class="mission-title">' + mission.title + '</div>' +
-          '<div class="mission-desc">' + mission.description + '</div>' +
-          '<div class="mission-meta">' + total + ' glitche · ' + (complete ? '✓ Splněno' : done + '/' + total + ' splněno') + '</div>' +
+      '<div class="mission-body">' +
+        '<div class="mission-title">' + mission.title + '</div>' +
+        '<div class="mission-desc">' + mission.description + '</div>' +
+        '<div class="mission-footer">' +
+          '<div class="mission-meta-row">' +
+            '<span class="mission-meta">' + total + ' glitchů · ' + (complete ? 'splněno ' + done + '/' + total : 'splněno ' + done + '/' + total) + '</span>' +
+          '</div>' +
+          '<div class="mission-bottom-row">' +
+            '<div class="mission-stars">' + starsHtml + '</div>' +
+            '<button class="mission-go-btn" aria-label="Spustit misi">' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>' +
+            '</button>' +
+          '</div>' +
         '</div>' +
-      '</div>' +
-      '<div class="mission-progress">' +
-        '<div class="mission-progress-bar" style="width:' + pct + '%;background:' + (complete ? '#00E676' : topic.color) + '"></div>' +
-      '</div>' +
-      '<div class="mission-progress-label">' +
-        '<span>' + (complete ? 'Hotovo!' : 'Pokrok') + '</span>' +
-        '<span>' + pct + '%</span>' +
       '</div>';
+
+    if (idx < catMissions.length - 1) {
+      card.classList.add('mission-card--sep');
+    }
 
     card.addEventListener('click', () => {
       const nextId = mission.glitches.find(id => !State.isDone(id)) || mission.glitches[0];
@@ -269,6 +338,16 @@ function renderMissions() {
 
     container.appendChild(card);
   });
+}
+
+function buildMissionStarsHtml(done, total) {
+  const starCount = 5;
+  const filled = Math.round((done / Math.max(total, 1)) * starCount);
+  let html = '';
+  for (let i = 0; i < starCount; i++) {
+    html += '<svg class="mission-star' + (i < filled ? ' filled' : '') + '" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>';
+  }
+  return html;
 }
 
 // ── DETAIL / CHATBOT ─────────────────────────
