@@ -308,13 +308,12 @@ html, body {
 }
 .card-blob-img {
   position: absolute;
-  bottom: 0;
-  right: -5%;
-  width: 72%;
-  height: auto;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: 1;
   pointer-events: none;
-  object-fit: contain;
 }
 .card-overlay { display: none; }
 .card-content {
