@@ -19,7 +19,8 @@ const State = {
 
 // ── INIT ─────────────────────────────────────
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadGlitches();
   renderFeed();
   renderMap();
   renderMissions();
