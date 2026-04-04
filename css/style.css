@@ -502,8 +502,10 @@ html, body {
 }
 
 .map-cat-back-row {
-  padding: 8px 16px 16px;
-  padding-bottom: 0;
+  padding: 30px 16px 0;
+}
+.map-cat-back-row + .map-topic-group .map-topic-header {
+  padding-top: 30px;
 }
 
 #view-map { padding-top: 0; }
