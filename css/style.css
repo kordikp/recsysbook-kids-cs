@@ -108,7 +108,6 @@ html, body {
 }
 .btn-primary:active { transform: scale(0.96); }
 .btn-primary:hover { box-shadow: 0 6px 32px rgba(255,226,51,0.45); }
-.btn-primary:disabled { opacity: 0.5; cursor: default; box-shadow: none; transform: none; }
 
 .btn-back {
   background: none;

@@ -20,9 +20,17 @@ const State = {
 // ── INIT ─────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', async () => {
+  let appReady = false;
+
   const splashBtn = document.getElementById('splash-enter');
-  splashBtn.disabled = true;
-  splashBtn.textContent = 'Načítám...';
+  splashBtn.addEventListener('click', () => {
+    enterApp();
+    if (!appReady) {
+      // Show loading state inside feed while data loads
+      document.getElementById('feed-container').innerHTML =
+        '<p style="color:var(--text-muted);text-align:center;padding:60px 0">Načítám...</p>';
+    }
+  });
 
   try {
     await loadGlitches();
@@ -33,9 +41,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Init error:', e);
   }
 
-  splashBtn.disabled = false;
-  splashBtn.textContent = 'Vstoupit';
-  splashBtn.addEventListener('click', enterApp);
+  appReady = true;
 
   updateProfileBtn();
   bindNav();
