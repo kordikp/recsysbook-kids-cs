@@ -22,6 +22,8 @@
 
 * { -webkit-tap-highlight-color: transparent; }
 
+button, a, [role="button"] { touch-action: manipulation; }
+
 html, body {
   height: 100%;
   overflow: hidden;
