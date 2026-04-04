@@ -533,7 +533,7 @@ html, body {
 .cat-arrow-right { right: 0; }
 
 @media (min-width: 600px) {
-  .cat-card { flex: 0 0 350px; }
+  .cat-card { flex: 0 0 calc(50% - 6px); }
 }
 
 .cat-track {
