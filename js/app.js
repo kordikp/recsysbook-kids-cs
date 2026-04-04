@@ -491,27 +491,24 @@ function openDetail(glitchId) {
   }
 }
 
-function showDeepDiveAndEnd(glitch, showRetry) {
-  const paragraphs = (glitch.deepdive && glitch.deepdive.length) ? glitch.deepdive : null;
-  if (!paragraphs) {
-    showEndActions(glitch);
-    if (showRetry) showRetryQuiz(glitch);
-    return;
-  }
+function addDeepdive(glitch) {
+  if (!glitch.deepdive || !glitch.deepdive.length) return;
+  const container = document.getElementById('chat-container');
+  const section = document.createElement('div');
+  section.className = 'deepdive-section';
+  glitch.deepdive.forEach(para => {
+    const p = document.createElement('p');
+    p.textContent = para;
+    section.appendChild(p);
+  });
+  container.appendChild(section);
+  scrollChatToBottom();
+}
 
-  let i = 0;
-  function nextPara() {
-    if (i >= paragraphs.length) {
-      showEndActions(glitch);
-      if (showRetry) showRetryQuiz(glitch);
-      return;
-    }
-    showTyping().then(() => {
-      addBotBubble(paragraphs[i++]);
-      setTimeout(nextPara, 400);
-    });
-  }
-  setTimeout(nextPara, 300);
+function showDeepDiveAndEnd(glitch, showRetry) {
+  addDeepdive(glitch);
+  showEndActions(glitch);
+  if (showRetry) showRetryQuiz(glitch);
 }
 
 function showRetryQuiz(glitch) {
@@ -700,8 +697,7 @@ function showEndActions(glitch, withReadMore = false) {
     readMoreBtn.textContent = 'Číst více →';
     readMoreBtn.addEventListener('click', () => {
       readMoreBtn.remove();
-      glitch.deepdive.forEach(para => addBotBubble(para));
-      scrollChatToBottom();
+      addDeepdive(glitch);
     });
     container.appendChild(readMoreBtn);
   }
