@@ -362,20 +362,37 @@ function renderMapCategory(container, cat) {
   container.appendChild(backRow);
 
   const missions = MISSIONS.filter(m => cat.missionIds.includes(m.id));
-  const glitchIds = missions.flatMap(m => m.glitches);
-  const glitches = GLITCHES.filter(g => glitchIds.includes(g.id));
 
-  glitches.forEach(g => {
-    const done = State.isDone(g.id);
-    const tile = document.createElement('div');
-    tile.className = 'map-tile';
-    tile.innerHTML =
-      '<div class="map-tile-body">' +
-        '<div class="map-tile-title">' + g.title + '</div>' +
-      '</div>' +
-      (done ? '<div class="map-tile-check"><img src="assets/done.svg" width="21" height="21" alt=""></div>' : '');
-    tile.addEventListener('click', () => openDetail(g.id));
-    container.appendChild(tile);
+  missions.forEach(mission => {
+    const glitches = mission.glitches.map(id => GLITCHES.find(g => g.id === id)).filter(Boolean);
+    if (!glitches.length) return;
+
+    const group = document.createElement('div');
+    group.className = 'map-topic-group';
+
+    const header = document.createElement('div');
+    header.className = 'map-topic-header';
+    header.innerHTML = '<span class="map-topic-label">' + mission.title + '</span>';
+    group.appendChild(header);
+
+    const tiles = document.createElement('div');
+    tiles.className = 'map-tiles';
+
+    glitches.forEach(g => {
+      const done = State.isDone(g.id);
+      const tile = document.createElement('div');
+      tile.className = 'map-tile';
+      tile.innerHTML =
+        '<div class="map-tile-body">' +
+          '<div class="map-tile-title">' + g.title + '</div>' +
+        '</div>' +
+        (done ? '<div class="map-tile-check"><img src="assets/done.svg" width="21" height="21" alt=""></div>' : '');
+      tile.addEventListener('click', () => openDetail(g.id));
+      tiles.appendChild(tile);
+    });
+
+    group.appendChild(tiles);
+    container.appendChild(group);
   });
 }
 

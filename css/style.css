@@ -548,7 +548,7 @@ html, body {
 }
 .map-tile {
   background: transparent;
-  padding: 16px 16px;
+  padding: 10px 16px;
   cursor: pointer;
   transition: background 0.15s;
   position: relative;
