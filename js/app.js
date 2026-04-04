@@ -62,7 +62,9 @@ document.addEventListener('DOMContentLoaded', async () => {
           ['auto', 'scroll'].includes(getComputedStyle(el).overflowY)) return;
       el = el.parentElement;
     }
-    activeView.scrollBy({ top: e.deltaY, behavior: 'auto' });
+    // Find the actual scrollable element inside the active view
+    const scrollTarget = activeView.querySelector('.missions-body') || activeView;
+    scrollTarget.scrollBy({ top: e.deltaY, behavior: 'auto' });
   }, { passive: true });
 });
 
