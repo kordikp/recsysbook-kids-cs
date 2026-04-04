@@ -647,10 +647,8 @@ html, body {
 }
 
 .cat-card-bottom {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-top: 16px;
+  margin-top: auto;
+  padding-top: 12px;
 }
 
 .cat-card-progress {
@@ -663,6 +661,10 @@ html, body {
 .cat-star { width: 24px; height: 24px; }
 
 .cat-blob-img {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 120px;
   height: auto;
   display: block;
