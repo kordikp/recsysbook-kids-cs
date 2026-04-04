@@ -482,7 +482,54 @@ function openDetail(glitchId) {
   document.getElementById('chat-container').innerHTML = '';
   document.getElementById('detail-overlay').classList.remove('hidden');
 
-  runChat(glitch);
+  const progress = State.progress[glitchId];
+  if (progress && progress.completed) {
+    // Already done — show deepdive then end actions
+    showDeepDiveAndEnd(glitch, !progress.correct);
+  } else {
+    runChat(glitch);
+  }
+}
+
+function showDeepDiveAndEnd(glitch, showRetry) {
+  const paragraphs = (glitch.deepdive && glitch.deepdive.length) ? glitch.deepdive : null;
+  if (!paragraphs) {
+    showEndActions(glitch);
+    if (showRetry) showRetryQuiz(glitch);
+    return;
+  }
+
+  let i = 0;
+  function nextPara() {
+    if (i >= paragraphs.length) {
+      showEndActions(glitch);
+      if (showRetry) showRetryQuiz(glitch);
+      return;
+    }
+    showTyping().then(() => {
+      addBotBubble(paragraphs[i++]);
+      setTimeout(nextPara, 400);
+    });
+  }
+  setTimeout(nextPara, 300);
+}
+
+function showRetryQuiz(glitch) {
+  const quizStep = glitch.chat.find(s => s.quiz);
+  if (!quizStep) return;
+  const container = document.getElementById('chat-container');
+
+  const label = document.createElement('div');
+  label.className = 'chat-bubble bot';
+  label.textContent = 'Zkus kvíz znovu — tentokrát to dáš! 💪';
+  container.appendChild(label);
+  scrollChatToBottom();
+
+  setTimeout(() => {
+    showQuiz(quizStep.quiz, correct => {
+      State.setGlitchDone(glitch.id, correct);
+    });
+  }, 400);
 }
 
 function closeDetail() {
@@ -520,7 +567,7 @@ function runChat(glitch) {
       setTimeout(() => {
         showQuiz(step.quiz, correct => {
           State.setGlitchDone(glitch.id, correct);
-          setTimeout(() => showEndActions(glitch), 800);
+          setTimeout(() => showEndActions(glitch, true), 800);
         });
       }, 400);
     }
@@ -611,7 +658,7 @@ function showQuiz(quiz, onDone) {
   scrollChatToBottom();
 }
 
-function showEndActions(glitch) {
+function showEndActions(glitch, withReadMore = false) {
   const container = document.getElementById('chat-container');
   const actionsEl = document.createElement('div');
   actionsEl.className = 'chat-actions';
@@ -647,7 +694,7 @@ function showEndActions(glitch) {
 
   container.appendChild(actionsEl);
 
-  if (glitch.deepdive && glitch.deepdive.length) {
+  if (withReadMore && glitch.deepdive && glitch.deepdive.length) {
     const readMoreBtn = document.createElement('button');
     readMoreBtn.className = 'chat-action-btn read-more-btn';
     readMoreBtn.textContent = 'Číst více →';
