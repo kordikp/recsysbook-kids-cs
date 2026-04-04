@@ -660,12 +660,6 @@ function showQuiz(quiz, onDone) {
       });
 
       addUserBubble(quiz.options[chosen]);
-
-      const explanation = document.createElement('div');
-      explanation.className = 'quiz-explanation';
-      explanation.textContent = quiz.explanation;
-      block.appendChild(explanation);
-
       scrollChatToBottom();
       onDone(correct);
     });
