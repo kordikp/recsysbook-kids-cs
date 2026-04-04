@@ -20,8 +20,9 @@ const State = {
 // ── INIT ─────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', async () => {
-  // Bind splash button first — before any async work that could throw
-  document.getElementById('splash-enter').addEventListener('click', enterApp);
+  const splashBtn = document.getElementById('splash-enter');
+  splashBtn.disabled = true;
+  splashBtn.textContent = 'Načítám...';
 
   try {
     await loadGlitches();
@@ -31,6 +32,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   } catch (e) {
     console.error('Init error:', e);
   }
+
+  splashBtn.disabled = false;
+  splashBtn.textContent = 'Vstoupit';
+  splashBtn.addEventListener('click', enterApp);
 
   updateProfileBtn();
   bindNav();
