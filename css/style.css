@@ -506,6 +506,10 @@ html, body {
 .map-cat-card[data-cat-id="recommender-systems"] .map-cat-blob {
   width: 150px;
 }
+.map-cat-card[data-cat-id="vibecoding"] .map-cat-blob {
+  top: 16px;
+  transform: none;
+}
 
 .map-cat-back-row {
   padding: 30px 16px 0;
