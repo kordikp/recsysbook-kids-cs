@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const feedBtn = document.querySelector('.nav-btn[data-view="feed"]');
     if (feedBtn) feedBtn.click();
   });
-  bindLoginModal();
   bindAccountPage();
 
   document.getElementById('splash-enter').addEventListener('click', enterApp);
@@ -107,13 +106,7 @@ function updateProfileBtn() {
 }
 
 function bindProfileBtn() {
-  document.getElementById('profile-btn').addEventListener('click', () => {
-    if (!State.user) {
-      openLoginModal();
-    } else {
-      openAccountPage();
-    }
-  });
+  document.getElementById('profile-btn').addEventListener('click', openAccountPage);
 }
 
 // ── ACCOUNT PAGE ──────────────────────────────
@@ -123,8 +116,7 @@ function openAccountPage() {
   const overlay = document.getElementById('account-overlay');
 
   // Populate nickname
-  const nicknameVal = document.getElementById('account-nickname-val');
-  nicknameVal.textContent = getUserNickname();
+  document.getElementById('account-nickname-val').textContent = getUserNickname();
 
   // Populate fullName and email
   setAccountDisplayField('account-fullname-val', user.fullName);
@@ -133,6 +125,9 @@ function openAccountPage() {
   // Populate radio groups
   setAccountRadio('gender', user.gender);
   setAccountRadio('learning', user.learningStyle);
+
+  // Show logout only when logged in
+  document.getElementById('account-logout').style.display = State.user ? '' : 'none';
 
   overlay.classList.remove('hidden');
   overlay.scrollTop = 0;
@@ -183,8 +178,10 @@ function bindAccountPage() {
   function saveNickname() {
     const val = nicknameInput.value.trim();
     if (val) {
+      if (!State.user) State.setUser({});
       saveAccountField('nickname', val);
       nicknameVal.textContent = val;
+      document.getElementById('account-logout').style.display = '';
       updateProfileBtn();
     }
     nicknameVal.classList.remove('hidden');
@@ -246,34 +243,6 @@ function bindAccountPage() {
   });
 }
 
-// ── LOGIN MODAL ──────────────────────────────
-
-function openLoginModal() {
-  document.getElementById('login-modal').classList.remove('hidden');
-  setTimeout(() => document.getElementById('username-input').focus(), 100);
-}
-
-function closeLoginModal() {
-  document.getElementById('login-modal').classList.add('hidden');
-}
-
-function bindLoginModal() {
-  document.getElementById('login-submit').addEventListener('click', submitLogin);
-  document.getElementById('username-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter') submitLogin();
-  });
-  document.querySelector('.modal-backdrop').addEventListener('click', closeLoginModal);
-}
-
-function submitLogin() {
-  const input = document.getElementById('username-input');
-  const name = input.value.trim();
-  if (!name) { input.focus(); return; }
-  State.setUser({ nickname: name });
-  updateProfileBtn();
-  closeLoginModal();
-  input.value = '';
-}
 
 // ── FEED ─────────────────────────────────────
 
