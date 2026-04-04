@@ -642,6 +642,19 @@ function showEndActions(glitch) {
   actionsEl.appendChild(backBtn);
 
   container.appendChild(actionsEl);
+
+  if (glitch.deepdive && glitch.deepdive.length) {
+    const readMoreBtn = document.createElement('button');
+    readMoreBtn.className = 'chat-action-btn read-more-btn';
+    readMoreBtn.textContent = 'Číst více →';
+    readMoreBtn.addEventListener('click', () => {
+      readMoreBtn.remove();
+      glitch.deepdive.forEach(para => addBotBubble(para));
+      scrollChatToBottom();
+    });
+    container.appendChild(readMoreBtn);
+  }
+
   scrollChatToBottom();
 }
 

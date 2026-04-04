@@ -22,7 +22,13 @@ function parseMd(text) {
   if (!fmMatch) return null;
 
   const frontmatter = parseFrontmatter(fmMatch[1]);
-  const body = fmMatch[2].trim();
+  const fullBody = fmMatch[2].trim();
+
+  // Split off deepdive section (after +++)
+  const deepdiveSplit = fullBody.split(/\n\+\+\+\n/);
+  const body = deepdiveSplit[0].trim();
+  const deepdiveRaw = deepdiveSplit[1] ? deepdiveSplit[1].trim() : null;
+
   const paragraphs = body.split(/\n\n+/);
   const chat = [];
 
@@ -55,7 +61,12 @@ function parseMd(text) {
     }
   }
 
-  return { id: frontmatter.id, topic: frontmatter.topic, title: frontmatter.title, teaser: frontmatter.teaser, hook: frontmatter.hook || null, chat };
+  // Parse deepdive into paragraphs
+  const deepdive = deepdiveRaw
+    ? deepdiveRaw.split(/\n\n+/).map(p => p.trim()).filter(Boolean)
+    : null;
+
+  return { id: frontmatter.id, topic: frontmatter.topic, title: frontmatter.title, teaser: frontmatter.teaser, hook: frontmatter.hook || null, chat, deepdive };
 }
 
 async function loadGlitches() {

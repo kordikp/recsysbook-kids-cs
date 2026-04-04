@@ -815,6 +815,7 @@ html, body {
   transition: background 0.15s, border-color 0.15s;
 }
 .chat-action-btn:hover { border-color: var(--accent); color: var(--accent); }
+.read-more-btn { border-color: var(--accent); color: var(--accent); }
 .chat-action-btn.primary-action {
   background: var(--accent);
   border-color: var(--accent);
