@@ -794,6 +794,7 @@ html, body {
 
 .quiz-block {
   padding: 4px 0;
+  margin-top: 18px;
   animation: bubble-in 0.3s ease forwards;
   opacity: 0;
   transform: translateY(8px) scale(0.97);
