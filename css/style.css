@@ -128,11 +128,16 @@ html, body {
   top: 0; left: 0; right: 0;
   height: var(--topbar-h);
   background: #342546;
+  z-index: 100;
+}
+.topbar-inner {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px 0 16px;
-  z-index: 100;
 }
 .topbar-logo {
   display: flex;
@@ -222,13 +227,19 @@ html, body {
   position: fixed;
   bottom: 0; left: 0; right: 0;
   height: calc(var(--nav-h) + var(--safe-bottom));
-  padding-bottom: var(--safe-bottom);
   background: #342546;
+  z-index: 100;
+}
+.bottom-nav-inner {
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   align-items: stretch;
   justify-content: space-around;
-  z-index: 100;
+  position: relative;
   overflow: hidden;
+  padding-bottom: var(--safe-bottom);
 }
 .nav-spotlight {
   position: absolute;
@@ -902,7 +913,7 @@ html, body {
 
 /* ── MOBILE margins 30px ── */
 @media (max-width: 599px) {
-  .topbar { padding-left: 30px; padding-right: 30px; }
+  .topbar-inner { padding-left: 30px; padding-right: 30px; }
   #feed-container { padding-left: 30px; padding-right: 30px; }
   .card-content { padding-left: 30px; padding-right: 30px; }
   .card-header { padding-left: 20px; padding-right: 20px; }
@@ -917,7 +928,7 @@ html, body {
 
 /* ── DESKTOP adjustments ── */
 @media (min-width: 600px) {
-  .main-content, .topbar, .bottom-nav { max-width: 500px; margin-left: auto; margin-right: auto; left: 50%; transform: translateX(-50%); right: auto; width: 500px; }
+  .main-content { max-width: 500px; margin-left: auto; margin-right: auto; left: 50%; transform: translateX(-50%); right: auto; width: 500px; }
   .overlay { max-width: 500px; left: 50%; transform: translateX(-50%); }
   .overlay.hidden { transform: translateX(-50%) translateY(20px); }
   body { background: #241832; }
