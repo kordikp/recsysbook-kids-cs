@@ -149,7 +149,11 @@ html, body {
 .topbar-right {
   display: flex;
   align-items: center;
-  gap: 10px;
+}
+.avatar-wrap {
+  position: relative;
+  width: 42px;
+  height: 42px;
 }
 .topbar-profile {
   width: 42px; height: 42px;
@@ -167,6 +171,9 @@ html, body {
   border-radius: 50%;
 }
 .bell-icon {
+  position: absolute;
+  top: -4px;
+  right: -4px;
   cursor: pointer;
   animation: bell-wobble 1.8s ease-in-out infinite;
   transform-origin: top center;
