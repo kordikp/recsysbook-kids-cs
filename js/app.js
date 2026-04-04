@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (feedBtn) feedBtn.click();
   });
   bindLoginModal();
+  bindAccountPage();
 
   document.getElementById('splash-enter').addEventListener('click', enterApp);
 
@@ -87,12 +88,17 @@ function showView(name) {
 
 // ── PROFILE ──────────────────────────────────
 
+function getUserNickname() {
+  const u = State.user;
+  return u ? (u.nickname || u.name || '') : '';
+}
+
 function updateProfileBtn() {
   const btn = document.getElementById('profile-btn');
   const bell = document.getElementById('bell-icon');
   const user = State.user;
   if (user) {
-    btn.title = user.name;
+    btn.title = getUserNickname();
     if (bell) bell.classList.add('hidden');
   } else {
     btn.title = 'Přihlásit se';
@@ -105,11 +111,138 @@ function bindProfileBtn() {
     if (!State.user) {
       openLoginModal();
     } else {
-      if (confirm('Přihlášen/a jako ' + State.user.name + '. Odhlásit?')) {
-        localStorage.removeItem('tg_user');
-        updateProfileBtn();
-      }
+      openAccountPage();
     }
+  });
+}
+
+// ── ACCOUNT PAGE ──────────────────────────────
+
+function openAccountPage() {
+  const user = State.user || {};
+  const overlay = document.getElementById('account-overlay');
+
+  // Populate nickname
+  const nicknameVal = document.getElementById('account-nickname-val');
+  nicknameVal.textContent = getUserNickname();
+
+  // Populate fullName and email
+  setAccountDisplayField('account-fullname-val', user.fullName);
+  setAccountDisplayField('account-email-val', user.email);
+
+  // Populate radio groups
+  setAccountRadio('gender', user.gender);
+  setAccountRadio('learning', user.learningStyle);
+
+  overlay.classList.remove('hidden');
+  overlay.scrollTop = 0;
+}
+
+function setAccountDisplayField(elId, value) {
+  const el = document.getElementById(elId);
+  if (value) {
+    el.textContent = value;
+    el.classList.remove('empty');
+  } else {
+    el.textContent = el.dataset.placeholder || '—';
+    el.classList.add('empty');
+  }
+}
+
+function setAccountRadio(group, value) {
+  document.querySelectorAll('.account-radio-opt[data-group="' + group + '"]').forEach(btn => {
+    btn.classList.toggle('selected', btn.dataset.val === value);
+  });
+}
+
+function saveAccountField(field, value) {
+  const user = State.user || {};
+  user[field] = value;
+  State.setUser(user);
+}
+
+function closeAccountPage() {
+  document.getElementById('account-overlay').classList.add('hidden');
+}
+
+function bindAccountPage() {
+  document.getElementById('account-close').addEventListener('click', closeAccountPage);
+
+  // Nickname edit
+  const nicknameVal = document.getElementById('account-nickname-val');
+  const nicknameInput = document.getElementById('account-nickname-input');
+  const nicknameEditBtn = document.getElementById('account-nickname-edit');
+
+  function startEditNickname() {
+    nicknameInput.value = getUserNickname();
+    nicknameVal.classList.add('hidden');
+    nicknameEditBtn.classList.add('hidden');
+    nicknameInput.classList.remove('hidden');
+    nicknameInput.focus();
+  }
+  function saveNickname() {
+    const val = nicknameInput.value.trim();
+    if (val) {
+      saveAccountField('nickname', val);
+      nicknameVal.textContent = val;
+      updateProfileBtn();
+    }
+    nicknameVal.classList.remove('hidden');
+    nicknameEditBtn.classList.remove('hidden');
+    nicknameInput.classList.add('hidden');
+  }
+  nicknameEditBtn.addEventListener('click', startEditNickname);
+  nicknameInput.addEventListener('blur', saveNickname);
+  nicknameInput.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); saveNickname(); } });
+
+  // Inline editable fields (fullName, email)
+  [['account-fullname-val', 'account-fullname-input', 'fullName'],
+   ['account-email-val',    'account-email-input',    'email']].forEach(([valId, inputId, field]) => {
+    const valEl = document.getElementById(valId);
+    const inputEl = document.getElementById(inputId);
+    function startEdit() {
+      inputEl.value = State.user?.[field] || '';
+      valEl.classList.add('hidden');
+      inputEl.classList.remove('hidden');
+      inputEl.focus();
+    }
+    function saveEdit() {
+      const val = inputEl.value.trim();
+      saveAccountField(field, val);
+      setAccountDisplayField(valId, val);
+      valEl.classList.remove('hidden');
+      inputEl.classList.add('hidden');
+    }
+    valEl.addEventListener('click', startEdit);
+    inputEl.addEventListener('blur', saveEdit);
+    inputEl.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); saveEdit(); } });
+  });
+
+  // Radio buttons
+  document.querySelectorAll('.account-radio-opt').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.group;
+      const val = btn.dataset.val;
+      document.querySelectorAll('.account-radio-opt[data-group="' + group + '"]').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      saveAccountField(group === 'gender' ? 'gender' : 'learningStyle', val);
+    });
+  });
+
+  // Reset progress
+  document.getElementById('account-reset').addEventListener('click', () => {
+    if (confirm('Opravdu chceš resetovat všechny splněné glitche?')) {
+      localStorage.removeItem('tg_progress');
+      renderFeed();
+      renderMapContent(document.getElementById('map-container'), '');
+    }
+  });
+
+  // Logout
+  document.getElementById('account-logout').addEventListener('click', () => {
+    localStorage.removeItem('tg_user');
+    updateProfileBtn();
+    closeAccountPage();
   });
 }
 
@@ -136,7 +269,7 @@ function submitLogin() {
   const input = document.getElementById('username-input');
   const name = input.value.trim();
   if (!name) { input.focus(); return; }
-  State.setUser({ name });
+  State.setUser({ nickname: name });
   updateProfileBtn();
   closeLoginModal();
   input.value = '';
