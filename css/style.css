@@ -828,9 +828,9 @@ html, body {
 }
 .quiz-option:disabled { cursor: default; }
 .quiz-dot {
-  width: 26px; height: 26px;
+  width: 25px; height: 25px;
   border-radius: 50%;
-  background: var(--bg3);
+  background: #342546;
   flex-shrink: 0;
   transition: background 0.2s;
 }
