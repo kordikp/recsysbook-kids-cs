@@ -703,9 +703,6 @@ html, body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  color: #1a1200;
-  font-size: 20px;
-  line-height: 1;
   padding: 0;
   transition: opacity 0.15s;
 }
@@ -756,7 +753,7 @@ html, body {
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
 .chat-bubble.bot {
-  background: var(--bg2);
+  background: #342546;
   border-bottom-left-radius: 4px;
   align-self: flex-start;
 }
@@ -802,10 +799,10 @@ html, body {
   transform: translateY(8px) scale(0.97);
 }
 .quiz-question {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 20px;
-  line-height: 1.5;
+  line-height: 30px;
   color: var(--accent);
 }
 .quiz-options {
