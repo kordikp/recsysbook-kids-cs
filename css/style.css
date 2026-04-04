@@ -445,7 +445,7 @@ html, body {
 
 /* ── MAP ── */
 .map-search-wrap {
-  padding: 16px 16px 8px;
+  padding: 20px 16px 0;
   position: sticky;
   top: 0;
   background: var(--bg);
@@ -470,7 +470,7 @@ html, body {
   font-size: 15px;
   font-weight: 400;
   color: var(--text-muted);
-  padding: 8px 16px 8px;
+  padding: 30px 16px 8px;
   margin: 0;
 }
 
