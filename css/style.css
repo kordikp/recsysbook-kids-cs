@@ -669,6 +669,7 @@ html, body {
 .cat-card[data-cat-id="vibecoding"] .cat-blob-img {
   bottom: auto;
   top: 16px;
+  width: 80px;
 }
 
 /* ── MISSIONS — LIST ── */
