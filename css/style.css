@@ -1119,6 +1119,8 @@ html, body {
   .cat-track { width: calc(50vw + 234px); }
   .overlay { max-width: 500px; left: 50%; transform: translateX(-50%); right: auto; width: 500px; }
   .overlay.hidden { transform: translateX(-50%) translateY(16px); }
+  .account-overlay { display: flex; align-items: center; justify-content: center; }
+  .account-wrap { min-height: unset; width: 100%; max-width: 500px; }
   body { background: #241832; }
   #splash { background: #241832; }
   .splash-inner { padding: 60px 40px; }
