@@ -18,3 +18,10 @@ To neznamená, že je to nutně špatné — věk pomáhá doporučit věkově p
 * S přesností na 3–5 let! Podle toho, kdy sleduješ, jak rychle scrolluješ, vkusu v hudbě a oblíbených memech — bez osobních informací
 - Ano, pomocí rozpoznávání obličeje z profilové fotky
 ! Přesně! Behaviorální vzorce jsou dost unikátní, aby odhadly věk s přesností na 3–5 let. „Anonymní data" mohou být překvapivě identifikovatelná.
+
++++
+De-anonymizace dat je fascinující výzkumná oblast. V roce 2006 výzkumníci z University of Texas dokázali identifikovat uživatele v anonymizovaných filmových hodnoceních Netflixu kombinací s veřejnými hodnoceními na IMDb. V roce 2008 výzkumníci ukázali, že 87 % Američanů je jedinečně identifikovatelných jen kombinací tří atributů: PSČ, datum narození a pohlaví. „Anonymní data" jsou tedy relativní pojem.
+
+Rychlost scrollování jako věkový indikátor je krásný příklad toho, jak nenápadné behaviorální signály jsou přitom velice přesné. Mladší lidé mají tendenci scrollovat rychleji a impulzivněji (swipe kulturu TikToku vstřebali v dětství), starší lidé se více zastavují a čtou. Samotný nácvik těchto mikro-pohybů odráží technologické prostředí, ve kterém člověk vyrostl — a to je jedinečné pro každou generaci.
+
+Aplikace DSA z roku 2024 zakazuje platformám profilovat nezletilé (pod 18 let) pro cílení reklam. Ale jak platforma ví, zda jsi nezletilý, pokud jsi nezadal datum narození? Přesně z behaviorálních signálů jako ty výše. TikTok v rámci DSA compliance implementoval systém, který automaticky identifikuje pravděpodobně nezletilé uživatele a řadí je do chráněného režimu — bez jejich vědomí. Je to ironické: platforma tě profiluje, aby... přestala tě profilovat pro reklamy.

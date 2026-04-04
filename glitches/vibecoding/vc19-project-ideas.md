@@ -27,3 +27,10 @@ Klíč: Vyber projekt, který TEBE samotného/samotnou baví. Motivace je nejdů
 * Jednoduchý projekt, který tě zajímá — sledovač filmů, kvíz, countdown
 - Projekt, který bude vydělávat peníze od prvního dne
 ! Přesně! Začni s jednoduchým projektem, který tě baví. Motivace je klíčová — a z jednoduché aplikace se naučíš víc než z nedokončeného složitého projektu.
+
++++
+„Scratch your own itch" (škrábi tam, kde tě to svrbí) je mantra indie vývojářů — buduj věci, které sám potřebuješ. Nejúspěšnější aplikace z jednoho člověka vznikly takhle: Superhuman (rychlý emailový klient) vznikl proto, že zakladatel nenáviděl, jak pomalý a nepřehledný je Gmail. Notion vznikl proto, že zakladatelé nenašli nástroj pro poznámky, který by jim vyhovoval. Tvůj problém je pravděpodobně sdílen s tisíci dalšími lidmi.
+
+Countdown do prázdnin je skvělý projekt i proto, že ho dokážeš ukázat okamžitě. Sdílíš odkaz ve třídní skupině, všichni ho vidí, baví se s tím. Tato okamžitá zpětná vazba od skutečných uživatelů (i když je to jen pět kamarádů) je cennější než jakákoliv teorie. Zjistíš, co funguje a co ne, co chtějí přidat, kde jsou zmateni. To je základní lekce product managementu — dostávej feedback brzy a často.
+
+Progrese od jednoduchých k složitějším projektům není jen o technické náročnosti. Je o pochopení, jak se myšlení o problémech mění. Kvíz pro spolužáky je jednoduchý — jedna stránka, otázky, výsledek. Tracker návyků s grafem je složitější — databáze, vizualizace dat, denní check-in logika. Mini e-shop je ještě složitější — produkty, košík, objednávky. Každý level přidává nové koncepty a způsob myšlení.

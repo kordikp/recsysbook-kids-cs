@@ -18,3 +18,10 @@ Adtech funguje jinak: sleduje tě napříč MNOHA weby pomocí cookies a pixelů
 * Doporučení ti pomáhají v rámci JEDNÉ aplikace, adtech tě sleduje napříč CELÝM internetem
 - Doporučení jsou od firem, reklamy od uživatelů
 ! Přesně! Doporučovací systém pracuje se daty jedné platformy pro tvůj prospěch. Adtech tě sleduje po celém internetu a prodává tvou pozornost inzerentům.
+
++++
+Adtech ekosystém je fascinující a děsivý zároveň. Průměrné webové stránky mají 50–80 třetích stran, které tě sledují — reklamní sítě, analytické nástroje, sociální widgety. Každá z nich přidá malý pixel (1×1 pixel obrázek) na stránku, který při načtení odešle informaci „tento uživatel byl tady v tento čas." Kombinací těchto zpráv od tisíců webů vznikne detailní profil tvojí online aktivity.
+
+Real-time bidding (RTB) je aukce tvé pozornosti, která proběhne za méně než 100 milisekund. Když načteš webovou stránku s reklamním místem, proběhne bleskurychlá aukce: stovky inzerentů najednou nabídnou cenu za zobrazení reklamy tobě konkrétně — na základě tvého profilu. Vítěz aukce zaplatí a jeho reklama se zobrazí. Celé to proběhne dřív, než se stránka načte. Je to burza lidské pozornosti v reálném čase.
+
+EU nařízení GDPR (od 2018) a DSA (od 2024) výrazně omezila cross-site tracking. Cookies třetích stran (hlavní nástroj adtechu) jsou v EU zakázány bez explicitního souhlasu — proto všechny ty cookie bannery. Prohlížeč Chrome (Google) v roce 2024 nakonec nedokončil plánované zrušení třetích cookies, protože Google sám závisí na adtechu. Firefox a Safari třetí cookies blokují ve výchozím nastavení. Volba prohlížeče je tedy přímé rozhodnutí o soukromí.

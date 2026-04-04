@@ -18,3 +18,10 @@ Systém tato čísla nikdy nezná předem — objeví je sám z vzorců v hodnoc
 * Rozloží ji na dvě menší matice — pro uživatele a položky — každá s latentními dimenzemi vkusu
 - Převede hodnocení na binární hodnoty ano/ne
 ! Přesně! Rozkladem na dvě menší matice systém odhalí skryté dimenze vkusu a dokáže předpovědět hodnocení pro položky, které uživatel nikdy neviděl.
+
++++
+Skryté dimenze jsou záhadné a fascinující. Nikdo je systému nepojmenoval — systém si je sám vymyslel z dat. V praxi vědci někdy zkoumají, co tyto dimenze zachycují. V analýzách filmových dat se ukázalo, že jedna dimenze zachycuje přibližně „mainstreamové vs. artové filmy," jiná „vážné vs. komediální," další „americké vs. evropské." Ale systém si také vymýšlí dimenze, které žádné přímé pojmenování nemají — zachycují subtilní vzory, které lidé nedokážou jednoduše popsat.
+
+Maticová faktorizace je matematicky ekvivalentní jiným metodám — jako jsou singulárně hodnotový rozklad (SVD) nebo analýza hlavních komponentů (PCA). Tyto techniky se používají i mimo doporučovací systémy: ke kompresi obrázků, analýze genů v biologii nebo k redukci šumu v signálech. Je fascinující, že stejná matematika funguje pro tak různorodé problémy.
+
+Jedním z největších problémů maticové faktorizace v praxi je škálování. Když Netflix přidá 1 milion nových uživatelů nebo 1 000 nových filmů, musí přepočítat celou faktorizaci — a to trvá hodiny na serverové farmě. Proto moderní systémy jako Netflix nepoužívají čistou maticovou faktorizaci, ale přechází na online algoritmy, které se učí inkrementálně z každé nové interakce, bez nutnosti přepočítat vše od začátku.

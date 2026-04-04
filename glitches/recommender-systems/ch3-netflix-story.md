@@ -18,3 +18,10 @@ A tady přichází překvapení: Netflix vítězné řešení nikdy nepoužil. B
 * Větší přesnost nevždy vyhrává — rychlost a jednoduchost jsou v reálných systémech důležitější než dokonalost
 - Větší týmy vždy porazí menší
 ! Přesně! Vítězné řešení bylo příliš složité na provoz. Dost dobré a rychlé poráží dokonalé a pomalé — to platí v mnoha oblastech inženýrství.
+
++++
+Netflix Prize je legendární v světě strojového učení a datové vědy — ale má i zajímavý etický aspekt. Netflix zveřejnil 100 milionů anonymizovaných hodnocení, ale výzkumníci z University of Texas brzy dokázali de-anonymizovat část dat kombinací s veřejnými hodnoceními na IMDb. Ukázalo se, že „anonymní" data nejsou tak anonymní, jak Netflix tvrdil. To vedlo k tomu, že plánované Netflix Prize 2 bylo zrušeno po soudní žalobě kvůli ochraně soukromí.
+
+Vítězný tým BellKor's Pragmatic Chaos byl koalicí tří týmů, které se spojily v posledních týdnech závodu — každý tým pracoval nezávisle a pak kombinoval výsledky. Tato technika „ensemblingu" (kombinace více modelů) přitom přinesla poslední rozhodující zlepšení. Systém, který vyhrál, byl v podstatě super-komplexní kombinace přibližně 100 různých algoritmů. To je také důvod, proč ho Netflix nemohl provozovat.
+
+Lekce z Netflix Prize rezonuje dodnes: v ML soutěžích optimalizujete pro jedno číslo (přesnost na testovacím datasetu). V reálném světě musíte optimalizovat pro desítky věcí najednou — přesnost, rychlost, cenu, škálovatelnost, vysvětlitelnost a bezpečnost. Proto nejlepší Kagglers (vítězové ML soutěží) ne vždy bývají nejlepší inženýři produkčních systémů.

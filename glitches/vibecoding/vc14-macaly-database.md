@@ -24,3 +24,10 @@ Bez vestavěné databáze bys musel/a řešit Supabase, Firebase nebo jiné exte
 * Trvalé ukládání dat aplikace bez potřeby externích databázových služeb
 - Testování aplikace na různých zařízeních najednou
 ! Správně! Vestavěná databáze zajišťuje, že data v tvé aplikaci jsou uložena trvale — bez nutnosti nastavovat a platit za externe databázové služby.
+
++++
+Databáze jsou základem téměř každé moderní aplikace. Když si uložíš kontakt v telefonu, je v databázi. Když pošleš zprávu na WhatsApp, je uložena v databázi. Když Netflix sleduje, co jsi viděl, je to v databázi. Databáze jsou tak všudypřítomné, že jsou neviditelné — ale bez nich by digitální svět přestal fungovat za sekundy.
+
+Existují různé typy databází pro různé potřeby. Relační databáze (SQL — MySQL, PostgreSQL) ukládají data v tabulkách s pevnou strukturou — jako Excel. Jsou spolehlivé a dobré pro strukturovaná data. Dokumentové databáze (NoSQL — MongoDB, Firestore) ukládají data jako JSON dokumenty — flexibilnější. Macaly pravděpodobně používá kombinaci obou. Pro tvoje projekty je tohle detaile, který nemusíš znát — ale je dobré vědět, že databáze nejsou jen „jedno místo na data."
+
+CMS (Content Management System) část Macaly je zlaté pro jednoduché weby a aplikace. Místo programování admin rozhraní (stránky pro správu dat) dostaneš vizuální tabulku automaticky. Podobně funguje Wordpress (nejpopulárnější CMS světa s 43 % všech webů) nebo Webflow CMS. Vibecoding smazal potřebu programovat — Macaly CMS smazal i potřebu navrhovat administrační rozhraní.

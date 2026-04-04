@@ -18,3 +18,10 @@ Tato tabulka je tvoje hodnotící matice. Větší systémy jako Netflix mají 3
 * Uživatelé jako řádky, položky jako sloupce, hodnocení v buňkách — většina buněk je prázdná
 - Tabulka s průměrnými hodnoceními filmů
 ! Přesně! Hodnotící matice zachycuje, co kdo ohodnotil. Prázdné buňky jsou to, co se snažíš předpovědět — to je podstata kolaborativního filtrování.
+
++++
+Průzkum hodnocení mezi kamarády může odhalit překvapivé vzorce. V rámci třídy nebo skupiny přátel jsou lidé obvykle v jednom nebo dvou velkých „vkusových klastrech" — ti, kdo mají rádi akci a napětí, a ti, kdo mají rádi příběhy a emoce. Když toto vizualizuješ v tabulce, tyto klastry jsou nápadné i bez jakéhokoliv algoritmu. Přesně to dělají systémy s miliardami dat — jen rychleji a přesněji.
+
+Prázdné buňky (neviděl/neviděla) jsou problematické z více důvodů. Neznamená to nutně, že daný film neznají — může to znamenat, že ho neviděli, ale znají ho a záměrně se mu vyhýbali. Nebo ho nikdy neslyšeli. Nebo ho chtějí teprve vidět. Každá z těchto situací je jiná, ale v matici jsou všechny prázdná buňka. Sofistikované systémy se snaží tuto ambiguitu řešit, ale nikdy dokonale.
+
+Způsob sběru dat ovlivňuje kvalitu výsledků víc, než si lidé uvědomují. Pokud říkáš „ohodnoť od 1 do 5," různí lidé mají různé škály — někdo 3 znamená průměrné, jinému znamená špatné. Systémy proto often přecházejí na relativní hodnocení: „líbilo se ti toto víc nebo méně než tamto?" Relativní hodnocení je konzistentnější napříč uživateli — a kosinová podobnost ho přirozeně zvládá lépe než průměr absolutních čísel.

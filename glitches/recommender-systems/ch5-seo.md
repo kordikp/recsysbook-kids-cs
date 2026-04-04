@@ -18,3 +18,10 @@ Kontrolní seznam tvůrce: jasné titulky (ne „ŠÍLENÁ STAVBA 😱🔥"), sk
 * Výsledky jsou personalizované — tvůj obsah může být č. 1 pro tvoje publikum a neviditelný pro všechny ostatní
 - Protože reklamy obsadily první pozice
 ! Přesně! Personalizované vyhledávání znamená, že každý vidí jiné výsledky. Cílem není být první pro všechny — ale být nejlepší shoda pro tvoje konkrétní cílové publikum.
+
++++
+SEO (Search Engine Optimization) je miliardový průmysl a fascinující příklad závodu ve zbrojení mezi tvůrci a algoritmy. Tvůrci hledají způsoby, jak algoritmus přimět zobrazit jejich obsah výše — algoritmy se adaptují, aby tyhle triky penalizovaly. Každá aktualizace Google algoritmu způsobí výkyvy v návštěvnosti tisíců webů. Firmy zaměstnávají celé týmy SEO specialistů, jejichž práce je sledovat tyto změny a přizpůsobovat obsah.
+
+Zajímavý vývoj: Google přidal AI Overview (AI přehled) v roce 2024 — místo odkazů přímo odpovídá na otázky AI shrnutím. Pro uživatele je to pohodlnější, ale pro tvůrce obsahu to znamená, že Google bere jejich obsah, použije ho v AI odpovědi, a uživatel vůbec neklikne na jejich web. Vydavatelé a novináři proto protestují — AI je parazituje na jejich práci bez návštěvnosti nebo odměny.
+
+Konzistentní nika je radikálně jiná strategie než snaha oslovit všechny. Tvůrci, kteří se specializují na úzké téma (třeba „vaření s jedním hrncem pro studenty"), dostávají od algoritmů lepší doporučení než ti, kdo pokrývají vše. Algoritmus neví, komu tě zobrazit, pokud sám nevíš, pro koho tvoříš. Jasně definované publikum je technicky i marketingově výhodné.

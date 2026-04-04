@@ -18,3 +18,10 @@ Budujte systémy, které respektují uživatele. Systémy, které pomáhají lid
 * Vyrůstali jste S nimi — všimnete si podivných doporučení, víte, jak algoritmus ošálit, a cítíte tah nekonečného scrollování
 - Protože programování se nyní učí ve školách
 ! Přesně! Žít v systému od dětství dává jedinečné pochopení, které se nedá naučit z knih. Tato zkušenost je cenná — při budování i regulování těchto technologií.
+
++++
+Historické paralely jsou poučné. Generace, která vyrůstala s televizí, jako první pochopila, jak televize manipuluje emocemi, jak reklamy cílí na podvědomí, jak reality show zkresluje realitu. Mediální gramotnost (schopnost kriticky číst mediální sdělení) vznikla právě proto, že lidé, kteří s televizí vyrostli, chtěli chránit sami sebe i ostatní. Algoritmická gramotnost je přesnou analogií pro vaši generaci.
+
+Konkrétní výhoda plyne z toho, co vědci nazývají „embodied knowledge" — vtělená znalost. Víš, jak se cítíš po hodině nekonečného scrollování. Víš, jak algoritmus reaguje, když záměrně sleduješ jiný obsah. Víš, jak se liší feed po restartu oproti dlouhodobě trénovanému. Tento druh přímé zkušenosti není dostupný z knih nebo přednášek — je to znalost v těle a v reflexech.
+
+Budoucnost budou formovat lidé, kteří kombinují technické porozumění s etickým. Není stačí vědět, jak doporučovací systém postavit — musíš vědět, jak ho postavit tak, aby sloužil lidem, ne je exploitoval. Firmy jako Anthropic, Deepmind nebo regulátoři v EU aktivně hledají lidi s touto kombinací. A ty jsi na dobré cestě — porozumění technologii i jejím etickým dopadům je přesně to, co budoucnost potřebuje.

@@ -18,3 +18,10 @@ Tvoje nejlepší ochrana není zákon — je to tvoje znalost. Porozumění dopo
 * Právo odmítnout algoritmická doporučení a zákaz profilování dětí pro cílení
 - Právo vědět, kdo programoval daný algoritmus
 ! Přesně! Digital Services Act (DSA) dává uživatelům právo odmítnout algoritmické feedy a zakazuje profilování nezletilých. V praxi je vymáhání složité, ale právo existuje.
+
++++
+DSA (Digital Services Act) je součástí širší EU strategie regulace digitálního prostoru. Spolu s ním přišel DMA (Digital Markets Act) zaměřený na monopoly, AI Act (regulace AI systémů) a GDPR pro soukromí. Dohromady tvoří nejkomplexnější regulační rámec pro tech firmy na světě. USA, Čína ani žádná jiná jurisdikce nemá srovnatelnou ochranu uživatelů — proto EU regulace ovlivňují globální standardy, i když firma sídlí jinde.
+
+Chronologický feed jako alternativa k algoritmickému feedu je složitější, než vypadá. Twitter/X nabídl v roce 2022 možnost přepnout na chronologický feed — a výsledky byly smíšené. Uživatelé si stěžovali, že chronologický feed je zahlcující, plný spamu a duplicit. Algoritmický feed je paradoxně příjemnější a přehlednější. Právo na alternativu je tedy důležité, ale ne nutně příjemné — a to je legitimní argument pro zachování algoritmů.
+
+Regulace tech firem je politicky složitá, protože velké tech firmy jsou i velké ekonomické mocnosti. Apple, Google, Meta, Amazon platí v EU daně v řádech miliard eur — a zaměstnávají tisíce lidí. Každá regulace je tedy kompromis mezi ochranou občanů a ekonomickými zájmy. Proto proces od přijetí zákona k reálnému vymáhání trvá roky a výsledky jsou vždy jen částečné. Tlak organizací jako EFF (Electronic Frontier Foundation) nebo noyb je proto nepostradatelný.

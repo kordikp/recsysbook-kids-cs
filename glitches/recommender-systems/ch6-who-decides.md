@@ -18,3 +18,10 @@ Někdy tě algoritmus přivede k novému koníčku. Jindy tě uvězní ve smyčc
 * Algoritmus — ne ty, ne tvoji rodiče, ne zaměstnanci TikToku — optimalizuje pro co tě udrží u sledování nejdéle
 - Náhodný výběr z populárního obsahu
 ! Přesně! Algoritmus rozhoduje na základě dat o tvém chování. Optimalizuje pro engagement — ale engagement nemusí být totéž jako tvůj zájem nebo pohoda.
+
++++
+Rozhodování algoritmem bez lidského dohledu (full automation) je přesně to, co AI Act EU kategorizuje jako „high-risk" v určitých oblastech. TikTok doporučující obsah je „low-risk" — nejhorší, co se může stát, je, že strávíš příliš čas na telefonu. Ale stejný algoritmus rozhodující o tom, které zdravotnické záznamy vidí lékař nebo o úvěrovém skóre — to je jiná kategorie rizika. Hranice, kde algoritmus smí rozhodovat sám, je jednou z klíčových regulačních otázek.
+
+Zajímavé je, že i zaměstnanci TikToku nevědí, co přesně jejich feed zobrazí konkrétnímu uživateli. Algoritmus je blackbox i pro interní tým — pouze výstupy se sledují a hodnotí, ne individuální rozhodnutí. Tato ztráta kontroly nad vlastním produktem je znepokojivá i pro samotné firmy. Inženýři mohou nastavit cíl (maximalizovat sledovací dobu), ale nemohou plně předpovědět, jaké vzorce chování algoritmus vyvinone k dosažení tohoto cíle.
+
+Otázka „co tě udrží nejdéle" vs. „co je pro tebe nejlepší" je fundamentální problém měřitelnosti. Sledovací dobu lze snadno měřit. „Pohoda uživatele" nebo „kvalita života" se měří obtížně. Firmy optimalizují pro to, co se dá měřit — proto neoptimalizují pro pohodu. Pokud by existovaly spolehlivé metriky wellbeingu v reálném čase (jak se po hodině scrollování skutečně cítíš?), algoritmy by je mohly optimalizovat. Toto je aktivní výzkumná oblast.

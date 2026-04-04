@@ -18,3 +18,10 @@ Představ si tvou mřížku na lepítku. Netflixova ve stejném měřítku by po
 * 3,4 BILIONU! A většina buněk je prázdná
 - 1 trilion
 ! Přesně! 230 milionů uživatelů × 15 000 filmů = 3,4 bilionu kombinací. Přesto algoritmy nacházejí vzorce v těchto řídkých datech — to je skutečná magie.
+
++++
+Řídkost (sparsity) dat je jeden z klíčových problémů, ale zároveň jedna z klíčových příležitostí. Pokud by každý Netflix uživatel viděl každý film (tabulka by byla plná), doporučení by bylo jednoduché. Ale právě proto, že 99 % buněk je prázdných, je doporučení cenné — přesně ten 1 % věcí, které jsi viděl, říká víc o tobě než celá plná tabulka.
+
+Astronomická čísla YouTube (2,16 kvintilionů kombinací) ukazují, proč přesné procházení celé matice není možné. YouTube to řeší předpočítanými embeddingy a přibližným hledáním nejbližšího souseda — místo přesného řešení hledá dostatečně dobré řešení za milisekundy. Toto je obecný princip: v inženýrství je „dost dobré a rychlé" lepší než „dokonalé a pomalé."
+
+Zajímavé je srovnání s biologií. Lidský mozek má přibližně 100 miliard neuronů s 100 biliony spojení — to je 10^14 kombinací. Přesto mozek zpracovává informace v milisekundách, protože většina spojení je v daný moment neaktivních. Podobně doporučovací systém pracuje s řídkými maticemi, kde jen zlomek dat je relevantní pro konkrétního uživatele v konkrétní chvíli. Mozek a algoritmy řeší podobný problém podobnými principy.

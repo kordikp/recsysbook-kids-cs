@@ -18,3 +18,10 @@ Zkus to: vyhledej něco, co jsi NIKDY předtím nehledal — třeba „tutoriál
 * Ano — záměrné vyhledávání, lajkování a tlačítko Nezajímá mě trénují tvůj algoritmus
 - Jen pomocí placených nástrojů
 ! Ano! Každá akce je signál. Záměrně sleduj témata, která chceš, používej Nezajímá mě na nežádoucí obsah — a algoritmus tě poslechne.
+
++++
+Záměrné trénování algoritmu je technika, kterou používají content creatorové k výzkumu svého publika. Profesionální YouTubeři si vytvářejí „testovací účty" — přihlásí se, sledují videa přesně v kategorii svého kanálu, a pak sledují, co jim algoritmus začne doporučovat. Tím zjistí, kteří tvůrci jsou jejich přímí konkurenti a jaký obsah algoritmus považuje za podobný tomu jejich.
+
+Průzkumné video, které vidíš v feedu a nečekals ho, není náhoda. Jmenuje se to „exploration slot" — algoritmus záměrně vloží video z tématu, které ještě neznáš, aby otestoval tvoji reakci. Pokud klikneš a sleduješ, dveře se otevřou. Pokud přeskočíš, systém to vyzkouší jindy s jiným tématem. Je to jako superchytrý obchodník, který ti nenásilně nabízí nové produkty.
+
+Zajímavý experiment: výzkumníci z Mozilly udělali studii, kde sledovali, jak rychle se dá záměrným chováním přetrénovat YouTube algoritmus. Zjistili, že systematickým sledováním a lajkováním lze za 2–3 dny naprosto změnit charakter doporučení. To je mocná schopnost — ale také potvrzení, jak zranitelný feed může být vůči manipulaci, ať už vlastní nebo ze strany jiných.

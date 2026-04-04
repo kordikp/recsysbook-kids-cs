@@ -18,3 +18,10 @@ Teď dělej předpovědi: najdi spolužáka, který NEVIDĚL jeden film. Podíve
 * Ano — průzkum, tabulka hodnocení a ruční výpočet podobnosti stačí
 - Ne, potřebuješ alespoň 1000 uživatelů
 ! Ano! Základní kolaborativní filtrování zvládneš na papíře. Velké systémy dělají to samé — jen s miliony uživatelů a výkonnými počítači.
+
++++
+Tento ruční experiment s kolaborativním filtrováním je přesně to, co v 90. letech dělali výzkumníci z GroupLens projektu na University of Minnesota. Oni sbírali hodnocení filmů od tisíců lidí e-mailem — v době před internetem jako ho znáš — a ručně hledali vzory. Jejich práce je základem moderního doporučování. Takže i ručně dělaný experiment má přímé historické kořeny.
+
+Zajímavé je, jak malá skupina stačí k tomu, aby kolaborativní filtrování začalo fungovat. Výzkumy ukazují, že s pouhými 30–50 uživateli, kteří hodnotili alespoň 10 společných položek, začíná algoritmus dávat smysluplné výsledky. Proto i malé komunitní weby (fóra, malé e-shopy) mohou mít funkční doporučovací systém bez milionů dat.
+
+Ručně tabulku dělat je taky skvělé cvičení pro pochopení sparsity — řídkosti dat. Pokud každý tvůj spolužák viděl jiné filmy, tabulka bude mít hodně prázdných políček. Netflix má 99 % prázdných buněk, přesto algorithmus funguje. Výzva je tedy ne jen najít podobné uživatele, ale najít je i přes to, že viděli jen zlomek stejného obsahu — a přesto odhadnout, zda by se jim líbilo to, co druhý viděl a oni ne.

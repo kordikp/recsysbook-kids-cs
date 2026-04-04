@@ -18,3 +18,10 @@ YouTube má 800 milionů videí. Nemůžeš každé zvlášť ohodnotit — ale 
 * Jedna věž kóduje uživatele a druhá položky — obě produkují embeddingy ve stejném prostoru
 - Dva typy doporučení: populární a personalizovaná
 ! Přesně! Dvě věže fungují nezávisle — věž položek vytváří embeddingy předem, věž uživatelů je aktualizuje v reálném čase. Proto je systém tak rychlý.
+
++++
+Architektura dvou věží je geniální kvůli asymetrii v nákladech. Věž položek přepočítává embeddingy jednou za čas — nové video se zpracuje při nahrání, pak je uloženo. Věž uživatelů musí reagovat v reálném čase na každou akci — nové kliknutí, nové vyhledávání. Oddělením těchto dvou věží YouTube nemusí přepočítávat embeddingy 800 milionů videí pokaždé, když otevřeš aplikaci. Počítá jen tvůj uživatelský embedding.
+
+Hledání „nejbližších sousedů" (Approximate Nearest Neighbor Search) v prostoru s miliardami vektorů je samo o sobě složitá technická výzva. Firmy jako Spotify, Pinterest a Meta vyvíjely vlastní specializované algoritmy a databáze pro toto hledání — a pak je zveřejnily jako open source (Spotify ANNOY, Facebook Faiss, Google ScaNN). Tato spolupráce v základním výzkumu je fascinující — firmy jinak konkurenti sdílejí klíčové technologie, protože každému závisí na tom, aby byl celý ekosystém lepší.
+
+Věže se trénují společně — systém se naučí, jak převádět uživatele a položky do stejného prostoru tak, aby podobné páry (uživatel × položka, která se mu líbila) byly blízko. Toto trénování potřebuje negativní příklady — videa, která uživatel NEviděl nebo mu NEudělala radost. Jak systém ví, co jsou dobré negativní příklady? To je samo o sobě velký výzkumný problém, protože „uživatel video neviděl" nemusí znamenat, že by se mu nelíbilo — možná o něm prostě nevěděl.

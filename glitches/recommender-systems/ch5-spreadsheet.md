@@ -18,3 +18,10 @@ Podívej se na řádky: kdo má hodně zelené na stejných filmech? To jsou vku
 * Barevně označená hodnocení odhalují vzorce vkusu vizuálně — vidíš podobnosti ještě před jakoukoli matematikou
 - Ukládá data do cloudu pro sdílení
 ! Přesně! Podmíněné formátování v tabulce ti umožní vizuálně rozpoznat vkusové vzorce a podobné uživatele — ještě před tím, než uděláš jakýkoli výpočet.
+
++++
+Vizualizace dat je v datové vědě téměř stejně důležitá jako matematika. Před tím, než začneš počítat, je vždy dobré se na data podívat — co vidíš, jaké vzory jsou nápadné, jsou tam outlieři nebo neočekávané hodnoty? Barevná tabulka je primitivní vizualizace, ale přesně tento princip používají sofistikované nástroje jako Tableau nebo Power BI, jen s daleko více možnostmi.
+
+Tabulkový procesor má překvapivé možnosti pro datovou analýzu. Google Sheets a Excel umí průměry, podmíněné formátování, korelační koeficienty i základní vizualizace — to stačí pro miniaturní doporučovací systém. Firmy jako Recombee ale zpracovávají miliardy řádků dat za sekundu, kde tabulkový procesor absolutně nestačí — tam nastupují specializované databáze a výpočetní frameworky.
+
+Dobrá vizualizace odhalí i problémy v datech. Pokud v tabulce vidíš, že jeden člověk dal všem filmům 5 hvězdiček — to je buď někdo, kdo všechno miluje, nebo někdo, kdo se nesnaží hodnotit upřímně. Takový uživatel je „šumivý" — jeho hodnocení nemají diskriminační hodnotu. Čištění dat (odstraňování nebo korekce takových záznamů) je v praxi 80 % práce datového vědce. Data z reálného světa jsou vždy špinavá.
