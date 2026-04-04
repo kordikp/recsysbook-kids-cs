@@ -3,13 +3,13 @@
     {
       "id": "recommender-systems",
       "title": "Jak fungují doporučovací systémy a sociální sítě?",
-      "blob": "Tiny_Glitch_Blobs_15.svg",
+      "blob": "Tiny_Glitch_Blobs_05_2.svg",
       "missionIds": ["mission-ch1", "mission-ch2", "mission-ch3", "mission-ch4", "mission-ch5", "mission-ch6"]
     },
     {
       "id": "vibecoding",
       "title": "Co to je vibecoding a jak na něj",
-      "blob": "Tiny_Glitch_Blobs_15.svg",
+      "blob": "Tiny_Glitch_Blobs_05_2.svg",
       "missionIds": ["mission-vc1", "mission-vc2", "mission-vc3"]
     }
   ],
