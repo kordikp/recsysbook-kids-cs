@@ -8,9 +8,7 @@ hook: Proč to funguje?
 
 Metoda průměrného rozdílu je dobrý začátek. Ale co když někdo hodnotí vše nízko a jiný vše vysoko — přesto mají stejný vzorec preferencí?
 
-Kosinová podobnost to řeší: místo čísel sleduje SMĚR. Představ si hodnocení každé osoby jako šipku v prostoru. Alex [5, 4] a Sam [5, 5] ukazují téměř stejným směrem — skóre 0,98. Alex [5, 4] a Jordan [1, 2]? Ukazují opačným směrem — nízké skóre.
-
-Klíčový poznatek: kosinová podobnost měří vzorec, ne výšku čísel. Přísný hodnotitel, který nikdy nedá 5 hvězdiček, ale hodnotí ve stejném pořadí jako ty — je ti stále podobný.
+Kosinová podobnost to řeší: místo čísel sleduje SMĚR. Alex [5, 4] a Sam [5, 5] ukazují téměř stejným směrem — vysoké skóre. Přísný hodnotitel, který nikdy nedá 5 hvězdiček, ale hodnotí ve stejném pořadí jako ty, je ti stále podobný.
 
 ? Co měří kosinová podobnost?
 - Průměrný rozdíl hodnocení dvou uživatelů

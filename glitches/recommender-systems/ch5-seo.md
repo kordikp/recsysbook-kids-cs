@@ -6,11 +6,9 @@ teaser: Vyhledávače a doporučovací systémy se slévají. Tady je návod, ja
 hook: Chceš být doporučený?
 ---
 
-Staré SEO (2010): cpej klíčová slova, získej co nejvíc odkazů, obelsti algoritmus. Nové SEO (2020+): piš přirozeně, zaměř se na témata, získej skutečné zapojení, pomáhej algoritmu pochopit tvůj obsah.
+Staré SEO: cpej klíčová slova, obelsti algoritmus. Nové SEO: piš přirozeně, získej skutečné zapojení, pomáhej algoritmu pochopit tvůj obsah.
 
-Výsledky vyhledávání jsou personalizované — „být na 1. místě" neexistuje. Tvůj obsah může být č. 1 pro tvoje cílové publikum a neviditelný pro všechny ostatní. A to je vlastně dobré — nemusíš porazit každého, jen být nejlepší shoda pro svoje lidi.
-
-Kontrolní seznam tvůrce: jasné titulky (ne „ŠÍLENÁ STAVBA 😱🔥"), skutečné popisky (algoritmus je čte), konzistentní nika (pokud přispíváš o Minecraftu, vaření i make-upu, algoritmus neví, komu tě ukázat).
+Výsledky vyhledávání jsou personalizované — „být na 1. místě" neexistuje. Tvůj obsah může být první pro tvoje cílové publikum a neviditelný pro všechny ostatní.
 
 ? Proč dnes „být na 1. místě Googlu" neexistuje?
 - Protože Google zrušil číslování výsledků

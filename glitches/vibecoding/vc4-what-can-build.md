@@ -6,17 +6,9 @@ teaser: Web, hra, aplikace, chatbot — bez jediného řádku kódu napsaného r
 hook: Co bys postavil dnes?
 ---
 
-Co můžeš vytvořit pomocí vibecoding? Skoro cokoli, co běží v prohlížeči nebo na telefonu.
+Webové stránky, nástroje, hry v prohlížeči, chatboty — skoro cokoli, co běží v prohlížeči nebo na telefonu. 14letý kluk z USA postavil aplikaci pro sledování školních úkolů za 3 hodiny — bez jediné hodiny programování.
 
-Webové stránky: portfolio, blog, stránka pro kapelu nebo sportovní tým. Za hodinu, zadarmo, přesně podle tvé představy.
-
-Nástroje a aplikace: kalkulačka zvláštních věcí, tracker návyků, plánovač tréninku, kvízová hra pro spolužáky. Cokoli, co řeší TVŮJ problém.
-
-Hry: jednoduché hry v prohlížeči — had, kvízy, puzzle. Složitější věci jsou možné, ale potřebují víc iterací.
-
-Chatboty: bot, který odpoví na otázky o tvé škole, nebo asistent, který ti pomůže s učením.
-
-Skutečný příklad: 14letý kluk z USA postavil aplikaci pro rodiče svých spolužáků ke sledování školních úkolů. Bez jediné hodiny programování. Použil Bolt (vibecoding nástroj) a 3 hodiny času.
+Kde je limit? Komplexní systémy pro banky nebo nemocnice stále potřebují profesionální vývojáře. Vibecoding je mocný pro osobní projekty a prototypy.
 
 ? Co NEJDE (nebo jde velmi těžko) vytvořit pomocí vibecoding?
 - Jednoduchá webová stránka

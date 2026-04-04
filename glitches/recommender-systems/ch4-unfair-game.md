@@ -6,11 +6,9 @@ teaser: Co se stane, když jsou vyvoláváni jen hlasití žáci? To samé, co s
 hook: Hraje algoritmus fér?
 ---
 
-Učitel vyvolá Majku — skvělá odpověď. Druhý den ji vyvolá znovu. Do pátku ji volá téměř pokaždé. Mezitím Kuba nezvedl ruku v pondělí a postupně přestal zkoušet. Majka je slyšena, protože byla slyšena dřív. Kuba mlčí, protože mlčel dřív.
+Učitel volá Majku pokaždé. Do pátku ji volá skoro vždy. Mezitím Kuba přestal zkoušet, protože ho nikdo nezvolí. Majka je slyšena, protože byla slyšena dřív.
 
-Přesně tohle se děje s doporučeními: video je populární → doporučeno více → ještě populárnější. Skvělé nové video od malého tvůrce? Nikdo ho nevidí, takže není doporučeno.
-
-Řešení? Jako dobrý učitel: náhodné vyvolávání (algoritmy náhodně testují nový obsah na malých skupinách), přidělené řady (garantovaná minimální viditelnost pro nové tvůrce), práce ve skupinách (TikTok testuje videa nejprve na malých skupinách).
+Přesně tohle se děje s doporučeními: populární dostává viditelnost, viditelnost dělá populárním. Skvělé nové video? Nikdo ho nevidí.
 
 ? Jak mohou platformy udělat doporučení spravedlivějšími?
 - Zakázat populárním tvůrcům nahrávat více videí

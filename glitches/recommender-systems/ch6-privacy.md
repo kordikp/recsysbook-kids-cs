@@ -6,11 +6,9 @@ teaser: Přeskočme vágní varování a pojďme na to konkrétně. Co o tobě a
 hook: Víš, co o tobě vědí?
 ---
 
-YouTube ví: každé video, které jsi sledoval, jak dlouho, co jsi hledal, jaké zařízení používáš, tvoji přibližnou polohu. TikTok ví: každé přeskočené video a jak rychle, videa přehraná znovu, tvůj obličej z videí, které jsi zveřejnil.
+YouTube ví každé video, jak dlouho, co jsi hledal, jaké zařízení, tvoji polohu. TikTok ví každé přeskočené video a jak rychle, videa přehraná znovu, tvůj obličej z videí.
 
-Všechna tato data budují model — digitální dvojče. Matematická verze tebe, která předpovídá, co uděláš příště. Nezná tvoje jméno. Nečte tvoje zprávy. Ale zná tvoje vzorce s děsivou přesností.
-
-Souhlasil sis s podmínkami. Sběr probíhá otevřeně. Ale nemůžeš dělat dobrá rozhodnutí o něčem, čemu nerozumíš. Teď tomu rozumíš — co s tím uděláš?
+Všechna ta data budují digitální dvojče — matematickou verzi tebe. Nezná tvoje jméno, nečte zprávy, ale zná tvoje vzorce s děsivou přesností.
 
 ? Co je digitální dvojče?
 - Virtuální avatar v metaverzu

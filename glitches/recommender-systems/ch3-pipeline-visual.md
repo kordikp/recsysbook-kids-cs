@@ -6,11 +6,9 @@ teaser: Sleduj jedno doporučení od okamžiku otevření aplikace až po zobraz
 hook: Co se děje za scénou?
 ---
 
-Klepneš na YouTube. Za 0,1 sekundy systém shrne: posledních 10 sledovaných videí — 6 o Minecraftu, 2 o zvířatech. Čas: sobota 16:00 — obvykle sleduješ delší videa.
+Klepneš na YouTube. Za 0,1 sekundy systém shrne tvoji historii — 6 Minecraft videí, 2 o zvířatech, sobota 16:00.
 
-Za 0,2 sekundy spustí vyhledávání najednou: kolaborativní dá 200 kandidátů, filtrování podle obsahu 150, tvoje odběry 30, trending 50, průzkum 70. Celkem ~500 kandidátů za zlomek sekundy.
-
-Za 0,4 sekundy každý kandidát dostane skóre: pravděpodobnost kliknutí, očekávaný čas sledování, pravděpodobnost lajku. Za 0,7 sekundy systém zkontroluje rozmanitost, čerstvost a vhodnost. Výsledek je na obrazovce dřív, než mrkneš.
+Za 0,2 sekundy kandidáti: kolaborativní dá 200, filtrování podle obsahu 150, odběry 30, trending 50, průzkum 70. Zhruba 500 kandidátů za zlomek sekundy. Za 0,7 sekundy zkontroluje rozmanitost a vhodnost — a výsledek je na obrazovce dřív, než mrkneš.
 
 ? Jak YouTube najde 20 videí z 800 milionů za 0,2 sekundy?
 - Náhodným výběrem z populárních videí

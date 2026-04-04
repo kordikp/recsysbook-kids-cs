@@ -6,13 +6,9 @@ teaser: Objevovat, nacházet a udržovat zájem – to je jeho práce.
 hook: A co to vlastně je?
 ---
 
-Každý doporučovací systém na světě má tři hlavní úkoly — ať je to YouTube, Spotify nebo Netflix.
+Každý doporučovač na světě dělá tři věci. OBJEVIT — existuje kapela, kterou budeš milovat stejně jako Imagine Dragons, ale ještě nevíš, že existuje. NAJÍT — YouTube má přes 800 milionů videí, bez systému bys scrolloval celý život.
 
-Úkol č. 1: Pomoci ti OBJEVIT nové věci. Miluješ Imagine Dragons? Někde tam existuje kapela, kterou budeš milovat stejně moc — ale ještě nevíš, že existuje.
-
-Úkol č. 2: Pomoci ti NAJÍT věci rychleji. YouTube má přes 800 milionů videí. Bez doporučení bys scrolloval celý život. Systém dává nejlepší věci dopředu.
-
-Úkol č. 3: Udržet tě v ZÁJMU. Aplikacím záleží na tom, abys je dál používal. Tento úkol je užitečný — ale může být i problém. O tom si řekneme víc u filtračních bublin. Teď otázka:
+A UDRŽET — aplikacím záleží na tom, abys je dál používal. Tenhle úkol je užitečný, ale může být i problém. O tom u filtračních bublin.
 
 ? Jaké jsou 3 úkoly doporučovacího systému?
 - Sledovat, analyzovat, reportovat

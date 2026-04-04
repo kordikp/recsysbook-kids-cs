@@ -6,11 +6,9 @@ teaser: Ta reklama na boty, která tě všude sleduje, NENÍ doporučovací syst
 hook: Poznáš ten rozdíl?
 ---
 
-Podíval ses na tenisky na jednom webu. Teď tě reklamy na tenisky sledují všude — na Instagramu, YouTube, zpravodajských webech. Je to doporučovací systém? Ne. Je to adtech (reklamní technologie).
+Podíval ses na tenisky. Teď tě reklamy na tenisky sledují všude — na Instagramu, YouTube, zpravodajských webech. Je to doporučovací systém? Ne. Je to adtech.
 
-Doporučovací systém funguje v rámci jedné služby: Spotify navrhuje písně z tvé Spotify historie. Data zůstávají na jedné platformě, cílem je pomoci tobě.
-
-Adtech funguje jinak: sleduje tě napříč MNOHA weby pomocí cookies a pixelů, buduje profil tvého chování po celém internetu, prodává přístup k tvé pozornosti. Jednoduchý test: pomáhá mi tohle najít něco na TOMTO webu? → doporučení. Sleduje mě tohle, aby mi prodalo něco, co jsem se rozhodl nekoupit? → adtech.
+Doporučovací systém funguje v rámci jedné služby: Spotify navrhuje písně z tvé Spotify historie. Adtech tě sleduje napříč celým internetem pomocí cookies a pixelů a prodává přístup k tvé pozornosti.
 
 ? Jaký je rozdíl mezi doporučeními a reklamami?
 - Doporučení jsou zdarma, reklamy jsou placené

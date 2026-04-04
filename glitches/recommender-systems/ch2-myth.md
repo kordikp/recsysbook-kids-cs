@@ -6,11 +6,9 @@ teaser: Poslouchá opravdu tvůj telefon tvoje rozhovory? Pojďme rozbít mýty.
 hook: Opravdu tě poslouchá?
 ---
 
-Mýtus č. 1: „Můj telefon odposlouchává rozhovory." Ne! Algoritmy předpovídají z tvých kliknutí tak dobře, že to vypadá jako odposlech — ale není. Navíc by neustálé nahrávání zvuku vybilo baterii za pár hodin.
+Mluvíš o nových teniskách — a za hodinu máš reklamu na tenisky. Odposlouchává tě telefon? Ne. Algoritmy čtou tvoje kliknutí tak dobře, že to vypadá jako odposlech. Plus neustálé nahrávání by vybilo baterii za pár hodin.
 
-Mýtus č. 2: „Jedno podivné video zničí doporučení navždy." Taky ne — systém hodnotí nedávné chování víc než staré. Jedno náhodné video ovlivní feed na den dva, pak to opadne.
-
-Mýtus č. 5: „Algoritmus lze záměrně natrénovat." PRAVDA! Pokud záměrně sleduješ a lajkuješ určité téma, systém ti skutečně začne doporučovat více podobného obsahu. Tenhle trik lidé používají k resetování feedu.
+Jedno divné video zničí doporučení navždy? Taky ne. Systém hodnotí nedávné chování víc než staré — za pár dní to opadne.
 
 ? Pravda nebo lež: tvůj telefon odposlouchává rozhovory kvůli reklamám.
 - Pravda — mikrofon je neustále zapnutý

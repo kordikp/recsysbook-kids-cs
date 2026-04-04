@@ -6,9 +6,7 @@ teaser: Kolaborativní filtrování, filtrování podle obsahu, nebo popularita?
 hook: Dáš to na první pokus?
 ---
 
-Tři hlavní metody doporučování: KF (kolaborativní filtrování — na základě vkusu podobných lidí), FO (filtrování podle obsahu — na základě vlastností položky), POP (popularita — na základě trendů).
-
-Stránka Trending na YouTube? POP. Netflix říká „Protože jsi sledoval Stranger Things"? FO — porovnává vlastnosti seriálů. Spotify „Fanoušci Taylor Swift také poslouchají"? KF — páruje lidi s podobným vkusem. Graf Top hry v App Store? POP.
+Tři metody. KF = kolaborativní filtrování (vkus podobných lidí). FO = filtrování podle obsahu (vlastnosti položky). POP = popularita (trendy).
 
 Klíč: „Fanoušci TAKÉ poslouchají" = páruji lidi (KF). „Protože jsi sledoval X" = páruji obsah (FO). „Nejsledovanější" = popularita (POP).
 

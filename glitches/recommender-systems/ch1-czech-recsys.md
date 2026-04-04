@@ -6,11 +6,9 @@ teaser: Seznam, Prima+, mujRozhlas, Glami — české firmy, které denně použ
 hook: A znáš je všechny?
 ---
 
-Doporučovací systémy nejsou jen věc Silicon Valley. Používají je i české firmy, které znáš z každodenního života.
+Doporučovací systémy nejsou jen věc Silicon Valley. Seznam.cz personalizuje titulky i bez přihlášení, Prima+ doporučuje pořady přes Recombee, mujRozhlas hledá podcasty podle vkusu jiných posluchačů.
 
-Když otevřeš Seznam.cz, články na hlavní stránce se liší podle toho, co tě zajímá — i když nejsi přihlášený. Prima+ doporučuje pořady pomocí Recombee. Hledáš podobné seriály? mujRozhlas od Českého rozhlasu najde podcasty podle vkusu jiných posluchačů.
-
-Zboží.cz ti ukáže nejen podobná sluchátka, ale i doplňky, které k nim ostatní kupovali. Glami vsadil na AI doporučování před 5 lety — a sám Recombee, jeden z předních světových doporučovacích enginů, pochází z Česka!
+A Recombee — jeden z předních světových doporučovacích enginů — pochází přímo z Česka, z týmu FIT ČVUT v Praze.
 
 ? Která česká firma vyvinula doporučovací systém, který dnes používají tisíce firem po celém světě?
 - Seznam.cz

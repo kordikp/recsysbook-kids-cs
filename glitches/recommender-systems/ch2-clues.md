@@ -6,13 +6,9 @@ teaser: Indicie z obsahu, z tebe a z tvých akcí — tři ingredience každého
 hook: Která indicie váží nejvíc?
 ---
 
-Doporučovací systém používá tři druhy indicií. Představ si je jako tři ingredience v receptu — pro nejlepší výsledek potřebuješ všechny tři.
+Systém používá tři indicie. Co je k dispozici — název videa, žánr, délka, energie. Kdo jsi — jazyk, přibližný věk, zařízení. A co DĚLÁŠ — tvoje akce v reálném čase.
 
-Indicie č. 1: Co je k dispozici. Systém zná každou položku — název videa, žánr písničky, délku, energii, náladu. Jako katalog, kde ví o každé věci vše.
-
-Indicie č. 2: Kdo jsi. Tvůj jazyk, přibližný věk, zařízení. Pomáhá to, protože desetiletý kluk v Japonsku chce jiná doporučení než čtyřicetiletý muž v Brazílii.
-
-Indicie č. 3: Co DĚLÁŠ. Nejdůležitější ze všech. Tvoje akce odhalují, kým opravdu jsi. Systém věří tvým akcím, ne tvým slovům. A teď:
+Ta třetí indicie je nejsilnější. Systém věří tomu, co děláš — ne tomu, co říkáš.
 
 ? Které indicie jsou pro doporučování nejdůležitější?
 - Co je k dispozici — katalog obsahu

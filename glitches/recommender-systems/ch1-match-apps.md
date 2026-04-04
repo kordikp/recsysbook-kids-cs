@@ -6,11 +6,9 @@ teaser: Otevři si oblíbené aplikace a zjisti, který doporučovací model v z
 hook: Uhádneš správný model?
 ---
 
-Každá aplikace má tajný recept. TikTok? Algoritmus vybírá za tebe vše na stránce „Pro tebe" — model D, na základě AI. Reddit? Přidal sis subreddity sám — model C, na základě zájmů. Discord? Vidíš jen obsah serverů, ke kterým ses připojil — model E, na základě skupin.
+TikTok? AI vybírá za tebe všechno — ani nikoho nesleduješ. Reddit? Přidal sis subreddity sám. Discord? Vidíš jen servery, ke kterým ses připojil. Každá appka hraje jinak.
 
-Zajímavé je, že YouTube, Instagram i X používají hned dva modely najednou: sledování (ty si vybíráš kanály) i algoritmus (AI přimíchává neočekávaný obsah). Algoritmus přebírá vládu všude!
-
-Čím víc dat aplikace o tobě má, tím přesnější je model D — algoritmus. Proto se zdá, jako by tě aplikace znala lépe než ty sám.
+YouTube, Instagram i X kombinují obojí: ty si vybíráš kanály, ale algoritmus přimíchává obsah, který jsi nehledal. Čím víc dat o tobě má, tím přesněji tě zná.
 
 ? Který model dává uživateli NEJVĚTŠÍ kontrolu nad tím, co vidí?
 - Na základě algoritmu — AI rozhoduje za tebe

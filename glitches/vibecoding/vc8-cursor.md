@@ -6,17 +6,9 @@ teaser: Jako VS Code, ale AI ti píše kód přímo do editoru.
 hook: AI píše kód za tebe?
 ---
 
-Cursor je jiný typ nástroje. Není to „napiš zadání a dostaneš aplikaci." Je to textový editor (jako Word, ale pro kód), do kterého je vestavěná AI.
+Cursor je textový editor pro kód s vestavěnou AI. Označíš část kódu, zmáčkneš Ctrl+K a napíšeš: „Přidej tlačítko, které tohle schová" — AI upraví kód přímo na místě.
 
-Pro koho je Cursor? Pro lidi, kteří se chtějí naučit trochu více o programování, ale zároveň chtějí mít AI jako pomocníka.
-
-Jak to funguje? Označíš část kódu, zmáčkneš Ctrl+K a napíšeš: „Přidej sem tlačítko, které tohle schová." AI upraví kód přímo na místě.
-
-Nebo použiješ chat (Ctrl+L) a ptáš se: „Proč tohle nefunguje?" Cursor vysvětlí chybu a navrhne opravu.
-
-Co je unikátní na Cursoru: Cursor MODE „Agent" — AI sama prochází soubory projektu, píše kód na více místech najednou a testuje, zda funguje.
-
-Nevýhoda pro naprosté začátečníky: vidíš kód. Pokud tě to děsí, začni raději s Macaly nebo Boltem.
+Pro naprosté začátečníky není ideální — vidíš kód. Ale pokud tě programování zajímá hlouběji, Cursor je nejlepší způsob jak se ho naučit vedle zkušeného AI kolegy.
 
 ? Pro koho je Cursor nejvhodnější?
 - Pro naprosté začátečníky bez jakýchkoli zkušeností

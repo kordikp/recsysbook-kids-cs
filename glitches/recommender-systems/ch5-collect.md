@@ -6,11 +6,9 @@ teaser: Proveď průzkum mezi kamarády, postav hodnotící mřížku a sleduj, 
 hook: Tak jak na to?
 ---
 
-Vyber 10 filmů, které většina lidí zná. Promíchej žánry: Frozen, Spider-Verse, Moana, Encanto, Duna... Najdi 10 lidí a každého se zeptej: „Ohodnoť každý film od 1 do 5 hvězdiček. Pokud jsi ho neviděl, nech to prázdné."
+Vyber 10 filmů, co většina lidí zná. Najdi 10 lidí a každého se zeptej: ohodnoť každý film 1–5 hvězdičkami. Pokud ho neviděl, nech to prázdné — prázdné políčko není nula.
 
-Nakresli velkou mřížku: lidé po straně, filmy nahoře, hodnocení do políček. Prázdné políčko = „neviděl" (ne 0 — to by znamenalo „nesnášel jsem to, ale viděl jsem").
-
-Tato tabulka je tvoje hodnotící matice. Větší systémy jako Netflix mají 3,4 bilionu buněk — s 99 % prázdných. Tvůj úkol je předpovědět, co by do těch prázdných políček patřilo.
+Nakresli mřížku: lidé po straně, filmy nahoře. Toto je tvoje hodnotící matice. Netflix má 3,4 bilionu takových buněk — s 99 % prázdných.
 
 ? Co je hodnotící matice?
 - Graf zobrazující popularitu filmů v čase

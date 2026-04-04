@@ -6,13 +6,9 @@ teaser: Každé kliknutí, každé přeskočení, každé přehrání znovu – 
 hook: Co o tobě prozradíš?
 ---
 
-Představ si, že jdeš čerstvým sněhem. Každý krok zanechá otisk. Na internetu funguje totéž — místo sněhu jsou tu data, místo chodidel tvoje kliknutí.
+Klepneš na video? Stopa. Sleduješ ho 3 sekundy a swipneš? Stopa. Sleduješ ho celé a ještě jednou? Velká stopa.
 
-Klepneš na video? Stopa. Sleduješ ho 3 sekundy a swipneš pryč? Stopa. Sleduješ ho celé a ještě jednou? Velká stopa.
-
-Čím více stop zanecháváš, tím lépe tě systém zná. Začíná jako cizinec — ale s každou stopou se přibližuje nejlepšímu kamarádovi, který ví, co ti doporučit.
-
-Věděl/a jsi? TikTok začne personalizovat tvůj feed už po 8 minutách — to je zhruba 40 swipnutí. Jeden z nejrychleji se učících algoritmů, co kdy vznikl. Teď otázka:
+TikTok začne personalizovat feed po 8 minutách — to je zhruba 40 swipnutí. Jeden z nejrychleji se učících algoritmů, co kdy vznikl.
 
 ? Co je digitální stopa?
 - Fotka profilu a bio

@@ -6,11 +6,9 @@ teaser: Pětiminutový experiment, který dokazuje, že TY můžeš ovládat alg
 hook: Zvládneš to za 5 minut?
 ---
 
-Otevři YouTube a pořiď screenshot úvodní stránky. To je tvůj obrázek „před." Zápiš 5 hlavních kategorií videí.
+Otevři YouTube a pořiď screenshot. Zápiš 5 hlavních kategorií. Teď záměrně sleduj 3 videa o vaření — každé alespoň minutu. Počkej minutu, znovu otevři. Porovnej.
 
-Teď záměrně sleduj 3 videa o vaření — každé alespoň minutu. YouTube zavři, počkej 1–2 minuty, znovu otevři. Pořiď screenshot „po." Porovnej.
-
-Videa o vaření jsou tam, ne? Za 5 minut jsi změnil svůj vlastní algoritmus. Nejsi pasivní divák — jsi trenér. Každé video je tréninkový signál. Filtrační bubliny ti „nepadají na hlavu" — máš sílu z nich vyskočit záměrným průzkumem nových témat.
+Videa o vaření jsou tam. Za 5 minut jsi změnil svůj vlastní algoritmus. Nejsi pasivní divák — jsi trenér.
 
 ? Jak se dostat z filtrační bubliny?
 - Smazat účet a začít znovu

@@ -6,13 +6,9 @@ teaser: Doporučovací systémy jsou jako detektivové. Hledají stopy ve tvých
 hook: Ale jak to funguje?
 ---
 
-Sledoval jsi 10 videí s kočkami za sebou? Systém si to zapsal. Přeskočil jsi každé sportovní video? Zapsáno. Systém hledá vzory.
+Sledoval/a jsi 10 videí s kočkami? Zapsáno. Přeskočil/a jsi každé sportovní? Taky zapsáno. Z 1 000 lidí, co milují kočičí videa, jich 800 miluje i videa se psy — systém to ví, takže ti doporučí štěně.
 
-A pak se podívá na ostatní. Z 1 000 lidí, kteří milovali videa s kočkami, jich 800 milovalo i videa se psy. Takže ti systém doporučí roztomilé video se štěnětem.
-
-Tvoje kliknutí jsou stopy. Kliknutí ostatních jsou svědci. Doporučení je vyřešený případ. Čím více aplikaci používáš, tím lepší jsou odhady.
-
-Věděl/a jsi? Spotifyho Discover Weekly se generuje každé pondělí znovu pro 600+ milionů uživatelů — to je 600 milionů unikátních playlistů najednou! A teď:
+Tvoje kliknutí jsou stopy, chování ostatních jsou svědci a doporučení je vyřešený případ. Discover Weekly se generuje každé pondělí pro 600+ milionů uživatelů — 600 milionů unikátních playlistů najednou.
 
 ? Na čem stojí doporučovací systémy?
 - Na čtení myšlenek uživatele

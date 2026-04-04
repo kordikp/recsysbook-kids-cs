@@ -8,9 +8,7 @@ hook: Čísla, co ti vezmou dech →
 
 Stavíš mini systém — 5 kamarádů, 6 filmů, 30 buněk. Netflix má 230 milionů uživatelů a 15 000 filmů: 3,4 BILIONU možných kombinací.
 
-Spotify: 600 milionů uživatelů, 100 milionů písniček — 60 KVADRILIONŮ kombinací. YouTube: 2,7 miliardy uživatelů, 800 milionů videí — 2,16 KVINTILIONŮ kombinací.
-
-Představ si tvou mřížku na lepítku. Netflixova ve stejném měřítku by pokryla povrch Země sedmtisíckrát. Spotifyho by sahala za Měsíc. YouTubova za celou sluneční soustavu. A přesto algoritmy nacházejí vzorce v těchto neuvěřitelně řídkých datech.
+Spotifyho by ve stejném měřítku jako tabulka na lepítku sahala za Měsíc. YouTubova za celou sluneční soustavu. A přesto algoritmy nacházejí vzorce v těchto neuvěřitelně řídkých datech.
 
 ? Kolik možných kombinací uživatel-položka má Netflix?
 - 230 milionů (počet uživatelů)

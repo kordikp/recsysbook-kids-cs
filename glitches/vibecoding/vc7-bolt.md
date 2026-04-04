@@ -6,17 +6,9 @@ teaser: Žádná instalace, žádné nastavení — otevřeš prohlížeč a sta
 hook: Stavíš přímo v prohlížeči?
 ---
 
-Bolt.new je nástroj od firmy StackBlitz. Jeho hlavní výhoda? Vše běží přímo v prohlížeči. Žádná instalace, žádné nastavení.
+Bolt.new: otevřeš prohlížeč, napíšeš zadání — třeba „Kalkulačka BMI s historií měření" — a za pár sekund máš funkční aplikaci. Žádná instalace, žádné nastavení.
 
-Jak to vypadá v praxi? Otevřeš bolt.new, napíšeš zadání — třeba „Udělej kalkulačku BMI s historií měření" — a za pár sekund máš funkční aplikaci, kterou vidíš vpravo.
-
-Bolt je velmi silný v tzv. full-stack aplikacích — tedy aplikacích, které mají jak vizuální část (co vidíš), tak serverovou část (kde se ukládají data).
-
-Skvělé na Bolt: můžeš stáhnout celý kód jako ZIP a nasadit ho kamkoli. Nebo přímo propojit s GitHubem.
-
-Kde Bolt trochu pokulhává: u velmi komplexních projektů může ztrácet kontext a „zapomínat" co dělal.
-
-Tipy pro práci s Bolt: začni vždy s co nejpřesnějším popisem. „Webová aplikace pro sledování filmů s hodnocením, filtrem žánrů a uložením do databáze" je lepší než „aplikace na filmy."
+Silné stránky: full-stack aplikace (vizuální část + databáze) a stažení celého kódu jako ZIP. Slabost: u velmi složitých projektů může ztrácet kontext. Tip: čím přesnější popis, tím lepší výsledek.
 
 ? Čím se Bolt.new nejvíce odlišuje od ostatních nástrojů?
 - Je zdarma navždy bez omezení

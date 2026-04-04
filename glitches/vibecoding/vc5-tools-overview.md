@@ -6,17 +6,9 @@ teaser: Lovable, Bolt, v0, Cursor, Replit — jaký je mezi nimi rozdíl?
 hook: Který nástroj je nejlepší?
 ---
 
-Vibecoding nástrojů je dnes spousta. Jak se v nich vyznat? Každý je trochu jiný — jako různé druhy sportů. Tady je rychlý přehled.
+Nástroje pro začátečníky (nevidíš kód): Lovable, Bolt, Macaly — napíšeš zadání, ony vygenerují celou aplikaci. Nástroje pro pokročilejší: Cursor a GitHub Copilot — vidíš kód, ale AI ho píše za tebe.
 
-Nástroje pro stavění od nuly (bez kódu): Lovable, Bolt, Macaly. Napíšeš zadání, ony vygenerují celou aplikaci. Ideální pro začátečníky. Výsledek vidíš ihned.
-
-Nástroje pro pokročilejší: Cursor, GitHub Copilot. Pracuješ v prostředí, kde vidíš kód, ale AI ti pomáhá psát ho rychleji. Potřebuješ trochu základ.
-
-Nástroje pro prototypy UI: v0 od Vercel. Specializuje se na tvorbu vizuálního designu komponent. Skvělé, když chceš mít hezké UI.
-
-Online prostředí: Replit. Programovací prostředí přímo v prohlížeči s AI asistencí. Funguje bez instalace čehokoli.
-
-Která je pro tebe? Začni s nástrojem, kde nevidíš kód vůbec — Lovable, Bolt, nebo českou Macaly.
+Která je pro tebe? Začni s nástrojem, kde kód nevidíš vůbec — Lovable, Bolt nebo česká Macaly.
 
 ? Který typ nástrojů je nejlepší pro úplné začátečníky?
 - Cursor nebo GitHub Copilot — jsou nejpopulárnější

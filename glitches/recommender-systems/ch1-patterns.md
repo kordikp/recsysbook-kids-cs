@@ -6,11 +6,9 @@ teaser: Od diamantů v Minecraftu po předpověď počasí — vzory vládnou sv
 hook: Vidíš vzory všude?
 ---
 
-Doporučovací systémy hledají vzory ve tvém chování. Hledání vzorů je přitom jedna z nejvýkonnějších myšlenek v celé vědě. Červené nebe večer znamená dobré počasí — námořníci to věděli po staletí. Diamanty v Minecraftu se nejčastěji vyskytují mezi vrstvami 5 a 12. Jak to lidi vědí? Vyryli tisíce bloků a vzor našli.
+Diamanty v Minecraftu se nejčastěji vyskytují mezi vrstvami 5 a 12. Odkud to lidi vědí? Vyryli tisíce bloků a vzor si našli. Červené nebe večer? Námořníci věděli, že bude dobré počasí — staletí před meteo aplikacemi.
 
-Tvůj mozek hledá vzory neustále, i když si toho nevšímáš. Učitel dává písemku každý pátek? Vzor. Po hodině matiky tě přepadá ospalost? Vzor.
-
-Doporučovací systém dokáže hledat vzory najednou u MILIONŮ lidí — a nachází spojitosti, které by žádný člověk ručně nikdy nenašel. „Uživatelé, kteří přeskočí prvních 30 sekund, video většinou nedokouká." Proto potřebujeme počítače.
+Doporučovací systém hledá vzory u milionů lidí najednou a nachází spojitosti, které by nikdo ručně nenašel. „Uživatelé, kteří přeskočí prvních 30 sekund, video většinou nedokouká." Proto potřebujeme počítače.
 
 ? Proč je hledání vzorů pro algoritmy superschopností?
 - Algoritmy jsou chytřejší než lidé

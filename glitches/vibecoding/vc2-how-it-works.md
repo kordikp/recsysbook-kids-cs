@@ -6,15 +6,9 @@ teaser: Popis → kód → aplikace. Takhle jednoduchý je ten proces.
 hook: Ale jak to funguje?
 ---
 
-Vibecoding má jednoduchý cyklus. Nejprve popíšeš, co chceš — třeba: „Aplikace pro sledování, kolik vody denně vypiji." AI vygeneruje kód. Ty ho vidíš v akci. Pak řekneš, co změnit.
+Popíšeš co chceš, AI vygeneruje kód, ty ho vidíš v akci, pak řekneš co změnit. Je to konverzace — „Přidej tlačítko. Změň barvu. Přidej upomínky."
 
-Je to jako konverzace. „Přidej tlačítko. Změň barvu na modrou. Přidej upomínky." Každá zpráva vylepší výsledek o krok dál.
-
-Klíčový objev: nemusíš kódu rozumět. Stejně jako nepotřebuješ vědět, jak motor funguje, abyste řídili auto. Stačí říct kam chceš jet.
-
-Ale pozor — je dobré vědět TROCHU. Když AI udělá chybu, musíš ji umět popsat. „Tlačítko nefunguje" je lepší než jen „Je to rozbité." Čím přesněji popíšeš problém, tím rychleji ho AI opraví.
-
-Zkušení vibecoders říkají: „Nejdůležitější dovednost není programování — je to komunikace."
+Kódu rozumět nemusíš. Ale je dobré vědět TROCHU — když AI udělá chybu, „tlačítko nefunguje" je lepší než „je to rozbité." Čím přesněji popíšeš problém, tím rychleji ho AI opraví.
 
 ? Co je nejdůležitější dovednost při vibecoding?
 - Znalost HTML a CSS

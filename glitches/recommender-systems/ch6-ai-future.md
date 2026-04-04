@@ -6,11 +6,9 @@ teaser: Lidé, kteří vytvářeli dnešní algoritmy, s nimi nevyrůstali. Ty a
 hook: Budeš ten, kdo ho změní?
 ---
 
-Inženýři z YouTube, TikToku, Spotify dostali první smartphone na vysoké škole. Hudbu objevovali z rádia a od kamarádů. Nekonečné scrollování jako teenager nezažili.
+Inženýři z YouTube, TikToku, Spotify dostali první smartphone na vysoké škole. Nekonečné scrollování jako teenager nezažili. Ty ano.
 
-Ty ano. TVOJE generace je první v lidské historii vyrůstající s algoritmy formujícími každodenní zážitky. Rozumíš jim způsobem, jakým je lidé, kteří je postavili, nechápou. Víš, kdy doporučení zblbnou. Znáš triky pro resetování feedu. Tah nekonečného scrollování cítíš v těle.
-
-Budujte systémy, které respektují uživatele. Systémy, které pomáhají lidem objevovat, ne jen konzumovat. Systémy průhledné ohledně toho, co dělají. Otázka není, zda algoritmy budou existovat — budou mocnější než dnes. Otázka zní: komu budou sloužit? To záleží na tobě. Doslova.
+TVOJE generace je první v lidské historii vyrůstající s algoritmy formujícími každodenní zážitky. Víš, kdy doporučení zblbnou. Znáš triky pro resetování feedu. Tah nekonečného scrollování cítíš v těle.
 
 ? Proč TVOJE generace algoritmům rozumí lépe než většina dospělých?
 - Protože jsou mladší a rychleji se učí

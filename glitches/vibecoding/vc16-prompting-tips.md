@@ -6,17 +6,9 @@ teaser: Špatný prompt = frustrující výsledek. Dobrý prompt = magie.
 hook: Jak psát správně?
 ---
 
-Vibecoding je z velké části o tom, jak prompty psát. Špatně napsaný prompt = AI dělá co chce, ne co chceš ty.
+Buď konkrétní a popisuj výsledek, ne proces: „Aplikace kde zadám cvičení — název, počet opakování, váha — uložím do databáze a vidím historii posledních 7 dní" je dobrý prompt. „Udělej fitness aplikaci" je špatný.
 
-Pravidlo č. 1: Buď konkrétní. „Udělej aplikaci na fitness" je špatný prompt. „Udělej aplikaci, kde zadám cvičení (název, počet opakování, váha), uložím ho do databáze, a vidím historii posledních 7 dní seřazenou podle data" je dobrý.
-
-Pravidlo č. 2: Popis výsledku, ne procesu. Neříkej „Vytvoř komponentu Button.jsx..." — ty nevíš jak na to. Říkej „Chci mít tlačítko, které po kliknutí uloží formulář a zobrazí potvrzení."
-
-Pravidlo č. 3: Jeden krok najednou. Nepřidávej 10 funkcí jednou zprávou. Přidej jednu, otestuj, pak přidej další.
-
-Pravidlo č. 4: Popis chyb přesně. „Nefunguje to" je k ničemu. „Když kliknu na tlačítko Uložit, nic se nestane a v konzoli vidím chybu XYZ" je perfektní.
-
-Pravidlo č. 5: Řekni co je dobré. „Tohle se mi líbí, zachovej to — jen přidej..." Pomáhá AI vědět co neměnit.
+Přidávej jednu věc najednou a chyby popisuj přesně: „Když kliknu na Uložit, nic se nestane a v konzoli vidím chybu XYZ" je perfektní. „Nefunguje to" je k ničemu.
 
 ? Jaký prompt bude mít nejlepší výsledek?
 - „Udělej cool aplikaci"

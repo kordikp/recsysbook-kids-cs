@@ -6,11 +6,9 @@ teaser: Výsledky vyhledávání nejsou stejné pro každého — jsou to doporu
 hook: Vyhledáváš, nebo tě řídí?
 ---
 
-Napíšeš „boty" v internetovém obchodě. Vidíš ty a tvůj kamarád stejné výsledky? Asi ne. Ty jsi minulý měsíc koupil běžecké boty — obchod ti ukáže nejdřív běžecké vybavení. Kamarád koupil společenské — vidí formální možnosti.
+Napíšeš „boty" v e-shopu. Vidíš ty a tvůj kamarád stejné výsledky? Asi ne — ty jsi minulý měsíc koupil běžecké boty, kamarád společenské. Feed i výsledky hledání jsou personalizované.
 
-Návrhy při vyhledávání? Taky doporučovací systém — předpovídá, co hledáš na základě tvé historie a co hledali podobní uživatelé. „Lidé také hledali" od Googlu je čisté kolaborativní filtrování aplikované na dotazy.
-
-Vyhledávání a doporučování se slévají: technologie za oběma je stále více stejná — embeddingy, neuronové sítě a personalizační modely.
+„Lidé také hledali" od Googlu je čisté kolaborativní filtrování aplikované na dotazy. Vyhledávání a doporučování se slévají — technologie za oběma je stále více stejná.
 
 ? Jsou výsledky vyhledávání stejné pro každého?
 - Ano, vyhledávání je objektivní a stejné pro všechny

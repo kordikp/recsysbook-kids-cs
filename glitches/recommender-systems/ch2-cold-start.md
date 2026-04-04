@@ -6,11 +6,9 @@ teaser: Nový účet, nula indicií — co teď?
 hook: Tak jak na to?
 ---
 
-Vytvořil sis někdy nový účet a doporučení byla divná, obecná, nudná? To je problém studeného startu. Systém o tobě nemá žádné indicie — takže ukazuje populární věci, co ukazuje všem.
+Vytvořil sis nový účet a doporučení jsou divná, obecná, nudná? Systém o tobě nemá nula dat — takže ukazuje to, co ukazuje všem. Jako být nový ve třídě: první den tě nikdo nezná, mluvíte o populárních věcech.
 
-Je to jako být nový ve třídě. Prvního dne tě nikdo nezná. Takže se ostatní snaží mluvit o populárních věcech. Ale dej tomu týden — začneš se projevovat a brzy tví přátelé vědí přesně, co máš rád.
-
-Aplikace fungují stejně: Den 1 — „tady jsou nejpopulárnější videa." Den 2 — „sledoval sis 3 herní videa, tady je víc." Týden 1 — „máš rád Minecraft buildy, přeskakuješ PvP, sleduješ večer" — teprve teď jsou doporučení skutečně tvá.
+Ale dej tomu týden. Začneš se projevovat — a algoritmus si začne budovat obrázek. Po prvním týdnu jsou doporučení skutečně tvá.
 
 ? Co je problém studeného startu?
 - Aplikace je příliš pomalá při spuštění

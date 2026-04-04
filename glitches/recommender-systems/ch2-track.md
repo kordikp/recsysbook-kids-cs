@@ -6,11 +6,9 @@ teaser: Úplný seznam stop, které za sebou zanecháváš. Některé tě překv
 hook: Budeš překvapený →
 ---
 
-Kliknutí a lajky jsou jen začátek. Systém sleduje i to, jak dlouho se díváš na každé video — 10 sekund nebo celé? Přehrál sis video znovu? Přeskočil sis intro? Dokonce i samotné najetí myší na náhled bez kliknutí mu něco říká.
+Kliknutí a lajky jsou jen začátek. Systém sleduje, jak dlouho se díváš na každé video, jestli jsi ho přehrál znovu, jestli sis přeskočil intro. Dokonce i najetí myší na náhled bez kliknutí mu něco říká.
 
-Není to jen CO sleduješ, ale KDY. V 8 ráno sleduješ jiné věci než o půlnoci. A po sledování? Přihlásil ses k odběru? Sdílel jsi video? Každá akce vypráví jiný příběh.
-
-Nejsilnější signály jsou: dokončení videa, opakované přehrání a vyhledávání. Nejslabší: najetí myší nebo pomalé scrollování kolem. Příště, když přeskočíš video, vzpomeň — právě jsi algoritmu něco řekl.
+Nejsilnější signály: dokončení videa, opakované přehrání, vyhledávání. Příště, když přeskočíš video — právě jsi algoritmu něco řekl.
 
 ? Který signál je silnější: kliknout na video nebo sledovat ho až do konce?
 - Kliknutí je silnější — říká, že tě zaujal název

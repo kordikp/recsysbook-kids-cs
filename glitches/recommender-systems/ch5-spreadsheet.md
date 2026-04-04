@@ -8,9 +8,7 @@ hook: Postavíš to dnes?
 
 Otevři Google Sheets. Buňka A1: „Jméno". B1 až K1: názvy filmů. Řádky 2 a dál: jména lidí s hodnoceními 1–5. Prázdná buňka = neviděl.
 
-Trik: vyber všechny hodnocení a použij podmíněné formátování (Formát > Podmíněné formátování). Červená pro 1–2, žlutá pro 3, zelená pro 4–5. Najednou vizuálně vidíš vzorce vkusu — bez jakékoliv matematiky.
-
-Podívej se na řádky: kdo má hodně zelené na stejných filmech? To jsou vkusoví dvojníci. Sloupce: které filmy dostávají zelené od skoro všech? To jsou filmy pro bezpečná doporučení.
+Trik: vyber všechna hodnocení a použij podmíněné formátování — červená pro 1–2, žlutá pro 3, zelená pro 4–5. Najednou vizuálně vidíš vzorce vkusu, aniž bys počítal jedinou cifru.
 
 ? Proč ti tabulkový procesor pomůže postavit doporučení?
 - Automaticky vypočítá doporučení bez vstupu uživatele

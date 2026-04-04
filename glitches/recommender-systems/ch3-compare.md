@@ -6,11 +6,9 @@ teaser: Kolaborativní filtrování, nebo filtrování podle obsahu? Každé má
 hook: Která metoda vyhraje?
 ---
 
-Kolaborativní filtrování (metoda přátel) dokáže tě překvapit — doporučí něco, co bys sám nikdy nehledal, protože lidé s tvým hudebním vkusem ho milují. Ale selhává u nových položek a niche zájmů.
+Kolaborativní filtrování tě dokáže překvapit — doporučí něco, co bys sám nikdy nehledal. Ale selhává u nových videí a niche zájmů. Filtrování podle obsahu funguje okamžitě pro nové položky — ale nedokáže tě překvapit. Ukazuje jen věci podobné tomu, co už znáš.
 
-Filtrování podle obsahu (metoda věcí) funguje okamžitě pro nové položky i pro nové uživatele. Je skvělé pro niche zájmy. Ale nedokáže tě překvapit — ukazuje jen věci podobné tomu, co už znáš.
-
-Skutečná odpověď: nejlepší systémy používají obě metody dohromady — hybridní přístup. YouTube, Spotify, Netflix, TikTok — všechny kombinují více přístupů. Filtrování podle obsahu je jako knihovník, který zná každou knihu zevnitř. Kolaborativní je jako ptát se tisíce čtenářů. Hybridní systém dělá obojí.
+Nejlepší systémy kombinují obě metody. YouTube, Spotify, Netflix, TikTok — všechny jsou hybridní.
 
 ? Kdy je filtrování podle obsahu lepší než kolaborativní?
 - Když máme miliony uživatelů s bohatou historií

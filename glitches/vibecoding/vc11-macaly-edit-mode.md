@@ -6,17 +6,9 @@ teaser: Nechceš psát prompt? Prostě klikni na co chceš změnit.
 hook: Tak jak na to?
 ---
 
-Normální vibecoding: vidíš aplikaci, chceš změnit tlačítko → napíšeš do chatu „Změň tlačítko na červenou" → AI to provede.
+Edit Mode: klikneš přímo na tlačítko v náhledu aplikace a řekneš co chceš změnit. Jako Photoshop pro aplikace — vidíš, klikáš, měníš.
 
-Edit Mode v Macaly: klikneš přímo na tlačítko v náhledu aplikace → řekneš co chceš změnit → hotovo. Jako Photoshop pro aplikace.
-
-Proč je to geniální? Někdy nevíš, jak popsat co chceš. Ale víš, na co kliknout. Edit Mode odstraňuje tuto bariéru.
-
-Jak Edit Mode aktivovat? V Macaly přepneš přepínač v horní liště z „Chat" na „Edit". Pak klikneš na jakýkoli prvek aplikace a zobrazí se panel pro úpravy.
-
-Co všechno můžeš v Edit Mode měnit? Texty, barvy, velikosti, rozmístění prvků. Pro větší změny (logiku, databázi) se vrátíš do chatu.
-
-Edit Mode je jedna z funkcí, která Macaly odlišuje od zahraničních konkurentů — ti ji zatím nemají.
+Proč je to geniální? Někdy nevíš jak popsat co chceš — ale víš, na co kliknout. Edit Mode odstraňuje tuto bariéru a je funkce, kterou zahraniční konkurenti zatím nemají.
 
 ? K čemu slouží Edit Mode v Macaly?
 - Ke spuštění aplikace ve veřejném módu

@@ -6,11 +6,9 @@ teaser: Ne každé kliknutí je stejné. Poznáš, které opravdu záleží?
 hook: Poznáš to na první pohled?
 ---
 
-Kliknutí, přeskočení, vyhledávání, sdílení — všechno jsou to signály pro algoritmus. Ale mají různou váhu.
+Sledovat video až do konce? Silný signál. Kliknout a po 2 sekundách odejít? Slabý — možná byl thumbnail clickbait, možná tě zavolala máma. Systém prostě neví.
 
-Sledovat video až do konce je SILNÝ signál — jasný znak, že ses bavil. Kliknout a odejít po 2 sekundách je SLABÝ — možná byl náhled clickbait, možná tě zavolala máma, systém prostě neví. Vyhledávání je SUPER SILNÉ — napsal sis přesně, co chceš.
-
-Vzorec je jednoduchý: čím víc úsilí akce vyžaduje, tím silnější signál posílá. Kliknutí je snadné. Vyhledávání, opakované sledování, sdílení — to dá práci. A systém to ví.
+Vzorec je jednoduchý: čím víc úsilí akce vyžaduje, tím silnější signál posílá. Kliknutí je snadné. Sdílení dá práci. A systém to ví.
 
 ? Jaký je nejsilnější signál, který můžeš algoritmu poslat?
 - Kliknout na video

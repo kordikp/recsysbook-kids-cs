@@ -6,20 +6,9 @@ teaser: Nevíš co postavit? Tady je 10 nápadů, které zvládneš za odpoledne
 hook: Co bys postavil dnes?
 ---
 
-Největší blokáda při začátku vibecoding: „Co vlastně mám dělat?" Tady je 10 nápadů seřazených od nejjednoduššího.
+Od nejjednoduššího: kvízová hra pro spolužáky, sledovač filmů s hodnocením, generátor náhodných jídel, countdown do prázdnin, tracker návyků se streaky, anketa pro třídu, portfolio, planner pro týden, mini blog, mini e-shop bez platby.
 
-1. Kvízová hra pro spolužáky — otázky z biologie nebo dějepisu, hodnocení.
-2. Sledovač filmů nebo seriálů — co jsi viděl/a, hodnocení, poznámky.
-3. Generátor náhodných jídel — klikneš, dostaneš návrh co uvařit.
-4. Jednoduchý blog — píšeš příspěvky, ostatní je čtou.
-5. Countdown do prázdnin — odpočítává dny, hodiny, minuty.
-6. Tracker návyků — každý den zaškrtneš co jsi splnil/a, vidíš streak.
-7. Anketa pro třídu — vytvoříš otázku, spolužáci hlasují.
-8. Portfolio — tvoje projekty, fotky, krátké info o tobě.
-9. Planner pro týden — zobrazení úkolů podle dní.
-10. Mini e-shop (bez platby) — katalog věcí co prodáváš/nabízíš.
-
-Klíč: Vyber projekt, který TEBE samotného/samotnou baví. Motivace je nejdůležitější ingredience.
+Klíč: vyber projekt, který TEBE baví. Motivace je nejdůležitější ingredience.
 
 ? Jaký je nejlepší první projekt pro vibecoding?
 - Co nejsložitější projekt, ať se naučíš co nejvíc najednou

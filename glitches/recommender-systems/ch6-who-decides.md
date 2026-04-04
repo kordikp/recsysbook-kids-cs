@@ -6,11 +6,9 @@ teaser: Když otevřeš TikTok, kdo vybral, co máš na obrazovce? Ne ty. Ne tvo
 hook: Kdo to vlastně řídí?
 ---
 
-Otevřeš TikTok. Podívej se na prvních pět věcí na obrazovce. Vybral jsi je? Ne. Vybrali tvoji rodiče? Ne. Vybral je člověk sedící v kanceláři? Taky ne. Rozhodl algoritmus.
+Otevřeš TikTok. Vybral jsi pět věcí na obrazovce? Ne. Vybrali tvoji rodiče? Taky ne. Vybral člověk v kanceláři? Ne — rozhodl algoritmus.
 
-Ti inženýři museli definovat, co znamená „dobré doporučení". Zvolili: co tě udrží u sledování nejdéle. Zní to rozumně — ale je „co tě udrží nejdéle" totéž jako „co je pro tebe nejlepší"?
-
-Někdy tě algoritmus přivede k novému koníčku. Jindy tě uvězní ve smyčce obsahu, po které se cítíš prázdně. Stejný algoritmus. Stejná logika. Velmi odlišné výsledky. TVOJE generace na tuto otázku odpoví.
+Inženýři definovali „dobré doporučení" jako: co tě udrží nejdéle. Jenže „co tě udrží nejdéle" nemusí být totéž jako „co je pro tebe nejlepší."
 
 ? Kdo rozhoduje o tom, co vidíš, když otevřeš TikTok?
 - Redaktoři TikToku vybírají obsah ručně

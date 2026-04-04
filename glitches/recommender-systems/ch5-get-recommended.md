@@ -6,11 +6,9 @@ teaser: Víš, jak algoritmy vybírají obsah. Teď to otoč — jak přiměješ
 hook: Chceš vědět jak?
 ---
 
-Každý doporučovací systém dbá na míru zapojení víc než na počet zhlédnutí. Video, které 100 lidí dosleduje do konce, poráží video, na které 1 000 lidí klikne a okamžitě odejde. Sledovaná doba, míra dokončení, akce po zhlédnutí — to jsou klíčové signály.
+Systémy dbají na míru zapojení víc než na počet zhlédnutí. Video, které 100 lidí dosleduje do konce, poráží video s 1 000 kliknutími, kde všichni hned odejdou.
 
-První sekundy rozhodují vše. TikTok: pokud uživatelé v první sekundě přejedou, algoritmus obsah přestane propagovat. Tvůj obsah se nejprve testuje na 100–500 lidech. Jen pokud reagují, jde na 5 000, pak na 50 000, pak na miliony.
-
-Konzistence poráží viralitu. Jedno virální video nevybuduje kanál — algoritmy odměňují pravidelné tvůrce, protože pravidelnost dává systému více dat k pochopení tvého publika.
+První sekundy rozhodují. TikTok nejdřív ukáže video 100–500 náhodným lidem. Jen pokud reagují, jde na 5 000, pak 50 000. Konzistence pak poráží viralitu — pravidelnost dává systému více dat.
 
 ? Co je pro YouTube důležitější: kliknutí, nebo sledovaná doba?
 - Kliknutí — říká, že tě zaujal název videa

@@ -6,11 +6,9 @@ teaser: Co kdybys místo scrollování mohl jednoduše POŽÁDAT o to, co chceš
 hook: A co to vlastně je?
 ---
 
-Představ si: místo scrollování Netflixem prostě řekneš: „Chci něco vtipného, ale ne moc pitomého, asi 90 minut, co si pustím s rodiči." To je konverzační doporučování — a stává se skutečností.
+Místo scrollování Netflixem prostě řekneš: „Něco vtipného, ale ne pitomého, asi 90 minut, vhodné pro rodiče." To je konverzační doporučování — a stává se skutečností.
 
-Základní verzi jsi pravděpodobně použil: Spotify „Přehraj něco klidného na učení", ChatGPT „Doporuč mi knihu jako Harry Potter pro starší čtenáře". LLM (velké jazykové modely) chápou nuancované preference a dokážou se ptát doplňující otázky.
-
-Budoucnost není, že LLM nahradí doporučovací systémy — ale že budou spolupracovat. LLM rozumí přirozenému jazyku. Doporučovací systém má data o položkách a tvých preferencích. Dohromady jsou mocné.
+LLM chápou nuancované požadavky, doporučovací systém má tvá data o preferencích. Dohromady jsou mocnější než každý zvlášť.
 
 ? Jak změní LLM doporučování?
 - LLM úplně nahradí tradiční doporučovací systémy

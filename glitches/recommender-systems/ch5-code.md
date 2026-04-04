@@ -6,11 +6,9 @@ teaser: Jednoduchý Python skript, který dělá vše, co ses naučil — ve 20 
 hook: Zkus to zjistit →
 ---
 
-Python skript na kolaborativní filtrování. Nejprve ulož data jako ratings.csv: jméno v prvním sloupci, hodnocení filmů v dalších. Prázdná buňka = neviděl.
+Python skript na kolaborativní filtrování. Ulož data jako ratings.csv: jméno v prvním sloupci, hodnocení filmů v dalších. Prázdná buňka = neviděl.
 
-Funkce similarity(person1, person2): projdi filmy, které oba hodnotili, spočítej průměrný absolutní rozdíl. Čím nižší, tím podobnější.
-
-Funkce recommend(person): najdi nejpodobnějšího uživatele, projdi jeho filmy, doporuč ty s vysokým hodnocením, které daná osoba neviděla. Celý základ: asi 20 řádků. Stejná logika jako Netflix — jen v menším měřítku.
+Funkce similarity: projdi filmy, které oba hodnotili, spočítej průměrný absolutní rozdíl. Funkce recommend: najdi nejpodobnějšího uživatele a doporuč filmy, které dosud neviděl. Celkem asi 20 řádků — stejná logika jako Netflix.
 
 ? Kolik řádků Pythonu stačí na základní kolaborativní filtrování?
 - Alespoň 500 řádků

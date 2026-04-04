@@ -6,11 +6,9 @@ teaser: Co se stane, když filtrační bubliny ovlivní to, jak vidíme svět?
 hook: Co se potom stane?
 ---
 
-Filtrační bubliny s videi jsou jedna věc. Ale co se stane, když nastane totéž s novinkami a názory?
+Klikneš na zprávu. Algoritmus ukáže další s podobným pohledem. Brzy vidíš jen JEDNU stranu každého příběhu. A druhá strana zažívá přesně totéž — s opačným pohledem.
 
-Klikneš na zprávu. Algoritmus ti ukáže další s podobným pohledem. Klikneš i na ty — odpovídají tomu, čemu věříš. Brzy vidíš jen JEDNU stranu každého příběhu. A druhá strana zažívá přesně totéž — s opačným pohledem. Dva lidé na stejné aplikaci žijí v úplně jiných realitách.
-
-Dobré systémy ukazují obsah z více různých pohledů a označují názorové texty jinak než fakta. Velká otázka: má ti doporučovací systém ukazovat, co CHCEŠ vidět, nebo co POTŘEBUJEŠ vidět?
+Dva lidé na stejné aplikaci žijí v úplně jiných realitách. Každý přesvědčený, že ta jejich je ta správná.
 
 ? Proč je ozvěnová komora horší než filtrační bublina?
 - Ozvěnová komora spotřebuje více dat

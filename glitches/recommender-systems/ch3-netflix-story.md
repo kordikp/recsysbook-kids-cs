@@ -6,11 +6,9 @@ teaser: Netflix nabídl 1 000 000 dolarů každému, kdo dokáže zlepšit jeho 
 hook: Kdo ten milion vyhrál?
 ---
 
-V roce 2006 Netflix vyhlásil soutěž: milion dolarů pro každého, kdo zlepší filmová doporučení o 10 %. Zveřejnili 100 milionů hodnocení od 480 000 uživatelů. Přihlásilo se 40 000 týmů ze 186 zemí.
+V roce 2006 Netflix vyhlásil soutěž: milion dolarů pro každého, kdo zlepší filmová doporučení o 10 %. Přihlásilo se 40 000 týmů ze 186 zemí. Po třech letech tým „BellKor's Pragmatic Chaos" překročil 10 % — a vyhrál.
 
-Po třech letech tým „BellKor's Pragmatic Chaos" překročil 10% zlepšení. Vyhráli milion dolarů!
-
-A tady přichází překvapení: Netflix vítězné řešení nikdy nepoužil. Bylo příliš složité — kombinovalo stovky metod a nedalo se provozovat v reálném čase pro miliony uživatelů. Jednodušší přístup, skoro stejně dobrý, ale stokrát rychlejší, byl praktičtější.
+A tady přichází překvapení: Netflix vítězné řešení nikdy nepoužil. Bylo příliš složité — nedalo se provozovat v reálném čase pro miliony uživatelů.
 
 ? Jakou lekci přinesla soutěž Netflix Prize?
 - Složitější algoritmy jsou vždy lepší

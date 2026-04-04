@@ -6,17 +6,9 @@ teaser: Česká alternativa ke světovým nástrojům. Postavená přímo pro vi
 hook: Česká alternativa světu?
 ---
 
-Macaly je česká vibecoding platforma — startup z Prahy. Zatímco Lovable a Bolt vznikly ve Švédsku a USA, Macaly je náš domácí projekt.
+Macaly je česká vibecoding platforma ze Prahy — navržená přímo pro vibecoding od základů. AI je středem všeho, ne přidaná vrstvička nahoře.
 
-Co dělá Macaly zajímavou? Je navržená přímo pro vibecoding od základů. Není to editor s přidanou AI — je to platforma, kde AI je středem všeho.
-
-Macaly je teď ve verzi 3.0, která přinesla velké novinky: Edit Mode (přímá úprava bez prompting), Global Styles, Agent Memory a vestavěnou databázi.
-
-Pro koho je Macaly? Pro začátečníky, kteří chtějí vytvářet webové aplikace bez znalosti kódu. A pro firmy, které chtějí rychle prototypovat nápady.
-
-Proč zkoušet českou platformu? Rozhraní je v češtině, podpora je česky, a komunita uživatelů je blíž k tobě. Když narazíš na problém, je snazší najít pomoc.
-
-Macaly je zdarma vyzkoušet — jdi na macaly.com a začni svůj první projekt hned.
+Verze 3.0 přinesla Edit Mode, Global Styles, Agent Memory a vestavěnou databázi. Rozhraní v češtině, podpora česky — začni na macaly.com.
 
 ? Co dělá Macaly výjimečnou oproti zahraničním nástrojům?
 - Je úplně zdarma bez jakýchkoli omezení

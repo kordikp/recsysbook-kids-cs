@@ -6,11 +6,9 @@ teaser: Žádné správné odpovědi, jen nemožné volby. Vítej v pravých dil
 hook: Zvládneš se rozhodnout?
 ---
 
-Radši bys dostával doporučení, která jsou VŽDY DOKONALÁ (ale nikdy tě nic nového nepřekvapí) — nebo dostával občas podivná doporučení, ale někdy narazíš na něco naprosto úžasného, co bys sám nenašel?
+Radši bys dostával doporučení, která jsou vždy přesná — ale nikdy tě nic nového nepřekvapí? Nebo občas divná doporučení, ale jednou za čas narazíš na něco úžasného, co bys sám nenašel?
 
-Radši bys měl systém, který o tobě ví VŠECHNO (superpřesný, skoro čte myšlenky) — nebo takový, který o tobě neví skoro nic (soukromější, ale doporučení jsou obecnější)?
-
-Tohle nejsou jen zábavné otázky — jsou to skutečné kompromisy, se kterými se inženýři každý den perou. Dokonalá odpověď neexistuje. Každá volba má svou cenu.
+Tohle nejsou jen zábavné otázky. Jsou to skutečné kompromisy, se kterými se inženýři perou každý den. Perfektní odpověď neexistuje — každá volba má svou cenu.
 
 ? Jaký je hlavní kompromis v doporučeních?
 - Rychlost versus přesnost algoritmu

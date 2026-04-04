@@ -6,11 +6,9 @@ teaser: Tvůj mozek má chemický systém odměn. Doporučovací algoritmy se na
 hook: Ovládají tě algoritmy?
 ---
 
-Dopamin se neuvolní, když odměnu DOSTANEŠ — uvolní se, když ji OČEKÁVÁŠ. Nejistota „bude to další video úžasné?" spouští největší nával dopaminu. Přesně takto fungují doporučovací feedy — nikdy nevíš, co přijde dál.
+Dopamin se neuvolní, když odměnu DOSTANEŠ — uvolní se, když ji OČEKÁVÁŠ. Nejistota „bude další video úžasné?" spouští největší nával. Přesně takto fungují feedy.
 
-Je to stejný mozkový mechanismus jako u hracích automatů. Zatáhni za páku — možná vyhraješ, možná ne. Nepředvídatelnost tě udržuje u scrollování. Nikdo z TikToku si nesedl a neřekl „pojďme zneužít dopamin" — algoritmus sám od sebe objevil tento cheat kód pro tvůj mozek.
-
-Ale vědění ti dává moc. Příště, až pocítíš tah „ještě jedno video", pojmenuj ho: „To je dopamin." Pak se přesto rozhodni odložit telefon. Tato schopnost — rozpoznat nutkání a zvolit jinak — je skutečná superschopnost.
+Je to stejný mechanismus jako u hracích automatů — nepředvídatelnost tě drží. Algoritmus neplánoval zneužití tvého mozku, sám od sebe našel tento cheat kód.
 
 ? Proč je tak těžké odolat ještě jednomu videu?
 - Videa jsou příliš zajímavá na přestání

@@ -6,11 +6,9 @@ teaser: Jak skutečně VIDĚT, jaká data o tobě aplikace nasbíraly. Většina
 hook: Zkus to zjistit →
 ---
 
-YouTube / Google: přejdi na myactivity.google.com. Klikni na „Historie YouTube." Scrolluj. Pokračuj. To jsou každé jednotlivé video a vyhledávání. Někteří lidé tu najdou ROKY historie.
+YouTube / Google: přejdi na myactivity.google.com. Najdeš každé video, každé hledání — někteří lidé tam mají ROKY historie.
 
-TikTok: Profil → menu → Nastavení a soukromí → Účet → Stáhnout svá data. Dostaneš soubor s celou historií — každé sledované video, každý like, každý komentář.
-
-Dobrá zpráva: můžeš uklídit. YouTube umožní nastavit automatické mazání historii starší než 3 nebo 18 měsíců. TikTok: vymazat historii sledování v Nastavení. Tím se resetují tvá doporučení od začátku.
+TikTok: Profil → Nastavení a soukromí → Stáhnout svá data. Dostaneš celou historii — každé video, like i komentář. A oboje se dá smazat nebo nastavit na automatické mazání.
 
 ? Kde můžeš vidět, co o tobě ví Google?
 - Na google.com/settings

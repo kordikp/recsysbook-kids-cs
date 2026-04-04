@@ -6,11 +6,9 @@ teaser: Hledal sis triky s kartami. O dvacet minut později sleduješ videa o ko
 hook: Jak ses tam dostal?
 ---
 
-Hledáš „cool triky s kartami." Pak záběry z kouzelných představení. Pak „neuvěřitelné iluze VYSVĚTLENY." Pak „věci, které ti nechtějí říct." Pak konspirační videa.
+Hledáš triky s kartami → kouzelná představení → iluze vysvětleny → „věci, co ti nechtějí říct" → konspirační videa. Každý krok dával smysl. Cesta vedla někam úplně jinam.
 
-Každé doporučení dávalo smysl samo o sobě — malý, rozumný krok. Ale cesta vede někam zcela nečekaně. To je efekt králičí nory.
-
-Proč se to děje? Algoritmus optimalizuje pro JEDNO video najednou: „Co jsi právě sledoval? Jaké je nejlepší DALŠÍ video?" Nikdy se nezastaví a nepomyslí, kam celé sezení směřuje. Příště, až si všimneš, že se doporučení stávají podivnými, vrať se a sleduj cestu — uvidíš malé kroky, které tě tam dostaly.
+Algoritmus optimalizuje pro JEDNO další video — nikdy se nezastaví a nepomyslí, kam celé sezení směřuje. Příště, až si všimneš podivných doporučení, sleduj cestu zpět — uvidíš malé kroky, které tě tam dostaly.
 
 ? Co je efekt králičí nory?
 - Algoritmus záměrně doporučuje extrémní obsah

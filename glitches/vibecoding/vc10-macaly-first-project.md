@@ -6,19 +6,9 @@ teaser: Krok za krokem: od nápadu k funkční aplikaci za 15 minut.
 hook: Zvládneš to za 15 minut?
 ---
 
-Pojďme na to. Tady je postup pro první projekt v Macaly.
+Zaregistruj se na macaly.com, vytvoř nový projekt a popiš co chceš: „Aplikace kde si zapisuji hry — název, hodnocení 1–10, poznámka. Seznam seřazený podle hodnocení." Macaly vygeneruje aplikaci před tvýma očima.
 
-Krok 1 — Zaregistruj se. Jdi na macaly.com, vytvoř účet. Je to zadarmo.
-
-Krok 2 — Nový projekt. Klikni na „Nový projekt" a napiš název. Třeba: „Sledovač her".
-
-Krok 3 — Popiš, co chceš. Do chatu napiš co nejpřesněji: „Chci aplikaci, kde si mohu zapisovat hry, které jsem hrál/a. Každá hra má název, hodnocení 1–10 a krátkou poznámku. Chci vidět seznam všech her seřazený podle hodnocení."
-
-Krok 4 — Čekej a dívej se. Macaly začne generovat aplikaci. Uvidíš, jak se kód píše a aplikace vzniká — je to fascinující.
-
-Krok 5 — Testuj a upřesňuj. Zkus aplikaci kliknout. Co nefunguje? Co chceš jinak? Napiš to do chatu a Macaly to opraví.
-
-Tip: Začni jednoduše. Přidávej funkce postupně. „Přidej filtr podle žánru" je lepší než vše popsat najednou.
+Pak testuj a upřesňuj — „přidej filtr podle žánru" je lepší než vše popsat najednou. Začni jednoduše, přidávej postupně.
 
 ? Jaký je nejlepší způsob, jak popsat svůj první projekt v Macaly?
 - Co nejkratší popis — jedna věta stačí

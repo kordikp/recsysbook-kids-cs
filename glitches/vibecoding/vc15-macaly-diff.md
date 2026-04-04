@@ -6,17 +6,9 @@ teaser: Než AI změnu potvrdí, ukáže ti přesně co přidala a co odebrala.
 hook: Vidíš, co AI změnila?
 ---
 
-Jsi v Macaly a požádáš AI: „Přepracuj celou navigaci." AI provede změny. Ale... jak víš, že nezkazila něco, co fungovalo? Jak víš, co přesně změnila?
+Požádáš AI: „Přepracuj celou navigaci." Ale jak víš, že nezkazila něco, co fungovalo? Diff Mode ukáže přesně co se změnilo — zelené = přidáno, červené = odebráno — a ty rozhodneš: přijmout nebo zamítnout.
 
-Diff Mode ti ukáže přesně co AI změnila, než změny potvrdíš. Jako „Sledovat změny" ve Wordu — ale pro kód a aplikace.
-
-Co uvidíš v Diff Mode? Zelené řádky = nový kód přidaný AI. Červené řádky = starý kód odebraný. Žluté = upravené.
-
-Proč je to důležité? Dává ti to kontrolu. Pokud vidíš, že AI smazala něco, co jsi chtěl/a zachovat, odmítneš změnu a upřesníš zadání.
-
-Jak Diff Mode použít? Po každém větším příkazu Macaly automaticky nabídne náhled změn. Ty klikneš „Přijmout" nebo „Zamítnout."
-
-Pro začátečníky není Diff Mode nutné sledovat — ale je dobré vědět, že existuje. Jak budeš pokročilejší, oceníš, že vidíš co se děje pod pokličkou.
+Je to jako „Sledovat změny" ve Wordu, ale pro aplikace. Dává ti kontrolu nad tím, co AI dělá.
 
 ? K čemu slouží Diff Mode v Macaly?
 - K porovnání tvé aplikace s konkurenčními aplikacemi

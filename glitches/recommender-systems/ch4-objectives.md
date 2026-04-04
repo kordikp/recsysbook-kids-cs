@@ -6,11 +6,9 @@ teaser: Každý doporučovač optimalizuje NĚCO. Otázka je — čí cíle sled
 hook: Čí zájmy sleduje?
 ---
 
-Každý doporučovací algoritmus má cíl — číslo, které se snaží maximalizovat. Stejná filmová aplikace se třemi různými cíli dá úplně jiná doporučení: maximalizovat sledovanou dobu (udrží tě u sledování), maximalizovat nákupy (nabídne drahé novinky), nebo maximalizovat spokojenost (hledá, co opravdu oceníš).
+Stejná filmová aplikace se třemi různými cíli dá úplně jiná doporučení: maximalizovat sledovanou dobu, maximalizovat nákupy, nebo maximalizovat spokojenost. Záleží na tom, kdo platí.
 
-Klíčová otázka: záleží na tom, kdo platí. U předplatného (Netflix, Spotify Premium) jsi zákazník — algoritmus optimalizuje tvůj zážitek. U bezplatných služeb (YouTube, TikTok) zákazníci jsou inzerenti — algoritmus tě musí udržet u sledování, aby ti mohl zobrazovat reklamy.
-
-To neznamená, že bezplatné služby jsou zlé — ale jejich algoritmy jsou pod jiným tlakem. Musí vyvažovat tvoje štěstí a příjmy z reklam.
+U předplatného (Netflix, Spotify) jsi zákazník — algoritmus optimalizuje tvůj zážitek. U bezplatných služeb (YouTube, TikTok) zákazníci jsou inzerenti — algoritmus tě musí udržet u sledování.
 
 ? O co se algoritmus vlastně snaží?
 - Vždy o tvoji spokojenost

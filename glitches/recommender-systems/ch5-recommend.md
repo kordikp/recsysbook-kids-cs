@@ -6,11 +6,9 @@ teaser: Použij podobné uživatele k předpovídání hodnocení a vytvoř skut
 hook: Tak jak na to?
 ---
 
-Pro každou prázdnou buňku v matici (film, který někdo neviděl): najdi 2–3 nejpodobnější lidi, kteří ten film hodnotili, podívej se na jejich hodnocení, vypočítej průměr. Tento průměr je tvoje předpovězené hodnocení.
+Sam neviděl Mario. Alex (velmi podobný Samovi) dal 3 hvězdičky. Maya (středně podobná): 4 hvězdičky. Předpověď: (3 + 4) / 2 = 3,5 hvězdičky.
 
-Sam neviděl Mario. Alex (velmi podobný Samovi) ohodnotil: 3 hvězdičky. Maya (středně podobná): 4 hvězdičky. Předpověď: (3 + 4) / 2 = 3,5 hvězdičky.
-
-Udělej to pro KAŽDÝ film, který Sam neviděl. Pak seřaď podle předpovězených hodnocení od nejvyššího. Filmy nad 4 hvězdičky — doporuč. Pod 3 hvězdičky — nedoporučuj. Hotovo — máš doporučení!
+Udělej to pro každý film, který Sam neviděl. Seřaď podle předpovězených hodnocení. Filmy nad 4 hvězdičky — doporuč. Pod 3 — nedoporučuj. Hotovo.
 
 ? Jak předpovíš hodnocení neviděné položky?
 - Vezmeš průměr hodnocení od všech uživatelů

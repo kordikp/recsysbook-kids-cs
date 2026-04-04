@@ -6,11 +6,9 @@ teaser: Když jsou doporučení TAK dobrá, vidíš jen věci, které už máš 
 hook: Jsi uvězněný v bublině?
 ---
 
-Koukneš se na jedno Minecraft video. Algoritmus si řekne: „Aha, tohle ho baví!" Ukáže ti další. Kouknout na ta (jsou tu hned před tebou!). Brzy je celý feed plný Minecraftu. Nikdy neuvidíš ten skvělý vědecký kanál, o kterém všichni mluví.
+Koukneš se na jedno Minecraft video. Algoritmus ukáže další. Kouknout na ta — jsou tu hned. Brzy je celý feed plný Minecraftu. Nikdy neuvidíš ten skvělý vědecký kanál, o kterém všichni mluví.
 
-Tomuto se říká filtrační bublina. A záludné je, že je neviditelná — tvůj feed ti přijde normální, protože nevidíš, co ti chybí.
-
-Dobré systémy to vědí a záměrně přimíchávají překvapení — video, které jsi nečekal, žánr, který jsi nezkoušel. Jako kamarád, který většinou přinese pizzu, ale občas zkusí sushi. Někdy to nemáš rád. Ale někdy? Objevíš nové oblíbené jídlo.
+Záludné je, že je to neviditelné — tvůj feed ti přijde normální, protože nevidíš, co ti chybí.
 
 ? Co je filtrační bublina?
 - Chyba v algoritmu, která způsobuje opakování obsahu

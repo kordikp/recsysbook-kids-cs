@@ -6,11 +6,9 @@ teaser: Jedno video o slizu a najednou jsi navždy expert na sliz.
 hook: Jenže jak to možné?
 ---
 
-Doporučovací systémy jsou chytré, ale ne TAK chytré. Sleduješ JEDNO video o tom, jak se vyrábí sliz — a najednou je celý tvůj YouTube plný slizu. Tutoriály, ASMR, slizové katastrofy. A TY ANI SLIZ NEMÁŠ RÁD.
+Sleduješ JEDNO video o tom, jak se vyrábí sliz — a najednou je celý YouTube plný slizu. Tvůj mladší brácha pustí Prasátko Pepu na tvém účtu. Jeden díl. YouTube si teď myslí, že jsou ti čtyři roky.
 
-Tvůj mladší brácha pustí na tvém účtu Prasátko Pepu. Jeden díl. YouTube si teď myslí, že jsou ti čtyři roky. Trvá to dny, než se feed dá do pořádku.
-
-Ne všechno, co online vidíš, je doporučení. Doporučovací systém se snaží pomoct TOBĚ najít věci pomocí dat z jedné aplikace. Reklamní systém (AdTech) se snaží pomoct FIRMÁM najít TEBE pomocí dat odevšad — a pronásleduje tě po celém internetu.
+Systém vidí jen kliknutí, ne důvody. Nerozlišuje tvůj záměr od náhody — a to ho ošálí překvapivě snadno.
 
 ? Proč doporučení někdy selhávají?
 - Algoritmus je příliš pomalý

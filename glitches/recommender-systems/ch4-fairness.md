@@ -6,11 +6,9 @@ teaser: Populární tvůrci jsou stále populárnější. Noví tvůrci zůstáv
 hook: Je to vůbec spravedlivé?
 ---
 
-Představ si školní talentovou show, kde děti z minulého roku vystupují první, na největším pódiu. Nové děti hrají v malé místnosti vzadu. Populární jsou povzbuzovány — a tím ještě populárnější. Nové nikdy nedostanou šanci.
+Talentová show, kde děti z minulého roku vystupují první na největším pódiu. Nové děti hrají v malé místnosti vzadu. Přesně tohle se děje s doporučovacími algoritmy.
 
-Přesně tohle se děje s doporučovacími algoritmy. Tvůrce s miliony zhlédnutí dostává stále více doporučení. Nový tvůrce se skvělým videem má nula dat — algoritmus o něm ví nic, takže ho nikomu nedoporučí.
-
-Chytré systémy hledají rovnováhu: průzkumné sloty pro nový obsah, dočasné posílení novinek, pravidla rozmanitosti. Je to těžká rovnováha — chceš lidem ukazovat věci, které se jim budou líbit (populární), ale zároveň dát každému spravedlivou šanci.
+Tvůrce s miliony zhlédnutí dostává stále více doporučení. Nový tvůrce se skvělým videem? Algoritmus o něm nic neví, takže ho nikomu nedoporučí.
 
 ? Jak mohou algoritmy být nespravedlivé k novým tvůrcům?
 - Algoritmy záměrně diskriminují nové tvůrce

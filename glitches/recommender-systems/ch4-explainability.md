@@ -8,9 +8,7 @@ hook: Proč zrovna tohle?
 
 Otevřeš Netflix a na první pozici vidíš dokumentář o chobotnicích. Nikdy jsi nic o chobotnicích nesledoval. Proč tam je?
 
-Jedno doporučení může zahrnovat: kolaborativní filtrování zjistilo, že podobní uživatelé tuto položku měli rádi; obsahová analýza ji označila jako podobnou tomu, co sis užil; průzkumný algoritmus se rozhodl zkusit něco nového; obchodní pravidla ji posílila jako novinku; filtr rozmanitosti ji umístil sem, aby přerušil sérii podobných položek.
-
-Který z těchto důvodů byl „skutečný"? Všechny dohromady. Proto vysvětlení jako „Protože jsi sledoval X" jsou jen zjednodušené aproximace. Skutečný algoritmus použil stovky signálů.
+Jedno doporučení může zahrnovat: kolaborativní filtrování, analýzu obsahu, průzkumný algoritmus, obchodní pravidla i filtr rozmanitosti. Který z těchto důvodů byl „skutečný"? Všechny dohromady. Proto „Protože jsi sledoval X" je jen zjednodušená aproximace.
 
 ? Proč platformy nemohou plně vysvětlit svá doporučení?
 - Protože by tím prozradily obchodní tajemství

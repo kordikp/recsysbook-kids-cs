@@ -6,11 +6,9 @@ teaser: Ani světoví odborníci se na těchto věcech neshodnou. Tvůj názor j
 hook: Co si myslíš ty?
 ---
 
-Mají být doporučovací systémy povinny ukazovat ti obsah, se kterým NESOUHLASÍŠ? Na jedné straně — jen souhlasný obsah vytváří ozvěnové komory. Na druhé — chceš, aby ti algoritmus servíroval protichůdné pohledy, když se chceš uvolnit?
+Mají algoritmy ukazovat obsah, se kterým NESOUHLASÍŠ? Ozvěnové komory jsou špatné, ale chceš, aby ti algoritmus servíroval protichůdné pohledy, když se chceš uvolnit?
 
-Mají mít děti jiné algoritmy než dospělí? Některé země to začínají říkat. Ale kdo rozhoduje, co je vhodné — vláda? Rodiče? Platforma? A co když „bezpečnější" znamená „méně užitečné"?
-
-Mají společnosti povoleno vydělávat na maximalizaci sledovací doby? Jejich obchodní model závisí na tom, aby tě udržel. Lze od nich reálně čekat, že tě zároveň ochrání před nadměrným sledováním? Vyber otázku, která tě nejvíc trápí — a diskutuj ji s někým.
+Mají děti mít jiné algoritmy? Mohou firmy vydělávat na maximalizaci sledovací doby a zároveň tě chránit? Správné odpovědi zatím neexistují — a tvoje generace na ně odpoví.
 
 ? Jmenuj těžkou otázku o algoritmech, na kterou ještě nikdo neodpověděl.
 - Jak algoritmy fungují technicky

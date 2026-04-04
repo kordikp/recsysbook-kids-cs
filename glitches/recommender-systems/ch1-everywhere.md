@@ -6,13 +6,9 @@ teaser: Jakmile začneš hledat, přestaneš je přehlížet.
 hook: Vidíš je teď všude?
 ---
 
-Sloupec videí napravo na YouTube? Autoplay po skončení videa? Stránka „Pro tebe" na TikToku? Discover Weekly na Spotify? Všechno jsou doporučení.
+YouTube ti ukazuje videa, než cokoli napíšeš. Netflix říká „Protože jsi sledoval..." Amazon: „Zákazníci, kteří koupili toto, koupili také..." Discover Weekly na Spotify se generuje každé pondělí znovu — jen pro tebe.
 
-Netflix ti dokonce přímo říká proč: „Protože jsi sledoval Stranger Things..." App Store říká „Mohlo by se ti líbit..." Amazon: „Zákazníci, kteří koupili toto, koupili také..."
-
-A doporučovací systémy používají i české firmy — Mall, Alza, iDnes, Seznam. Jsou doslova všude kolem tebe.
-
-Zamysli se: kolik doporučení vidíš za JEDEN den? Většina lidí vidí stovky, aniž by si to uvědomila. Teď otázka:
+Netflix přiznal, že 80 % toho, co lidé sledují, pochází z doporučení. Ne z vyhledávání. Algoritmus vybírá za tebe víc, než si uvědomuješ.
 
 ? Která platforma NEPOUŽÍVÁ doporučovací systém?
 - TikTok

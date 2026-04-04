@@ -6,11 +6,9 @@ teaser: Zapomeň na ostatní lidi. Co kdybychom se podívali přímo na to, co d
 hook: A co to vlastně je?
 ---
 
-Kolaborativní filtrování má problém: co se stane, když vyjde něco úplně nového? Video nahráno před pěti minutami nemá žádná hodnocení. Systém je zaseknutý — nemůže doporučit něco, co nikdo ještě nevyzkoušel.
+Video nahráno před pěti minutami nemá žádná hodnocení. Kolaborativní filtrování je zaseknuté — nemůže doporučit něco, co nikdo neviděl. Řešení? Podívat se přímo na věc samotnou.
 
-Řešení? Podívat se přímo na věc samotnou. Právě jsi sledoval návod na stavbu hradu v Minecraftu. Systém se podívá: název obsahuje Minecraft + hrad + stavění, tagy jsou #minecraft #tutorial, délka 15 minut. Pak najde videa s podobnými vlastnostmi — bez toho, aby věděl, co ostatní sledovali.
-
-Tomuto přístupu se říká filtrování podle obsahu. Spotify ho používá pro hudbu: tempo, žánr, nálada, typ hlasu. Nová písnička vydaná dnes může být doporučena dnes večer — protože systém rozumí jejím vlastnostem.
+Právě jsi sledoval Minecraft tutorial. Systém najde videa s podobnými vlastnostmi — název, tagy, délka — bez toho, aby věděl, co ostatní sledovali. Tohle je filtrování podle obsahu.
 
 ? Čím se filtrování podle obsahu liší od kolaborativního?
 - Filtrování podle obsahu je pomalejší
