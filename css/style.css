@@ -445,7 +445,7 @@ html, body {
 
 /* ── MAP ── */
 .map-search-wrap {
-  padding: 20px 16px 0;
+  padding: 30px 16px 0;
   position: sticky;
   top: 0;
   background: var(--bg);
