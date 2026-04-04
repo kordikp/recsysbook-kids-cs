@@ -513,7 +513,7 @@ function openDetail(glitchId) {
 
   const progress = State.progress[glitchId];
   if (progress && progress.completed) {
-    showDeepDiveAndEnd(glitch, !progress.correct);
+    replayFull(glitch);
   } else {
     runChat(glitch);
   }
@@ -568,6 +568,59 @@ function closeDetail() {
 }
 
 // ── CHAT ENGINE ──────────────────────────────
+
+function replayFull(glitch) {
+  const container = document.getElementById('chat-container');
+
+  glitch.chat.forEach(step => {
+    if (step.bot) {
+      const bubble = document.createElement('div');
+      bubble.className = 'chat-bubble bot';
+      bubble.style.opacity = '1';
+      bubble.style.transform = 'none';
+      bubble.textContent = step.bot;
+      container.appendChild(bubble);
+    } else if (step.quiz) {
+      const quiz = step.quiz;
+      const block = document.createElement('div');
+      block.className = 'quiz-block';
+      block.style.opacity = '1';
+      block.style.transform = 'none';
+
+      const optionsHTML = quiz.options.map((opt, i) => {
+        const isCorrect = i === quiz.correct;
+        return '<button class="quiz-option' + (isCorrect ? ' correct' : '') + '" disabled>' +
+          '<span class="quiz-dot' + (isCorrect ? ' correct' : '') + '"></span><span>' + opt + '</span>' +
+        '</button>';
+      }).join('');
+
+      block.innerHTML =
+        '<div class="quiz-question">' + quiz.question + '</div>' +
+        '<div class="quiz-options">' + optionsHTML + '</div>';
+
+      if (quiz.explanation) {
+        const explanation = document.createElement('div');
+        explanation.className = 'quiz-explanation';
+        explanation.textContent = quiz.explanation;
+        block.appendChild(explanation);
+      }
+      container.appendChild(block);
+    }
+  });
+
+  if (glitch.deepdive && glitch.deepdive.length) {
+    const section = document.createElement('div');
+    section.className = 'deepdive-section';
+    glitch.deepdive.forEach(para => {
+      const p = document.createElement('p');
+      p.textContent = para;
+      section.appendChild(p);
+    });
+    container.appendChild(section);
+  }
+
+  showEndActions(glitch, false);
+}
 
 function runChat(glitch) {
   const steps = glitch.chat;
