@@ -501,6 +501,9 @@ html, body {
   height: auto;
   flex-shrink: 0;
 }
+.map-cat-card[data-cat-id="recommender-systems"] .map-cat-blob {
+  width: 130px;
+}
 
 .map-cat-back-row {
   padding: 30px 16px 0;

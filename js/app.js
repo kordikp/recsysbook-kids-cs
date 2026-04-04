@@ -337,6 +337,7 @@ function renderMapDefault(container) {
   CATEGORIES.forEach(cat => {
     const card = document.createElement('div');
     card.className = 'map-cat-card';
+    card.dataset.catId = cat.id;
     card.innerHTML =
       '<div class="map-cat-title">' + cat.title + '</div>' +
       '<img class="map-cat-blob" src="assets/' + cat.blob + '" alt="">';
