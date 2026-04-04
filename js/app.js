@@ -20,10 +20,18 @@ const State = {
 // ── INIT ─────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadGlitches();
-  renderFeed();
-  renderMap();
-  renderMissions();
+  // Bind splash button first — before any async work that could throw
+  document.getElementById('splash-enter').addEventListener('click', enterApp);
+
+  try {
+    await loadGlitches();
+    renderFeed();
+    renderMap();
+    renderMissions();
+  } catch (e) {
+    console.error('Init error:', e);
+  }
+
   updateProfileBtn();
   bindNav();
   bindProfileBtn();
@@ -32,8 +40,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (feedBtn) feedBtn.click();
   });
   bindAccountPage();
-
-  document.getElementById('splash-enter').addEventListener('click', enterApp);
 
   document.addEventListener('wheel', (e) => {
     const activeView = document.querySelector('.view.active');
