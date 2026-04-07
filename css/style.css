@@ -1192,6 +1192,26 @@ html, body {
   display: block;
 }
 
+.auth-btn-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+}
+.auth-btn-row .chat-action-btn {
+  flex: 1;
+}
+.auth-error {
+  font-size: 13px;
+  color: #ff6b6b;
+  margin-top: 8px;
+}
+#account-auth-section .account-input {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 /* ── DESKTOP adjustments ── */
 @media (min-width: 600px) {
   .main-content { max-width: 500px; margin-left: auto; margin-right: auto; left: 50%; transform: translateX(-50%); right: auto; width: 500px; }

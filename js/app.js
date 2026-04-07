@@ -13,6 +13,7 @@ const State = {
     const p = this.progress;
     p[id] = { completed: true, correct, ts: Date.now() };
     localStorage.setItem('tg_progress', JSON.stringify(p));
+    sbSaveGlitchDone(id, correct);
   },
   isDone(id) { return !!(this.progress[id]?.completed); },
 };
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
   try {
+    await sbInit();
     await loadGlitches();
     renderFeed();
     renderMap();
@@ -149,8 +151,21 @@ function openAccountPage() {
   setAccountRadio('gender', user.gender);
   setAccountRadio('learning', user.learningStyle);
 
-  // Show logout only when logged in
-  document.getElementById('account-logout').style.display = State.user ? '' : 'none';
+  // Auth section
+  if (sbCurrentUser) {
+    document.getElementById('account-auth-logged-out').style.display = 'none';
+    document.getElementById('account-auth-logged-in').style.display = '';
+    document.getElementById('account-auth-email').textContent = sbCurrentUser.email;
+  } else {
+    document.getElementById('account-auth-logged-out').style.display = '';
+    document.getElementById('account-auth-logged-in').style.display = 'none';
+    document.getElementById('auth-email-input').value = '';
+    document.getElementById('auth-password-input').value = '';
+    document.getElementById('auth-error').style.display = 'none';
+  }
+
+  // Show logout only when logged in (local or Supabase)
+  document.getElementById('account-logout').style.display = (State.user || sbCurrentUser) ? '' : 'none';
 
   overlay.classList.remove('hidden');
   overlay.scrollTop = 0;
@@ -177,6 +192,8 @@ function saveAccountField(field, value) {
   const user = State.user || {};
   user[field] = value;
   State.setUser(user);
+  const profileMap = { nickname: 'nickname', fullName: 'full_name', gender: 'gender', learningStyle: 'learning_style' };
+  if (profileMap[field]) sbSaveProfile({ [profileMap[field]]: value });
 }
 
 function closeAccountPage() {
@@ -235,8 +252,9 @@ function bindAccountPage() {
     resetBtn.style.display = 'none';
     resetConfirm.style.display = 'block';
   });
-  document.getElementById('account-reset-yes').addEventListener('click', () => {
+  document.getElementById('account-reset-yes').addEventListener('click', async () => {
     localStorage.removeItem('tg_progress');
+    await sbResetProgress();
     renderFeed();
     renderMapContent(document.getElementById('map-container'), '');
     resetConfirm.style.display = 'none';
@@ -248,8 +266,34 @@ function bindAccountPage() {
     resetBtn.style.display = '';
   });
 
+  // Auth: login / register
+  async function handleAuth(isRegister) {
+    const email = document.getElementById('auth-email-input').value.trim();
+    const password = document.getElementById('auth-password-input').value;
+    const errEl = document.getElementById('auth-error');
+    errEl.style.display = 'none';
+    if (!email || !password) { errEl.textContent = 'Vyplň e-mail a heslo.'; errEl.style.display = ''; return; }
+    try {
+      if (isRegister) {
+        await sbSignUp(email, password);
+      } else {
+        await sbSignIn(email, password);
+      }
+      updateProfileBtn();
+      openAccountPage();
+      renderFeed();
+      renderMissions();
+    } catch (e) {
+      errEl.textContent = e.message || 'Chyba přihlášení.';
+      errEl.style.display = '';
+    }
+  }
+  document.getElementById('auth-login-btn').addEventListener('click', () => handleAuth(false));
+  document.getElementById('auth-register-btn').addEventListener('click', () => handleAuth(true));
+
   // Logout
-  document.getElementById('account-logout').addEventListener('click', () => {
+  document.getElementById('account-logout').addEventListener('click', async () => {
+    await sbSignOut();
     localStorage.removeItem('tg_user');
     updateProfileBtn();
     closeAccountPage();

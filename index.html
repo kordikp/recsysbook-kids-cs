@@ -93,6 +93,24 @@
 
       <button class="account-close-btn" id="account-close">✕</button>
 
+      <!-- Auth section -->
+      <div id="account-auth-section" class="account-field">
+        <div id="account-auth-logged-out">
+          <div class="account-label">Přihlásit se / Registrovat</div>
+          <input type="email" id="auth-email-input" class="account-input" placeholder="E-mail" autocomplete="email">
+          <input type="password" id="auth-password-input" class="account-input" placeholder="Heslo (min. 6 znaků)" autocomplete="current-password">
+          <div id="auth-error" class="auth-error" style="display:none"></div>
+          <div class="auth-btn-row">
+            <button class="chat-action-btn" id="auth-login-btn">Přihlásit se</button>
+            <button class="chat-action-btn" id="auth-register-btn">Registrovat</button>
+          </div>
+        </div>
+        <div id="account-auth-logged-in" style="display:none">
+          <div class="account-label">Přihlášen/a jako</div>
+          <div id="account-auth-email" class="account-value"></div>
+        </div>
+      </div>
+
       <div class="account-field">
         <div class="account-label">Tvá přezdívka</div>
         <div class="account-value account-editable" id="account-nickname-val" data-field="nickname" data-placeholder="Nevyplněno"></div>
@@ -146,6 +164,8 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <script src="js/supabase.js"></script>
   <script src="js/data.js?v=52"></script>
   <script src="js/app.js?v=52"></script>
 </body>
