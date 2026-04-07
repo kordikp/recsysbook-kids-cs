@@ -29,7 +29,8 @@ async function sbSignUp(email, password) {
   const { data, error } = await sb.auth.signUp({ email, password });
   if (error) throw error;
   sbCurrentUser = data.user;
-  if (sbCurrentUser) {
+  if (sbCurrentUser && data.session) {
+    await sbCreateProfile(sbCurrentUser.id);
     await sbSyncLocalToSupabase(sbCurrentUser.id);
     await sbMergeToLocal(sbCurrentUser.id);
   }
@@ -40,7 +41,11 @@ async function sbSignIn(email, password) {
   const { data, error } = await sb.auth.signInWithPassword({ email, password });
   if (error) throw error;
   sbCurrentUser = data.user;
-  if (sbCurrentUser) await sbMergeToLocal(sbCurrentUser.id);
+  if (sbCurrentUser) {
+    await sbCreateProfile(sbCurrentUser.id);
+    await sbSyncLocalToSupabase(sbCurrentUser.id);
+    await sbMergeToLocal(sbCurrentUser.id);
+  }
   return data;
 }
 
@@ -50,6 +55,17 @@ async function sbSignOut() {
 }
 
 // ── PROFILE ──────────────────────────────────
+
+async function sbCreateProfile(userId) {
+  const local = JSON.parse(localStorage.getItem('tg_user') || '{}');
+  await sb.from('profiles').upsert({
+    id: userId,
+    nickname: local.nickname || null,
+    full_name: local.fullName || null,
+    gender: local.gender || null,
+    learning_style: local.learningStyle || null,
+  }, { onConflict: 'id', ignoreDuplicates: true });
+}
 
 async function sbSaveProfile(fields) {
   if (!sb || !sbCurrentUser) return;
